@@ -17,8 +17,7 @@ Author URL: http://w3layouts.com
     <!-- Template CSS Style link -->
     <link rel="stylesheet" href="assets/css/style-starter.css">
     <!-- fa -->
-    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
-        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
 
 </head>
 
@@ -43,7 +42,7 @@ Author URL: http://w3layouts.com
                 <div class="top-headers top-headers-2">
                     <ul>
                         <li>
-                            <a href="https://wa.me/919350227009"><span class="fa fa-whatsapp"></span></a>
+                            <a href="https://wa.me/919350227009"><i class="fa fa-whatsapp"></i></a>
                         </li>
                         <li>
                             <a href="https://twitter.com/Shivangigarg160"><span class="fa fa-twitter"></span></a>
@@ -83,18 +82,45 @@ Author URL: http://w3layouts.com
                 <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
                     <ul class="navbar-nav ml-lg-auto">
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Find Your Teacher<span class="sr-only">(current)</span></a>
+                            <a class="nav-link" href="finyo">Find Your Teacher<span class="sr-only">(current)</span></a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="contact.html">Study Material</a>
+                            <a class="nav-link" href="material.html">Study Material</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="courses.html">Micro Courses</a>
+                            <a class="nav-link" href="microcourse.html">Micro Courses</a>
                         </li>
                         <!-- <li class="nav-item">
                             <a class="nav-link" href="contact.html">Contact Us</a>
                         </li> -->
-                        <li class="nav-item">
+                        <li id="menu-item-21"
+                            class="menu-item menu-item-type-post_type menu-item-object-page current-menu-ancestor current-menu-parent current_page_parent current_page_ancestor menu-item-has-children menu-item-21 nav-item active dropdown">
+                            <a class="nav-link dropdown-toggle" data-toggle='dropdown'
+                                id="navbar-dropdown-menu-link-21" aria-haspopup="true" aria-expanded="true">More</a>
+                            <div class="sub-menu dropdown-menu" aria-labelledby="navbar-dropdown-menu-link-21">
+                                <a href="blogpage.html" class="dropdown-item"
+                                    id="menu-item-11">Blog Posts</a><a
+                                    href="updates.html" class="dropdown-item"
+                                    id="menu-item-30">Latest Updates</a><a
+                                    href="about.html" class="dropdown-item"
+                                    id="menu-item-34">About Us</a><a
+                                    href="contact.html" class="dropdown-item active"
+                                    id="menu-item-38">Contact Us</a>
+                            </div>
+                        </li>
+                        <!-- <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button">
+                              Dropdown
+                            </a>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item">Cras justo odio</li>
+                                <li class="list-group-item">Dapibus ac facilisis in</li>
+                                <li class="list-group-item">Morbi leo risus</li>
+                                <li class="list-group-item">Porta ac consectetur ac</li>
+                                <li class="list-group-item">Vestibulum at eros</li>
+                              </ul>
+                          </li> -->
+                        <!-- <li class="nav-item">
                             <a href="#" class="nav-link more-links">More <span
                                     class="navbar-toggler-icon icon-expand fa fa-caret-down"></span></a>
                             <div class="collapse navbar-collapse">
@@ -105,9 +131,9 @@ Author URL: http://w3layouts.com
                                     <a href="contact.html" class="nav-link">Contact Us</a>
                                 </div>
                             </div>
-                        </li>
+                        </li> -->
                         <li class="nav-item">
-                            <a href="#" class="nav-link"><i class="fas fa-user"></i></a>
+                            <a href="register.html" class="nav-link"><i class="fas fa-user"></i></a>
                         </li>
                         <!-- search button -->
                         <div class="search-right ml-lg-3">
@@ -170,76 +196,32 @@ Author URL: http://w3layouts.com
                             <div class="banner-info">
                                 <div class="container-fluid">
                                     <div class="banner-info-bg container-fluid d-flex justify-content-between">
-                                        <div class="col-lg-7" style="max-width: 600px;">
+                                        <!-- <div class="col-lg-7" style="max-width: 600px;">
                                             <h5>3-GB is the best choice for everyone</h5>
-                                        <a class="btn btn-style mt-sm-5 mt-4" href="#">
-                                            Book a Free Class<i class="fa fa-arrow-right ml-2"
-                                                aria-hidden="true"></i></a>
-                                        </div>
+                                            <a class="btn btn-style mt-sm-5 mt-4" href="#">
+                                                Book a Free Class<i class="fa fa-arrow-right ml-2"
+                                                    aria-hidden="true"></i></a>
+                                        </div> -->
                                         <div class="col-lg-4 free-class-form">
-                                            <form>
-                                                <div class="form-group">
-                                                    <label for="name" class="col-form-label col-sm-5">Name</label>
-                                                    <div class="col-sm-12">
-                                                    <input type="text" class="form-control" id="name">
+                                            <div class="contact-form-sec pt-5">
+                                                <div class="contact-block">
+                                                    <div class="col-sm-12 mt-4 pl-lg-4">
+                                                        <form class="signin-form">
+                                                            <div class="input-grids">
+                                                                <input type="text" name="w3lName" id="w3lName" placeholder="Name*"
+                                                                    class="contact-input" required="" />
+                                                                <input type="text" name="w3lSenderNumber" id="w3lNumber" placeholder="Your Mobile Number*"
+                                                                    class="contact-input" required="" />
+                                                                <input type="email" name="w3lSenderEmail" id="w3lSender" placeholder="Your Email*"
+                                                                    class="contact-input" required="" />
+                                                                <input type="text" name="w3lSubect" id="w3lSubect" placeholder="Subject*"
+                                                                    class="contact-input" required="" />
+                                                            </div>
+                                                            <button class="btn btn-style btn-style-secondary mt-sm-3">Send Message</button>
+                                                        </form>
                                                     </div>
                                                 </div>
-                                                <div class="form-group">
-                                                    <label for="mobileNumber" class=" col-form-label col-sm-5">Mobile Number</label>
-                                                    <div class="col-sm-12">
-                                                    <input type="text"  class="form-control" id="mobileNumber">
-                                                    </div>
-                                                </div>
-                                                <div class="form-group">
-                                                    <label for="email" class="col-form-label col-sm-5">Email</label>
-                                                    <div class="col-sm-12">
-                                                    <input type="email" class="form-control" id="email">
-                                                    </div>
-                                                </div>
-                                                
-                                                <!-- <div class="form-group">
-                                                    <label for="lang" class="col-form-label col-sm-5">Preferred Language:</label>
-                                                    <div class="col-sm-6">
-                                                    <select>
-                                                        <option selected disabled>Language</option>
-                                                        <option>English</option>
-                                                        <option>Hindi</option>
-                                                        <option>Punjabi</option>
-                                                        <option>Oriya</option>
-                                                        <option>Tamil</option>
-                                                        <option>Marathi</option>
-                                                        <option>Kannada</option>
-                                                        <option>Malayalam</option>
-                                                        <option>Assamese</option>
-                                                    </select>
-                                                    </div>
-                                                    <label for="lang" class="col-form-label">Class:</label>
-                                                    <div class="col-sm-6">
-                                                    <select>
-                                                        <option selected disabled>Class</option>
-                                                        <option>1</option>
-                                                        <option>2</option>
-                                                        <option>3</option>
-                                                        <option>4</option>
-                                                        <option>5</option>
-                                                        <option>6</option>
-                                                        <option>7</option>
-                                                        <option>8</option>
-                                                        <option>9</option>
-                                                        <option>10</option>
-                                                        <option>11</option>
-                                                        <option>12</option>
-                                                    </select>
-                                                    </div>
-                                                </div> -->
-                                                <!-- <div class="form-group row">
-                                                    <label for="inputPassword" class="col-sm-2 col-form-label">Password</label>
-                                                    <div class="col-sm-10">
-                                                    <input type="password" class="form-control" id="inputPassword" placeholder="Password">
-                                                    </div>
-                                                </div> -->
-                                                <button type="submit" class="btn btn-primary">Submit</button>
-                                            </form>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -262,7 +244,7 @@ Author URL: http://w3layouts.com
                         <h4><a href="courses.html" class="title-head">Find Your Teacher</a></h4>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-5 px-lg-2  ">
+                <div class="col-lg-3 col-md-5 px-lg-2 mt-lg-0 mt-3 ">
                     <!--mt-md-5 mt-3-->
                     <div class="area-box color-2">
                         <i class="fa fa-book" aria-hidden="true"></i>
@@ -320,8 +302,10 @@ Author URL: http://w3layouts.com
                                 <a href="about.html">
                                     <h3 class="feature-titel">Lorem Ipsum Dolor</h3>
                                 </a>
-                                <p class="feature-text">Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                                    Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                <p class="feature-text">Sed do eiusmod tempor incididunt ut labore et dolore magna
+                                    aliqua.
+                                    Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Sed do eiusmod
+                                    tempor incididunt ut labore et dolore magna aliqua.</p>
                             </div>
                         </div>
                     </div>
@@ -353,7 +337,7 @@ Author URL: http://w3layouts.com
                 <h3 class="title-main">Pick a Course to <span>Get Started</span></h3>
             </div>
             <div class="row">
-                <div class="col-lg-4 col-md-5">
+                <div class="col-lg-4 col-md-5 mt-md-5 mt-5">
                     <div class="blog-card-single">
                         <div class="grids5-info position-relative">
                             <img src="assets/images/c1.jpg" alt="" class="img-fluid" />
@@ -393,8 +377,8 @@ Author URL: http://w3layouts.com
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-5 ">
-                    <!--mt-md-5 mt-5-->
+                <div class="col-lg-4 col-md-5 mt-md-5 mt-5">
+                    <!---->
                     <div class="blog-card-single">
                         <div class="grids5-info position-relative">
                             <img src="assets/images/c2.jpg" alt="" class="img-fluid" />
@@ -435,7 +419,7 @@ Author URL: http://w3layouts.com
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-5 mt-lg-0 mt-5">
+                <div class="col-lg-4 col-md-5 mt-md-5 mt-5">
                     <div class="blog-card-single">
                         <div class="grids5-info position-relative">
                             <img src="assets/images/c3.jpg" alt="" class="img-fluid" />
@@ -475,7 +459,7 @@ Author URL: http://w3layouts.com
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-5 mt-5">
+                <div class="col-lg-4 col-md-5 mt-md-5 mt-5">
                     <div class="blog-card-single">
                         <div class="grids5-info position-relative">
                             <img src="assets/images/c4.jpg" alt="" class="img-fluid" />
@@ -515,7 +499,7 @@ Author URL: http://w3layouts.com
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-5 mt-5">
+                <div class="col-lg-4 col-md-5 mt-md-5 mt-5">
                     <div class="blog-card-single">
                         <div class="grids5-info position-relative">
                             <img src="assets/images/c5.jpg" alt="" class="img-fluid" />
@@ -555,7 +539,7 @@ Author URL: http://w3layouts.com
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-5 mt-5">
+                <div class="col-lg-4 col-md-5 mt-md-5 mt-5">
                     <div class="blog-card-single">
                         <div class="grids5-info position-relative">
                             <img src="assets/images/c6.jpg" alt="" class="img-fluid" />
@@ -615,7 +599,7 @@ Author URL: http://w3layouts.com
                         </div>
                         <div class="col-xl-8">
                             <div class="fea-gd-vv row">
-                                <div class="col-md-5 pt-md-5">
+                                <div class="col-md-5 pt-md-5 mt-md-5 mt-4">
                                     <div class="d-flex align-items-center feature-gd ">
                                         <div class="icon">
                                             <i class="fa fa-american-sign-language-interpreting" aria-hidden="true"></i>
@@ -627,8 +611,8 @@ Author URL: http://w3layouts.com
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-md-5 pt-md-5">
-                                    <!--mt-md-5 mt-4-->
+                                <div class="col-md-5 pt-md-5 mt-md-5 mt-4">
+                                    <!---->
                                     <div class="d-flex align-items-center feature-gd">
                                         <div class="icon">
                                             <i class="fa fa-download" aria-hidden="true"></i>
@@ -822,7 +806,7 @@ Author URL: http://w3layouts.com
                     <h3 class="title-main">Student Community <span>Feedback </span></h3>
                 </div>
                 <div class="row content-sec mt-md-5">
-                    <div class="col-lg-4 col-md-5 testi-sections">
+                    <div class="col-lg-4 col-md-5 testi-sections mt-md-5 mt-4">
                         <div class="testimonials_grid">
                             <p class="sub-test"><q>
                                     Nam libero tempore, cum soluta
@@ -839,8 +823,8 @@ Author URL: http://w3layouts.com
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-5  testi-sections">
-                        <!--mt-md-5 mt-4-->
+                    <div class="col-lg-4 col-md-5  testi-sections mt-md-5 mt-4">
+                        <!-- -->
                         <div class="testimonials_grid">
                             <p class="sub-test"><q>
                                     Nam
@@ -859,7 +843,7 @@ Author URL: http://w3layouts.com
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-5 mt-lg-0 mt-4 testi-sections">
+                    <div class="col-lg-4 col-md-5 mt-md-5 mt-4 testi-sections">
                         <div class="testimonials_grid">
                             <p class="sub-test"><q>
                                     Nam
@@ -1196,10 +1180,10 @@ Author URL: http://w3layouts.com
 
             $("more-links")
                 .mouseenter(function () {
-                    $('.dropdown-content').css({'display':'block'})
+                    $('.dropdown-content').css({ 'display': 'block' })
                 })
                 .mouseleave(function () {
-                    $('.dropdown-content').css({'display':'none'})
+                    $('.dropdown-content').css({ 'display': 'none' })
                 });
         })
     </script>
