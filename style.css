@@ -1,0 +1,237 @@
+/* signIn SignIn Sign Up As Tutor container */
+a{
+  text-decoration:none;
+  color:#000;
+}
+.container1 {
+    display: flex;
+    margin: 10px;
+}
+
+@media (max-width: 770px) {
+    .container1 {
+        margin-left: 130px;
+    }
+}
+
+
+.par1 {
+    margin-top: 10px;
+    font-family: "Roboto";
+}
+
+
+.par2 {
+    margin-top: 10px;
+    font-family: "Roboto";
+}
+
+.par3 {
+    margin-top: 10px;
+    font-family: "Roboto";
+}
+
+.image {
+    width: 30px;
+    height: 30px;
+}
+
+.image1 {
+    width: 37px;
+    height: 37px;
+    margin-left: 30px;
+}
+
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 210px;
+    padding: 20px;
+    margin-left: 50px;
+}
+
+@media (max-width: 770px) {
+    .container {
+        margin-left: 215px;
+    }
+}
+
+
+
+
+.btn {
+    background-color: transparent;
+    height: 20px;
+    padding: 10px;
+    width: 190px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    border-style: solid;
+}
+
+.btn1 {
+    background-color: #6399eb;
+    height: 20px;
+    padding: 8px;
+    color: #ffffff;
+    border-radius: 5px;
+    margin-bottom: 20px;
+
+}
+
+
+
+.btn2 {
+    background-color: #03f4fc;
+    height: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
+.btn3 {
+    background-color: #818a8a;
+    height: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    color: #ffffff;
+
+}
+
+.line {
+    width: 420px;
+}
+
+.heading {
+    font-size: 15px;
+    color: grey;
+    font-family: "Roboto";
+}
+
+h1 {
+    overflow: hidden;
+    text-align: center;
+}
+
+h1:before,
+h1:after {
+    background-color: #000;
+    content: "";
+    display: inline-block;
+    height: 1px;
+    position: relative;
+    vertical-align: middle;
+    width: 40%;
+}
+
+h1:before {
+    right: 0.5em;
+    margin-left: -50%;
+}
+
+h1:after {
+    left: 0.5em;
+    margin-right: -50%;
+}
+
+
+.box {
+    height: 40px;
+    width: 330px;
+    margin-left: 10px;
+    margin-bottom: 30px;
+
+}
+
+@media (max-width: 770px) {
+    .box {
+        margin-left: 200px;
+        width: 280px;
+    }
+}
+
+
+
+
+.color {
+    color: red;
+}
+
+.paragraph {
+    font-family: "Roboto";
+    font-size: 15px;
+    margin-left: 10px;
+
+}
+
+@media (max-width: 770px) {
+    .paragraph {
+        margin-left: 200px;
+        font-size: 15px;
+    }
+}
+
+
+
+
+.container4 {
+    display: flex;
+}
+
+@media (max-width: 770px) {
+    .container4 {
+        margin-left: 180px;
+    }
+}
+
+.box1 {
+    margin-left: 15px;
+    margin-bottom: 50px;
+
+}
+
+
+
+.color1 {
+    font-family: "Roboto";
+}
+
+@media (max-width: 770px) {
+    .color1 {
+        font-size: 15px;
+    }
+}
+
+.para {
+    margin-left: 100px;
+    margin-top:0px;
+    font-family: "Roboto";
+    color: #f73f2a;
+}
+
+
+.button {
+    height: 50px;
+    width: 340px;
+    margin-left: 15px;
+    background-color: #f73f2a;
+    color: white;
+    border-width: 0px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+@media (max-width: 770px) {
+    .button {
+        width: 250px;
+        margin-left: 230px;
+    }
+}
+
+
+.para a {
+      color:#f00;
+}
