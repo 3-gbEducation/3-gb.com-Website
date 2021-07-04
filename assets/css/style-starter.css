@@ -4551,7 +4551,7 @@ input[type="button"].btn-block {
   border-bottom: 1px solid #dee2e6;
 }
 
-/* added by me */
+/* added by pradeepa */
 .dropdown {
   float: left;
   overflow: hidden;
@@ -4598,7 +4598,14 @@ input[type="button"].btn-block {
 .dropdown:hover .dropdown-content {
   display: block;
 }
-/* added by me */
+
+.free-class-form{
+  background-color: #fff;
+  width : fit-content;
+  border-radius:  15px;
+  padding : 15px
+}
+/* added by pradeepa */
 .nav-tabs .nav-item {
   margin-bottom: -1px;
 }
@@ -15683,7 +15690,7 @@ h3.title-main:after {
 }
 
 .w3l-main-slider .banner-info-bg {
-  max-width: 600px;
+  /* max-width: 600px; */
 }
 
 .w3l-main-slider p.text-label {
