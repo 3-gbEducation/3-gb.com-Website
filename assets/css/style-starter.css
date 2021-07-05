@@ -4551,61 +4551,84 @@ input[type="button"].btn-block {
   border-bottom: 1px solid #dee2e6;
 }
 
-/* added by pradeepa */
-.dropdown {
-  float: left;
-  overflow: hidden;
-}
+/*----------------------------- added by pradeepa ----------------------------------*/
 
-.dropdown .dropbtn {
-  font-size: 16px;  
-  border: none;
-  outline: none;
-  color: white;
-  padding: 14px 16px;
-  background-color: inherit;
-  font-family: inherit;
-  margin: 0;
-}
-
- .dropdown:hover .dropbtn {
-  /* background-color: red; */
-}
-
-.dropdown-content {
-  display: none;
-  padding-left: 5px;
-  position: absolute;
-  background-color: #f9f9f9;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
-}
-
-.dropdown-content a {
-  float: none;
+.free-class-form-header{
   color: black;
-  /* padding: 12px 16px; */
-  text-decoration: none;
-  display: block;
-  text-align: left;
+  text-align: center;
+  margin-top: -5px;
 }
 
-.dropdown-content a:hover {
-  /* background-color: #ddd; */
-}
-
-.dropdown:hover .dropdown-content {
-  display: block;
-}
 
 .free-class-form{
   background-color: #fff;
   width : fit-content;
   border-radius:  15px;
-  padding : 15px
+  padding : 15px;
+  margin-bottom: 20px;
 }
-/* added by pradeepa */
+
+.form-div{
+  margin-bottom: 10px;
+}
+
+.democlass-form-part1{
+  display: block;
+}
+
+.democlass-form-part2{
+  display: none;
+}
+
+.dropdown-submenu {
+  position: relative;
+}
+
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  -webkit-border-radius: 0 6px 6px 6px;
+  -moz-border-radius: 0 6px 6px;
+  border-radius: 0 6px 6px 6px;
+}
+
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #ccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+
+.dropdown-submenu:hover>a:after {
+  border-left-color: #fff;
+}
+
+.dropdown-submenu.pull-left {
+  float: none;
+}
+
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  -webkit-border-radius: 6px 0 6px 6px;
+  -moz-border-radius: 6px 0 6px 6px;
+  border-radius: 6px 0 6px 6px;
+}
+
+/* ------------------------ added by pradeepa -----------------------------*/
 .nav-tabs .nav-item {
   margin-bottom: -1px;
 }
