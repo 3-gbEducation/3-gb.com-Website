@@ -4566,7 +4566,7 @@ input[type="button"].btn-block {
   border-radius:  15px;
   padding : 15px;
   margin-bottom: 20px;
-  opacity: 0.7;
+  /* opacity: 0.7; */
 }
 
 .form-div{
@@ -15835,7 +15835,7 @@ h3.title-main:after {
 }
 
 .w3l-main-slider .banner-top1 {
-  background: url(../images/banner3.jpg) no-repeat center right;
+  background: url(../images/form3.jpg) no-repeat center right;
   background-size: cover;
 }
 
@@ -15851,7 +15851,7 @@ h3.title-main:after {
 
 .w3l-main-slider .banner-view:before {
   content: "";
-  background: linear-gradient(75deg, rgb(16 16 16 / 34%) 10%, rgb(230 2 100 / 0%));
+  /* background: linear-gradient(75deg, rgb(16 16 16 / 34%) 10%, rgb(230 2 100 / 0%)); */
   position: absolute;
   top: 0;
   min-height: 100%;
