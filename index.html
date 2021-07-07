@@ -86,12 +86,12 @@ Author URL: http://w3layouts.com
                                 aria-haspopup="true" aria-expanded="false">Find Your Teacher <i
                                     class="fa fa-angle-down"></i></a>
                             <div class="sub-menu dropdown-menu" aria-labelledby="navbar-dropdown-menu-link-21">
-                                <a href="blogpage.html" class="dropdown-item" id="menu-item-12">Class 1-4</a>
-                                <a href="updates.html" class="dropdown-item" id="menu-item-32">Class 5-8</a>
-                                <a href="about.html" class="dropdown-item" id="menu-item-35">Class 9-10</a>
-                                <a href="contact.html" class="dropdown-item" id="menu-item-39">Class 11-12</a>
-                                <a href="contact.html" class="dropdown-item" id="menu-item-40">Programming</a>
-                                <a href="contact.html" class="dropdown-item" id="menu-item-41">Artificial Intelligence</a>
+                                <a href="#" class="dropdown-item" id="menu-item-12">Class 1-4</a>
+                                <a href="#" class="dropdown-item" id="menu-item-32">Class 5-8</a>
+                                <a href="#" class="dropdown-item" id="menu-item-35">Class 9-10</a>
+                                <a href="#" class="dropdown-item" id="menu-item-39">Class 11-12</a>
+                                <a href="#" class="dropdown-item" id="menu-item-40">Programming</a>
+                                <a href="#" class="dropdown-item" id="menu-item-41">Artificial Intelligence</a>
                             </div>
                         </li>
                         <li id="menu-item-23"
@@ -100,14 +100,14 @@ Author URL: http://w3layouts.com
                                 aria-haspopup="true" aria-expanded="false">Study Material <i
                                     class="fa fa-angle-down"></i></a>
                             <div class="sub-menu dropdown-menu" aria-labelledby="navbar-dropdown-menu-link-21">
-                                <a href="blogpage.html" class="dropdown-item" id="menu-item-13">Notes</a>
-                                <a href="updates.html" class="dropdown-item" id="menu-item-33">Text Books</a>
-                                <a href="about.html" class="dropdown-item" id="menu-item-36">Text Book Solutions</a>
-                                <a href="contact.html" class="dropdown-item" id="menu-item-42">Sample Papers Solutions</a>
-                                <a href="contact.html" class="dropdown-item" id="menu-item-43">Short Video Lectures</a>
-                                <a href="contact.html" class="dropdown-item" id="menu-item-44">Practice Quiz</a>
-                                <a href="contact.html" class="dropdown-item" id="menu-item-45">Youtube</a>
-                                <a href="contact.html" class="dropdown-item" id="menu-item-46">Kid Creatives</a>
+                                <a href="#" class="dropdown-item" id="menu-item-13">Notes</a>
+                                <a href="#" class="dropdown-item" id="menu-item-33">Text Books</a>
+                                <a href="#" class="dropdown-item" id="menu-item-36">Text Book Solutions</a>
+                                <a href="#" class="dropdown-item" id="menu-item-42">Sample Papers Solutions</a>
+                                <a href="#" class="dropdown-item" id="menu-item-43">Short Video Lectures</a>
+                                <a href="#" class="dropdown-item" id="menu-item-44">Practice Quiz</a>
+                                <a href="#" class="dropdown-item" id="menu-item-45">Youtube</a>
+                                <a href="#" class="dropdown-item" id="menu-item-46">Kid Creatives</a>
                                 
                             </div>
                         </li>
@@ -194,12 +194,11 @@ Author URL: http://w3layouts.com
                         <div class="banner-info-bg container-fluid d-flex justify-content-end">
                             <div class="col-lg-4 free-class-form">
                                 <div class="contact-form-sec pt-5">
-                                    <p class="free-class-form-header" style="color: black;">Book a <span>free
-                                            Class</span></p>
+                                    <p class="free-class-form-header" style="color: black;">Book a <span>Demo Class</span></p>
                                     <div class="contact-block">
                                         <div class="col-sm-12 mt-4 pl-lg-4 form-div">
 
-                                            <form id="DemoClassForm">
+                                            <form id="DemoClassForm" method="POST" action="https://formsubmit.co/demo.3gb@gmail.com">
                                                 <!-- One "tab" for each step in the form: -->
                                                 <div class="tab">
                                                     <input placeholder="Name..." oninput="this.className = ''"
@@ -214,9 +213,9 @@ Author URL: http://w3layouts.com
                                                         oninput="this.className = ''" name="lang" required>
                                                 </div>
                                                 <div class="tab">
-                                                    <input style="width: 50%;" placeholder="Syllabus"
+                                                    <input placeholder="Syllabus"
                                                         oninput="this.className = ''" name="syllabus" required>
-                                                    <input style="width: 50%;" placeholder="Class"
+                                                    <input placeholder="Class"
                                                         oninput="this.className = ''" name="class" required>
                                                 </div>
 
@@ -1328,7 +1327,7 @@ Author URL: http://w3layouts.com
             // if you have reached the end of the form...
             if (currentTab >= x.length) {
                 // ... the form gets submitted:
-                document.getElementById("regForm").submit();
+                document.getElementById("DemoClassForm").submit();
                 return false;
             }
             // Otherwise, display the correct tab:
@@ -1337,8 +1336,10 @@ Author URL: http://w3layouts.com
 
         function validateForm() {
             // This function deals with validation of the form fields
-            var x, y, i, valid = true;
+            var x;
+            var y, i, valid = true;
             x = document.getElementsByClassName("tab");
+            console.log(x);
             y = x[currentTab].getElementsByTagName("input");
             // A loop that checks every input field in the current tab:
             for (i = 0; i < y.length; i++) {
