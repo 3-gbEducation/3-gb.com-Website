@@ -1,0 +1,120 @@
+<html>
+	<head>
+		<title> Login</title>
+
+
+	<style>
+		body{
+			width: 100%;
+			height: 100%;
+			background-color: white;
+		}
+		h1{
+			font-size: 30px;
+			color: white;
+			padding-top: 60px;
+			margin-left: 140px;
+
+		}
+
+		#container{
+			width: 400px;
+			height: 500px;
+			background-color:#0c4972;
+			border-radius: 12px;
+			margin-left: auto;
+			margin-right: auto;
+			margin-top: 50px;
+
+		}
+		#header{
+			padding-top: 20px;
+			padding-bottom: 20px;
+
+
+		}
+		#form{
+			margin-left: 90px;
+			padding-top: 30px;
+			padding-bottom: 30px;
+			
+		}
+		button{
+			margin-top: 20px;
+			margin-bottom: 20px;
+			width: 180px;
+		}
+		input{
+			margin-bottom: 20px;
+			width: 250px;
+
+		}
+
+	</style>
+
+	</head>
+	<body>
+	 
+	 <div id="Container">
+	 <div id="header"> 
+	 	<h1> LOGIN </h1>
+	  </div>	
+	  <div id="form">	
+	 <input type="email" placeholder="email" id="email"/><br>
+	 <input type="password" placeholder="password" id="password"/>	<br>
+	 <button onClick ="signin()" id="signin">SIGNIN</button>
+	 
+	 	</div>
+	</div>
+    
+    	
+
+    	<script src="https://www.gstatic.com/firebasejs/8.7.0/firebase-app.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/8.7.0/firebase-auth.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/8.7.0/firebase-database.js"></script>
+
+    <script>
+       var firebaseConfig = {
+		    apiKey: "AIzaSyCyeUSXzudTeRxw_w8iJm3GSpwVs2nJVAQ",
+		    authDomain: "login-4c29b.firebaseapp.com",
+		    projectId: "login-4c29b",
+		    storageBucket: "login-4c29b.appspot.com",
+		    messagingSenderId: "125981690227",
+		    appId: "1:125981690227:web:8964d846505e10dcaa5d06",
+		    measurementId: "G-0572DFJKW2"
+		  };
+		  // Initialize Firebase
+		  firebase.initializeApp(firebaseConfig);
+		    
+          //------Login------
+		 const auth = firebase.auth();
+
+		
+		  function signin(){
+		 	var email= document.getElementById("email");
+		 	var password= document.getElementById("password");
+
+		 	const promise = auth.signInWithEmailAndPassword(email.value, password.value);
+		 	promise.catch(e=> alert(e.message));
+		 	alert(" User: " + email.value);
+
+
+		 	
+		 }
+           auth.onAuthStateChanged(function(user){
+
+           	if(user){
+
+           		var email = user.email;
+           		alert("Active User: " + email.value);
+
+           	}else{
+           		alert("No Active User");
+
+           	}
+
+           });
+         </script>
+
+</body>
+</html>
