@@ -126,6 +126,7 @@ Author URL: http://w3layouts.com
     <!--//header-->
     <!-- added by pradeepa -->
     <!-- top header -->
+    <!-- top header -->
     <section class="w3l-top-header">
         <div class="container-fluid">
             <div class="top-content-w3ls d-flex align-items-center justify-content-between">
@@ -171,31 +172,48 @@ Author URL: http://w3layouts.com
                     <a class="navbar-brand d-flex align-items-center" href="index.html">
                         <img src="assets/images/3gblogo.png" height='35px' alt="3-gb logo" class="mr-1" /></a>
                 </h1>
-                <!-- if logo is image enable this   
-    <a class="navbar-brand" href="#index.html">
-        <img src="image-path" alt="Your logo" title="Your logo" style="height:35px;" />
-    </a> -->
                 <button class="navbar-toggler  collapsed bg-gradient" type="button" data-toggle="collapse"
                     data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false"
                     aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon fa icon-expand fa-bars"></span>
                     <span class="navbar-toggler-icon fa icon-close fa-times"></span>
                 </button>
-
                 <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
                     <ul class="navbar-nav ml-lg-auto">
-                        <li class="nav-item">
-                            <a class="nav-link" href="finyo">Find Your Teacher<span class="sr-only">(current)</span></a>
+                        <li id="menu-item-22"
+                            class="menu-item menu-item-type-post_type menu-item-object-page current-menu-ancestor current-menu-parent current_page_parent current_page_ancestor menu-item-has-children menu-item-21 nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" data-toggle='dropdown' id="navbar-dropdown-menu-link-21"
+                                aria-haspopup="true" aria-expanded="false">Find Your Teacher <i
+                                    class="fa fa-angle-down"></i></a>
+                            <div class="sub-menu dropdown-menu" aria-labelledby="navbar-dropdown-menu-link-21">
+                                <a href="#" class="dropdown-item" id="menu-item-12">Class 1-4</a>
+                                <a href="#" class="dropdown-item" id="menu-item-32">Class 5-8</a>
+                                <a href="#" class="dropdown-item" id="menu-item-35">Class 9-10</a>
+                                <a href="#" class="dropdown-item" id="menu-item-39">Class 11-12</a>
+                                <a href="#" class="dropdown-item" id="menu-item-40">Programming</a>
+                                <a href="#" class="dropdown-item" id="menu-item-41">Artificial Intelligence</a>
+                            </div>
+                        </li>
+                        <li id="menu-item-23"
+                            class="menu-item menu-item-type-post_type menu-item-object-page current-menu-ancestor current-menu-parent current_page_parent current_page_ancestor menu-item-has-children menu-item-21 nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" data-toggle='dropdown' id="navbar-dropdown-menu-link-21"
+                                aria-haspopup="true" aria-expanded="false">Study Material <i
+                                    class="fa fa-angle-down"></i></a>
+                            <div class="sub-menu dropdown-menu" aria-labelledby="navbar-dropdown-menu-link-21">
+                                <a href="#" class="dropdown-item" id="menu-item-13">Notes</a>
+                                <a href="#" class="dropdown-item" id="menu-item-33">Text Books</a>
+                                <a href="#" class="dropdown-item" id="menu-item-36">Text Book Solutions</a>
+                                <a href="#" class="dropdown-item" id="menu-item-42">Sample Papers Solutions</a>
+                                <a href="#" class="dropdown-item" id="menu-item-43">Short Video Lectures</a>
+                                <a href="#" class="dropdown-item" id="menu-item-44">Practice Quiz</a>
+                                <a href="#" class="dropdown-item" id="menu-item-45">Youtube</a>
+                                <a href="#" class="dropdown-item" id="menu-item-46">Kid Creatives</a>
+                                
+                            </div>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="material.html">Study Material</a>
+                            <a class="nav-link" href="microcourse/microcourse.html">Micro Courses</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="microcourse.html">Micro Courses</a>
-                        </li>
-                        <!-- <li class="nav-item">
-                            <a class="nav-link" href="contact.html">Contact Us</a>
-                        </li> -->
                         <li id="menu-item-21"
                             class="menu-item menu-item-type-post_type menu-item-object-page current-menu-ancestor current-menu-parent current_page_parent current_page_ancestor menu-item-has-children menu-item-21 nav-item dropdown">
                             <a class="nav-link dropdown-toggle" data-toggle='dropdown' id="navbar-dropdown-menu-link-21"
@@ -207,15 +225,14 @@ Author URL: http://w3layouts.com
                                     href="contact.html" class="dropdown-item" id="menu-item-38">Contact Us</a>
                             </div>
                         </li>
-
                         <li class="nav-item">
-                            <a href="register.html" class="nav-link"><i class="fa fa-user"></i></a>
+                            <div class="menu-icon">
+                                <a href="login.html" class="nav-link"><i class="fa fa-user"></i></a>
+                            </div>
                         </li>
                         <li class="nav-item">
                             <div class="nav-link"><i class="fa fa-search"></i></div>
                         </li>
-
-                        <!-- search button -->
                         <div class="search-right ml-lg-3" id='search-bar'>
                             <form action="#search" method="GET" class="search-box position-relative">
                                 <div class="input-search">
@@ -226,7 +243,6 @@ Author URL: http://w3layouts.com
                                         aria-hidden="true"></i></button>
                             </form>
                         </div>
-                        <!-- //search button -->
                     </ul>
                 </div>
 
