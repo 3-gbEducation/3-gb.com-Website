@@ -1,19 +1,84 @@
+/* Temprorary css*/
+img{
+  width:200px;
+  height:80px;
+}
+p{
+  font-size:15px;
+}
+ul{
+  list-style:none;
+}
 
-.card-body{
-	background:white;
+.grid{
+  display:grid;
+  grid-template-columns:33.3% 33.3% 33.3%;
+  grid-template-rows: 1fr 1fr;
 }
-.col{
-	
-	text-align:center;
-	position:relative;
-	margin-left:200px;
+
+.Container{
+  display:flex;
+  flex-wrap:wrap;
+  padding-top:20px;
+
 }
+
+.left-side{
+  flex:70%;
+  background-color:cyan;
+}
+
+.right-side{
+  flex:30%;
+  background-color:yellow;
+}
+
+.card{
+  width:200%;
+}
+.cardBlog{
+  width: 300%;
+}
+.banner img{
+  width: 100%;
+  height:700px;
+}
+
+.cat{
+  padding:15px;
+  margin-left:14px;
+  border:solid 1px;
+}
+  
+  
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
 .list {
   text-decoration: none;
-  color: black;
+  color: black;          
   cursor: pointer;
   font-size: 1;
   font-weight: 700;
@@ -208,4 +273,96 @@
   justify-content: center;
   align-items: center;
 }
-© 2021 GitHub,
+
+
+
+.right-side{
+
+}
+.rightFirstbox{
+  border: 1px solid grey;
+  border-radius: 15px;
+  margin-top: 2rem;
+  width: 75%;
+}
+.firstboxlist{
+
+}
+
+.rightSecondbox{
+  border: 1px solid grey;
+  border-radius: 15px;
+  margin-top: 2rem;
+  width: 75%;
+  padding-bottom: 1rem;
+  padding-left: .5rem;
+}
+.rightThirdbox{
+  border: 1px solid grey;
+  border-radius: 15px;
+  margin-top: 2rem;
+  width: 75%;
+}
+.rightForthbox{
+  border: 1px solid grey;
+  border-radius: 15px;
+  margin-top: 2rem;
+  width: 75%;
+  padding-left: .5rem;
+  padding-right: .5rem;
+  padding-bottom: 2rem;
+}
+
+.ppwrapflex{
+  display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+}
+.popularpostflex{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.popularpostflexLeft{
+width: 60%;
+}
+.popularpostflexRight{
+  width: 40%;
+}
+.tagbtn{
+  border: .1px solid grey;
+  border-radius: 12px;
+  background-color: white;
+
+  margin-top: .5rem;
+  margin-bottom: .5rem;
+}
+
+.blogFlex{
+  display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.boxheading{
+  text-align: center;
+  margin-bottom: 1rem;
+  margin-top:.2rem ;
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+.firstboxlist{
+text-decoration: none;
+color: grey;
+line-height: 5px;
+}
+.thirdBoxlist{
+  text-decoration: none;
+  color: black;
+}
+.forthBoxlist{
+text-decoration: none;
+color: grey;
+line-height: 5px;
+}
