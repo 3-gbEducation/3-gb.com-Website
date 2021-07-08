@@ -60,19 +60,19 @@ function getdata(){
       //we have to pass our data to for loop to get one by one
       //we are passing the key of that post to delete it from database
       for(let[key,value] of Object.entries(data)){
-        posts_div.innerHTML="<div class='col-sm-4 mt-2 mb-1'>"+
-        "<div class='card'>"+
-        "<img src='"+value.imageURL+"' style='height:250px;'>"+
+        posts_div.innerHTML=
+        "<div class='col-sm-6 text-center mt-2 mb-1'>"+
+        "<img src='"+value.imageURL+"' style='height:250px;border-radius: 20px;'>"+
         "<div class='card-body'><p class='card-text'>"+value.text+"</p>"+
         "<button class='btn btn-danger' id='"+key+"' onclick='delete_post(this.id)'>Delete</button>"+
-        "</div></div></div>"+posts_div.innerHTML;
+        "</div></div></div><hr>"+posts_div.innerHTML;
       }
     
     });
 }
 
-function delete_post(key){
-    firebase.database().ref('blogs/'+key).remove();
-    getdata();
+//function delete_post(key){
+ // firebase.database().ref('blogs/'+key).remove();
+   // getdata();
 
-}
+//}

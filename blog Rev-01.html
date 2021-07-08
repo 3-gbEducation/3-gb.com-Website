@@ -10,7 +10,7 @@
 
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" type="text/css" href="blogpage.css" />
+    <link rel="stylesheet" type="text/css" href="blog Rev-01.css" />
 
     <!-- Reference-->
     <link
@@ -28,7 +28,9 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
   </head>
+<style>
 
+</style>
   <body>
     <!---Header-->
     <div class="topnav navflex" id="myTopnav">
@@ -157,65 +159,98 @@
   </div> -->
 
     <div class="container-md">
-      <div class="row">
-        <div class="col-8" id="posts"></div>
+      <div class="row col-12">
+        <div class="col-md-8" style="border: 1px solid black;
+        border-radius: 20px;" id="posts"></div>
 
-        <div class="col-4">
+        <div class="col-md-4">
           <div class="right-div">
             <div class="rightFirstbox">
               <div class="boxheading">
                 <span>Categories</span>
               </div>
+<style> 
+.ul-x{
+  text-align:center;
+  font-weight: 600;
 
-              <div>
+}
+.ul-x :hover{
+  color:rgb(255, 0, 64) !important; 
+
+}
+  </style>
+              <div class="ul-x">
                 <ul>
-                  <li><a class="firstboxlist" href="#Art&Gallery">Art&Gallery</a> </li>
-                  <li><a class="firstboxlist" href="#Web Designs">Web Designs</a></li>
+                  <li>
+                    <a class="firstboxlist" href="#Art&Gallery">Art&Gallery</a>
+                  </li>
+                  <li>
+                    <a class="firstboxlist" href="#Web Designs">Web Designs</a>
+                  </li>
                   <li><a class="firstboxlist" href="English">English</a></li>
-                  <li><a class="firstboxlist" href="#W3LayOuts">W3LayOuts</a></li>
-                  <li><a class="firstboxlist" href="#Marketing">Marketing</a></li>
+                  <li>
+                    <a class="firstboxlist" href="#W3LayOuts">W3LayOuts</a>
+                  </li>
+                  <li>
+                    <a class="firstboxlist" href="#Marketing">Marketing</a>
+                  </li>
                 </ul>
               </div>
             </div>
 
             <div class="rightSecondbox">
-             
               <div class="boxheading">
                 <span> Popular Post </span>
               </div>
               <div class="ppwrapflex">
                 <div class="popularpostflex">
                   <div class="popularpostflexLeft">
-                    <img style="width: 100%;"
+                    <img
+                      style="width: 100%;border-radius: 20px;"
                       src="https://image.shutterstock.com/image-photo/agra-india-circa-8-february-600w-1432822307.jpg"
                       alt="image1"
                     />
                   </div>
                   <div class="popularpostflexRight">
-                    <span><a class="thirdBoxlist" href="">Sed ut unde omnis iste natus</a></span>
+                    <span
+                      ><a class="thirdBoxlist" href=""
+                        >Sed ut unde omnis iste natus</a
+                      ></span
+                    >
                   </div>
                 </div>
 
                 <div class="popularpostflex">
                   <div class="popularpostflexLeft">
-                    <img style="width: 100%;"
+                    <img
+                      style="width: 100%;border-radius: 20px;"
                       src="https://image.shutterstock.com/image-photo/agra-india-circa-8-february-600w-1432822307.jpg"
                       alt="image2"
                     />
                   </div>
                   <div class="popularpostflexRight">
-                    <span><a class="thirdBoxlist" href="">Sed ut unde omnis iste natus</a></span>
+                    <span
+                      ><a class="thirdBoxlist" href=""
+                        >Sed ut unde omnis iste natus</a
+                      ></span
+                    >
                   </div>
                 </div>
                 <div class="popularpostflex">
                   <div class="popularpostflexLeft">
-                    <img style="width: 100%;"
+                    <img
+                      style="width: 100%;border-radius: 20px;"
                       src="https://image.shutterstock.com/image-photo/agra-india-circa-8-february-600w-1432822307.jpg"
                       alt="image3"
                     />
                   </div>
                   <div class="popularpostflexRight">
-                    <span><a class="thirdBoxlist" href="">Sed ut unde omnis iste natus</a></span>
+                    <span
+                      ><a class="thirdBoxlist" href=""
+                        >Sed ut unde omnis iste natus</a
+                      ></span
+                    >
                   </div>
                 </div>
               </div>
@@ -226,14 +261,13 @@
               </div>
               <div>
                 <ul>
-                  <li ><a class="forthBoxlist" href="#January">January</a></li>
-                  <li ><a class="forthBoxlist" href="#Febuary">Febuary</a></li>
-                  <li ><a class="forthBoxlist" href="#March">March</a></li>
-                  <li ><a class="forthBoxlist" href="#April">April</a></li>
-                  <li ><a class="forthBoxlist" href="#May">May</a></li>
+                  <li><a class="forthBoxlist" href="#January">January</a></li>
+                  <li><a class="forthBoxlist" href="#Febuary">Febuary</a></li>
+                  <li><a class="forthBoxlist" href="#March">March</a></li>
+                  <li><a class="forthBoxlist" href="#April">April</a></li>
+                  <li><a class="forthBoxlist" href="#May">May</a></li>
                 </ul>
               </div>
-            
             </div>
             <div class="rightForthbox">
               <div class="boxheading">
@@ -288,7 +322,7 @@
         </div>
       </div>
     </div>
- 
+
     <!-- <div class="left-side">
         <div class="col mt-4" id="posts">
         </div>
@@ -397,6 +431,6 @@
       integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
       crossorigin="anonymous"
     ></script>
-    <script src="blogpage.js"></script>
+    <script src="blog rev-01.js"></script>
   </body>
 </html>
