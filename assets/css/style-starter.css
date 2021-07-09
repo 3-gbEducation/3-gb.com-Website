@@ -4619,6 +4619,9 @@ input[type="button"].btn-block {
   border-left-color: #fff;
 }
 
+/* file:///C:/Users/Deepu/Documents/GitHub/3-gb.com-Website/assets/js/bootstrap.min.js */
+/* file:///C:/Users/Deepu/Documents/GitHub/3-gb.com-Website/assets/js/bootstrap.min.js.map */
+
 .dropdown-submenu.pull-left {
   float: none;
 }
@@ -4665,7 +4668,7 @@ input {
 }
 
 /* Mark input boxes that gets an error on validation: */
-input.invalid {
+.invalid {
   background-color: #ffdddd;
 }
 

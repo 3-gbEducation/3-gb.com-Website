@@ -6,6 +6,8 @@ Author URL: http://w3layouts.com
 <html lang="en">
 
 <head>
+    <!-- <link rel="icon" href="assets/images/square.ico" height="32px" style="border-radius: 50%;" type="x-icon" /> -->
+    <link rel="icon" href="assets/images/circle.ico" height="16px" type="x-icon" />
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -15,7 +17,7 @@ Author URL: http://w3layouts.com
         rel="stylesheet">
     <!-- //google-fonts -->
     <!-- Template CSS Style link -->
-    <link rel="stylesheet" href="assets/css/style-starter.css">
+    <link rel="stylesheet" href="assets/css/style.css">
     <!-- fa -->
     <!-- <link
     rel="stylesheet"
@@ -34,7 +36,7 @@ Author URL: http://w3layouts.com
                 <div class="top-headers">
                     <ul>
                         <li>
-                            <a href="blankpage.htmlhelp" class="d-sm-block d-none">Have any question ?</a>
+                            <a href="blankpage.html" class="d-sm-block d-none">Have any question ?</a>
                         </li>
                         <li>
                             <i class="fa fa-phone"></i><a href="tel:+919350227009">+91 9350227009</a>
@@ -84,7 +86,7 @@ Author URL: http://w3layouts.com
                         <li id="menu-item-22"
                             class="menu-item menu-item-type-post_type menu-item-object-page current-menu-ancestor current-menu-parent current_page_parent current_page_ancestor menu-item-has-children menu-item-21 nav-item dropdown">
                             <a class="nav-link dropdown-toggle" data-toggle='dropdown' id="navbar-dropdown-menu-link-21"
-                                aria-haspopup="true" aria-expanded="false">Find Your Teacher <i
+                                aria-haspopup="true" aria-expanded="false">Find a Tutor <i
                                     class="fa fa-angle-down"></i></a>
                             <div class="sub-menu dropdown-menu" aria-labelledby="navbar-dropdown-menu-link-21">
                                 <a href="blankpage.html" class="dropdown-item" id="menu-item-12">Class 1-4</a>
@@ -113,7 +115,7 @@ Author URL: http://w3layouts.com
                             </div>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="microcourse/microcourse.html">Micro Courses</a>
+                            <a class="nav-link" href="microcourse.html">Micro Courses</a>
                         </li>
                         <li id="menu-item-21"
                             class="menu-item menu-item-type-post_type menu-item-object-page current-menu-ancestor current-menu-parent current_page_parent current_page_ancestor menu-item-has-children menu-item-21 nav-item dropdown">
@@ -179,7 +181,7 @@ Author URL: http://w3layouts.com
                                 <div class="container">
                                     <div class="banner-info-bg" style="max-width: 600px;">
                                         <h5>Building a community of lifelong learners!</h5>
-                                        <a class="btn btn-style mt-sm-5 mt-4" href="about.html">
+                                        <a class="btn btn-style mt-sm-5 mt-4" href="blankpage.html">
                                             Know More about us<i class="fa fa-arrow-right ml-2"
                                                 aria-hidden="true"></i></a>
                                     </div>
@@ -196,33 +198,37 @@ Author URL: http://w3layouts.com
                         <div class="banner-info-bg container-fluid d-flex justify-content-end">
                             <div class="col-lg-4 free-class-form">
                                 <div class="contact-form-sec pt-5">
-                                    <p class="free-class-form-header" style="color: black;">Book a <span>Demo Class</span></p>
+                                    <p class="free-class-form-header mt-3" style="color: black;">Book a <span>Demo Class</span></p>
                                     <div class="contact-block">
                                         <div class="col-sm-12 mt-4 pl-lg-4 form-div">
 
-                                            <form id="DemoClassForm" method="POST" action="https://formsubmit.co/demo.3gb@gmail.com">
+                                            <form id="DemoClassForm"  
+                                            action=”mailto:pradeepa.seelam@gmail.com”
+                                            method=”POST”
+                                            enctype=”multipart/form-data”
+                                            name=”DemoClassForm”>
                                                 <!-- One "tab" for each step in the form: -->
                                                 <div class="tab">
-                                                    <input placeholder="Name..." oninput="this.className = ''"
+                                                    <input class="col-lg-12 col-sm-12" placeholder="Name..." oninput="this.className = ''"
                                                         name="name" required>
-                                                    <input type="email" placeholder="E-mail..."
+                                                    <input class="col-lg-12 col-sm-12" type="email" placeholder="E-mail..."
                                                         oninput="this.className = ''" name="email" required>
                                                 </div>
                                                 <div class="tab">
-                                                    <input placeholder="Mobile Number..." oninput="this.className = ''"
+                                                    <input class="col-lg-12 col-sm-12" placeholder="Mobile Number..." oninput="this.className = ''"
                                                         name="phone" required>
-                                                    <input placeholder="Language Preference"
+                                                    <input class="col-lg-12 col-sm-12" placeholder="Language Preference"
                                                         oninput="this.className = ''" name="lang" required>
                                                 </div>
                                                 <div class="tab">
-                                                    <input placeholder="Syllabus"
+                                                    <input class="col-lg-12 col-sm-12" placeholder="Syllabus"
                                                         oninput="this.className = ''" name="syllabus" required>
-                                                    <input placeholder="Class"
+                                                    <input class="col-lg-12 col-sm-12" placeholder="Class"
                                                         oninput="this.className = ''" name="class" required>
                                                 </div>
 
                                                 <div style="overflow:auto;">
-                                                    <div style="float:right;">
+                                                    <div >
                                                         <button class="btn btn-style btn-style-secondary" type="button"
                                                             id="prevBtn" onclick="nextPrev(-1)">Previous</button>
                                                         <button class="btn btn-style btn-style-secondary" type="button"
@@ -255,29 +261,29 @@ Author URL: http://w3layouts.com
     <section class="w3l-bottom-grids-6 pb-lg-5 text-center" id="services">
         <div class="container">
             <div class="grids-area-hny main-cont-wthree-fea row">
-                <div class="col-lg-3 col-md-5 px-lg-2">
+                <div class="col-lg-3 col-md-5 px-lg-2 mt-lg-0 mt-3">
                     <div class="area-box color-1">
                         <i class="fa fa-user" aria-hidden="true"></i>
-                        <h4><a href="courses.html" class="title-head">Find Your Teacher</a></h4>
+                        <h4><a href="blankpage.html" class="title-head">Find a Tutor</a></h4>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-5 px-lg-2 mt-lg-0 mt-3 ">
                     <!--mt-md-5 mt-3-->
                     <div class="area-box color-2">
                         <i class="fa fa-book" aria-hidden="true"></i>
-                        <h4><a href="courses.html" class="title-head">Micro Courses</a></h4>
+                        <h4><a href="blankpage.html" class="title-head">Micro Courses</a></h4>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-5 px-lg-2 mt-lg-0 mt-3">
                     <div class="area-box color-3">
                         <i class="fa fa-comments" aria-hidden="true"></i>
-                        <h4><a href="courses.html" class="title-head">Latest Updates</a></h4>
+                        <h4><a href="blankpage.html" class="title-head">Latest Updates</a></h4>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-5 px-lg-2 mt-lg-0 mt-3">
                     <div class="area-box color-4">
                         <i class="fa fa-check-circle" aria-hidden="true"></i>
-                        <h4><a href="courses.html" class="title-head">Review</a></h4>
+                        <h4><a href="blankpage.html" class="title-head">Review</a></h4>
                     </div>
                 </div>
             </div>
@@ -299,7 +305,7 @@ Author URL: http://w3layouts.com
                                 <span class="fa fa-graduation-cap" aria-hidden="true"></span>
                             </div>
                             <div class="feature-info mt-4">
-                                <a href="about.html">
+                                <a href="blankpage.html">
                                     <h3 class="feature-titel">
                                         Dedicated Educators
                                     </h3>
@@ -316,7 +322,7 @@ Author URL: http://w3layouts.com
                                 <span class="fa fa-users" aria-hidden="true"></span>
                             </div>
                             <div class="feature-info mt-4">
-                                <a href="about.html">
+                                <a href="blankpage.html">
                                     <h3 class="feature-titel">First rate curriculum</h3>
                                 </a>
                                 <p class="feature-text">Are you a beginner, expert, or somewhere in between?
@@ -331,7 +337,7 @@ Author URL: http://w3layouts.com
                                 <span class="fa fa-book" aria-hidden="true"></span>
                             </div>
                             <div class="feature-info mt-4">
-                                <a href="about.html">
+                                <a href="blankpage.html">
                                     <h3 class="feature-titel">Commitment to Excellence</h3>
                                 </a>
                                 <p class="feature-text">Our mission is to embrace the pursuit of excellence both inside
@@ -358,8 +364,8 @@ Author URL: http://w3layouts.com
                         <div class="grids5-info position-relative">
                             <img src="assets/images/c1.jpg" alt="" class="img-fluid" />
                             <!-- <div class="meta-list">
-                                <a href="courses.html">art</a>
-                                <a href="courses.html">design</a>
+                                <a href="blankpage.html">art</a>
+                                <a href="blankpage.html">design</a>
                             </div> -->
                             <div class="course-price-item">
                                 <h6>₹999</h6>
@@ -372,7 +378,7 @@ Author URL: http://w3layouts.com
                                     <li> <i class="fa fa-clock-o" aria-hidden="true"></i> 4 week</li>
                                 </ul>
                             </div>
-                            <h4><a href="courses.html">Piano for beginners</a></h4>
+                            <h4><a href="blankpage.html">Piano for beginners</a></h4>
                             <p>Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                             <div class="top-content-border d-flex align-items-center justify-content-between mt-5 pt-4">
                                 <ul class="rating-list">
@@ -387,7 +393,7 @@ Author URL: http://w3layouts.com
                                     <li><a href="blankpage.htmlrate"><i class="fa fa-star" aria-hidden="true"></i>
                                         </a></li>
                                 </ul>
-                                <a class="btn btn-style btn-style-primary" href="course.html">Know Details<i
+                                <a class="btn btn-style btn-style-primary" href="blankpage.html">Know Details<i
                                         class="fa fa-arrow-right ml-2" aria-hidden="true"></i></a>
                             </div>
                         </div>
@@ -399,9 +405,9 @@ Author URL: http://w3layouts.com
                         <div class="grids5-info position-relative">
                             <img src="assets/images/c2.jpg" alt="" class="img-fluid" />
                             <!-- <div class="meta-list">
-                                <a href="courses.html">Digital</a>
-                                <a href="courses.html">Learn</a>
-                                <a href="courses.html">10% off</a>
+                                <a href="blankpage.html">Digital</a>
+                                <a href="blankpage.html">Learn</a>
+                                <a href="blankpage.html">10% off</a>
                             </div> -->
                             <div class="course-price-item">
                                 <h6>₹999</h6>
@@ -414,7 +420,7 @@ Author URL: http://w3layouts.com
                                     <li> <i class="fa fa-clock-o" aria-hidden="true"></i> 10 week</li>
                                 </ul>
                             </div>
-                            <h4><a href="courses.html">Python (Back-end)</a></h4>
+                            <h4><a href="blankpage.html">Python (Back-end)</a></h4>
                             <p>Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                             <div class="top-content-border d-flex align-items-center justify-content-between mt-5 pt-4">
                                 <ul class="rating-list">
@@ -429,7 +435,7 @@ Author URL: http://w3layouts.com
                                     <li><a href="blankpage.htmlrate"><i class="fa fa-star" aria-hidden="true"></i>
                                         </a></li>
                                 </ul>
-                                <a class="btn btn-style btn-style-primary" href="course.html">Know Details<i
+                                <a class="btn btn-style btn-style-primary" href="blankpage.html">Know Details<i
                                         class="fa fa-arrow-right ml-2" aria-hidden="true"></i></a>
                             </div>
                         </div>
@@ -440,8 +446,8 @@ Author URL: http://w3layouts.com
                         <div class="grids5-info position-relative">
                             <img src="assets/images/c3.jpg" alt="" class="img-fluid" />
                             <!-- <div class="meta-list">
-                                <a href="courses.html">Html</a>
-                                <a href="courses.html">CSS</a>
+                                <a href="blankpage.html">Html</a>
+                                <a href="blankpage.html">CSS</a>
                             </div> -->
                             <div class="course-price-item">
                                 <h6>₹999</h6>
@@ -454,7 +460,7 @@ Author URL: http://w3layouts.com
                                     <li> <i class="fa fa-clock-o" aria-hidden="true"></i> 5 week</li>
                                 </ul>
                             </div>
-                            <h4><a href="courses.html">Intro to Web design</a></h4>
+                            <h4><a href="blankpage.html">Intro to Web design</a></h4>
                             <p>Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                             <div class="top-content-border d-flex align-items-center justify-content-between mt-5 pt-4">
                                 <ul class="rating-list">
@@ -469,7 +475,7 @@ Author URL: http://w3layouts.com
                                     <li><a href="blankpage.htmlrate"><i class="fa fa-star-o" aria-hidden="true"></i>
                                         </a></li>
                                 </ul>
-                                <a class="btn btn-style btn-style-primary" href="course.html">Know Details<i
+                                <a class="btn btn-style btn-style-primary" href="blankpage.html">Know Details<i
                                         class="fa fa-arrow-right ml-2" aria-hidden="true"></i></a>
                             </div>
                         </div>
@@ -480,8 +486,8 @@ Author URL: http://w3layouts.com
                         <div class="grids5-info position-relative">
                             <img src="assets/images/c4.jpg" alt="" class="img-fluid" />
                             <!-- <div class="meta-list">
-                                <a href="courses.html">Website</a>
-                                <a href="courses.html">Wordpress</a>
+                                <a href="blankpage.html">Website</a>
+                                <a href="blankpage.html">Wordpress</a>
                             </div> -->
                             <div class="course-price-item">
                                 <h6>₹999</h6>
@@ -494,7 +500,7 @@ Author URL: http://w3layouts.com
                                     <li> <i class="fa fa-clock-o" aria-hidden="true"></i> 10 week</li>
                                 </ul>
                             </div>
-                            <h4><a href="courses.html">PhP for beginners</a></h4>
+                            <h4><a href="blankpage.html">PhP for beginners</a></h4>
                             <p>Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                             <div class="top-content-border d-flex align-items-center justify-content-between mt-5 pt-4">
                                 <ul class="rating-list">
@@ -509,7 +515,7 @@ Author URL: http://w3layouts.com
                                     <li><a href="blankpage.htmlrate"><i class="fa fa-star" aria-hidden="true"></i>
                                         </a></li>
                                 </ul>
-                                <a class="btn btn-style btn-style-primary" href="course.html">Know Details<i
+                                <a class="btn btn-style btn-style-primary" href="blankpage.html">Know Details<i
                                         class="fa fa-arrow-right ml-2" aria-hidden="true"></i></a>
                             </div>
                         </div>
@@ -520,8 +526,8 @@ Author URL: http://w3layouts.com
                         <div class="grids5-info position-relative">
                             <img src="assets/images/c5.jpg" alt="" class="img-fluid" />
                             <!-- <div class="meta-list">
-                                <a href="courses.html">Arts</a>
-                                <a href="courses.html">Crafts</a>
+                                <a href="blankpage.html">Arts</a>
+                                <a href="blankpage.html">Crafts</a>
                             </div> -->
                             <div class="course-price-item">
                                 <h6>₹999</h6>
@@ -534,7 +540,7 @@ Author URL: http://w3layouts.com
                                     <li> <i class="fa fa-clock-o" aria-hidden="true"></i> 10 week</li>
                                 </ul>
                             </div>
-                            <h4><a href="courses.html">Origami Mastery</a></h4>
+                            <h4><a href="blankpage.html">Origami Mastery</a></h4>
                             <p>Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                             <div class="top-content-border d-flex align-items-center justify-content-between mt-5 pt-4">
                                 <ul class="rating-list">
@@ -549,7 +555,7 @@ Author URL: http://w3layouts.com
                                     <li><a href="blankpage.htmlrate"><i class="fa fa-star-o" aria-hidden="true"></i>
                                         </a></li>
                                 </ul>
-                                <a class="btn btn-style btn-style-primary" href="course.html">Know Details<i
+                                <a class="btn btn-style btn-style-primary" href="blankpage.html">Know Details<i
                                         class="fa fa-arrow-right ml-2" aria-hidden="true"></i></a>
                             </div>
                         </div>
@@ -560,8 +566,8 @@ Author URL: http://w3layouts.com
                         <div class="grids5-info position-relative">
                             <img src="assets/images/c6.jpg" alt="" class="img-fluid" />
                             <!-- <div class="meta-list">
-                                <a href="courses.html">Design</a>
-                                <a href="courses.html">UI/UX</a>
+                                <a href="blankpage.html">Design</a>
+                                <a href="blankpage.html">UI/UX</a>
                             </div> -->
                             <div class="course-price-item">
                                 <h6>₹999</h6>
@@ -574,7 +580,7 @@ Author URL: http://w3layouts.com
                                     <li> <i class="fa fa-clock-o" aria-hidden="true"></i> 10 week</li>
                                 </ul>
                             </div>
-                            <h4><a href="courses.html">UI/ UX with Figma</a></h4>
+                            <h4><a href="blankpage.html">UI/ UX with Figma</a></h4>
                             <p>Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                             <div class="top-content-border d-flex align-items-center justify-content-between mt-5 pt-4">
                                 <ul class="rating-list">
@@ -589,7 +595,7 @@ Author URL: http://w3layouts.com
                                     <li><a href="blankpage.htmlrate"><i class="fa fa-star" aria-hidden="true"></i>
                                         </a></li>
                                 </ul>
-                                <a class="btn btn-style btn-style-primary" href="course.html">Know Details<i
+                                <a class="btn btn-style btn-style-primary" href="blankpage.html">Know Details<i
                                         class="fa fa-arrow-right ml-2" aria-hidden="true"></i></a>
                             </div>
                         </div>
@@ -597,7 +603,7 @@ Author URL: http://w3layouts.com
                 </div>
             </div>
             <div class="text-center mt-5">
-                <a class="btn btn-style btn-style-secondary mt-sm-3" href="about.html">
+                <a class="btn btn-style btn-style-secondary mt-sm-3" href="blankpage.html">
                     Browse more courses<i class="fa fa-arrow-right ml-2" aria-hidden="true"></i></a>
             </div>
         </div>
@@ -1051,11 +1057,10 @@ Author URL: http://w3layouts.com
                             <ul>
                                 <li><a href="index.html"><span class="fa fa-angle-double-right mr-2"></span>About</a>
                                 </li>
-                                <li><a href="about.html"><span class="fa fa-angle-double-right mr-2"></span>Micro
+                                <li><a href="blankpage.html"><span class="fa fa-angle-double-right mr-2"></span>Micro
                                         Courses</a>
                                 </li>
-                                <li><a href="courses.html"><span class="fa fa-angle-double-right mr-2"></span>Find Your
-                                        Teacher</a></li>
+                                <li><a href="blankpage.html"><span class="fa fa-angle-double-right mr-2"></span>Find a Tutor</a></li>
                                 <li><a href="contact.html"><span class="fa fa-angle-double-right mr-2"></span>Free
                                         Demo</a></li>
                             </ul>
@@ -1063,13 +1068,13 @@ Author URL: http://w3layouts.com
                         <div class="col-lg-3 col-sm-6 sub-two-right pl-lg-5 mt-lg-0 mt-sm-5 mt-4">
                             <h6>Help & Support</h6>
                             <ul>
-                                <li><a href="blankpage.htmllive"><span class="fa fa-angle-double-right mr-2"></span>Live
+                                <li><a href="blankpage.html"><span class="fa fa-angle-double-right mr-2"></span>Live
                                         Chat</a></li>
-                                <li><a href="blankpage.htmlfaq"><span class="fa fa-angle-double-right mr-2"></span>Faq</a>
+                                <li><a href="blankpage.html"><span class="fa fa-angle-double-right mr-2"></span>Faq</a>
                                 </li>
-                                <li><a href="blankpage.htmlsupport"><span class="fa fa-angle-double-right mr-2"></span>Support</a>
+                                <li><a href="blankpage.html"><span class="fa fa-angle-double-right mr-2"></span>Support</a>
                                 </li>
-                                <li><a href="blankpage.htmlterms"><span class="fa fa-angle-double-right mr-2"></span>Terms
+                                <li><a href="blankpage.html"><span class="fa fa-angle-double-right mr-2"></span>Terms
                                         of Services</a></li>
                             </ul>
                         </div>
@@ -1084,7 +1089,7 @@ Author URL: http://w3layouts.com
                                 </div>
                                 <div>
                                     <p class="contact-para"><span class="fa fa-map-marker"
-                                            aria-hidden="true"></span>Radaur, Haryana</p>
+                                            aria-hidden="true"></span><a href='contact.html#map'>Radaur, Haryana</a></p>
                                 </div>
                             </div>
                         </div>
@@ -1099,13 +1104,13 @@ Author URL: http://w3layouts.com
                                     <li><a href="https://wa.me/919350227009"><span class="fa fa-whatsapp"
                                                 aria-hidden="true"></span></a>
                                     </li>
-                                    <li><a href="https://www.linkedin.com/in/shivangi-garg-08a46418a/"><span
+                                    <li><a href="https://www.linkedin.com/company/3-ground-breakers"><span
                                                 class="fa fa-linkedin" aria-hidden="true"></span></a>
                                     </li>
                                     <li><a href="https://twitter.com/Shivangigarg160"><span class="fa fa-twitter"
                                                 aria-hidden="true"></span></a>
                                     </li>
-                                    <li><a href="blankpage.htmlgoogle"><span class="fa fa-google-plus" aria-hidden="true"></span></a>
+                                    <li><a href="https://www.instagram.com/3gbeducation/"><span class="fa fa-instagram" aria-hidden="true"></span></a>
                                     </li>
                                     <li><a href="https://www.facebook.com/3gbeducation"><span class="fa fa-facebook"
                                                 aria-hidden="true"></span></a>
@@ -1290,12 +1295,7 @@ Author URL: http://w3layouts.com
     </script>
     <!-- //disable body scroll which navbar is in active -->
     <!-- added by pradeepa -->
-    <script>
-        function handleform(event) {
-            // event.preventDefault();
-            console.log(event);
-        }
-    </script>
+
     <script>
         var currentTab = 0; // Current tab is set to be the first tab (0)
         showTab(currentTab); // Display the current tab
@@ -1343,14 +1343,16 @@ Author URL: http://w3layouts.com
             var x;
             var y, i, valid = true;
             x = document.getElementsByClassName("tab");
-            console.log(x);
             y = x[currentTab].getElementsByTagName("input");
+            // console.log(y);
             // A loop that checks every input field in the current tab:
             for (i = 0; i < y.length; i++) {
+                // console.log(y[i].value);
                 // If a field is empty...
                 if (y[i].value == "") {
                     // add an "invalid" class to the field:
                     y[i].className += " invalid";
+                    console.log( y[i].className);
                     // and set the current valid status to false
                     valid = false;
                 }
