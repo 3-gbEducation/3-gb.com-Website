@@ -20,6 +20,7 @@
     crossorigin="anonymous"
   /> -->
 </head>
+
 <body>
     <!-- ADDED BY PRADEEPA -->
     <!-- top header -->
@@ -29,7 +30,7 @@
                 <div class="top-headers">
                     <ul>
                         <li>
-                            <a href="#help" class="d-sm-block d-none">Have any question ?</a>
+                            <a href="contact.html" class="d-sm-block d-none">Have any question ?</a>
                         </li>
                         <li>
                             <i class="fa fa-phone"></i><a href="tel:+919350227009">+91 9350227009</a>
@@ -87,10 +88,11 @@
                                 <a href="blankpage.html" class="dropdown-item" id="menu-item-35">Class 9-10</a>
                                 <a href="blankpage.html" class="dropdown-item" id="menu-item-39">Class 11-12</a>
                                 <a href="blankpage.html" class="dropdown-item" id="menu-item-40">Programming</a>
-                                <a href="blankpage.html" class="dropdown-item" id="menu-item-41">Artificial Intelligence</a>
+                                <a href="blankpage.html" class="dropdown-item" id="menu-item-41">Artificial
+                                    Intelligence</a>
                             </div>
                         </li>
-                        <li id="menu-item-23"
+                        <!-- <li id="menu-item-23"
                             class="menu-item menu-item-type-post_type menu-item-object-page current-menu-ancestor current-menu-parent current_page_parent current_page_ancestor menu-item-has-children menu-item-21 nav-item dropdown">
                             <a class="nav-link dropdown-toggle" data-toggle='dropdown' id="navbar-dropdown-menu-link-21"
                                 aria-haspopup="true" aria-expanded="false">Study Material <i
@@ -106,18 +108,21 @@
                                 <a href="blankpage.html" class="dropdown-item" id="menu-item-46">Kid Creatives</a>
                                 
                             </div>
+                        </li> -->
+                        <li class="nav-item">
+                            <a class="nav-link" href="blankpage.html">Study Material</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="microcourse.html">Micro Courses</a>
+                            <a class="nav-link" href="blankpage.html">Micro Courses</a>
                         </li>
                         <li id="menu-item-21"
                             class="menu-item menu-item-type-post_type menu-item-object-page current-menu-ancestor current-menu-parent current_page_parent current_page_ancestor menu-item-has-children menu-item-21 nav-item dropdown">
                             <a class="nav-link dropdown-toggle" data-toggle='dropdown' id="navbar-dropdown-menu-link-21"
                                 aria-haspopup="true" aria-expanded="false">More <i class="fa fa-angle-down"></i></a>
                             <div class="sub-menu dropdown-menu" aria-labelledby="navbar-dropdown-menu-link-21">
-                                <a href="blankpage.html" class="dropdown-item" id="menu-item-11">Blogs</a><a
-                                    href="blankpage.html" class="dropdown-item" id="menu-item-30">Latest Updates</a><a
-                                    href="blankpage.html" class="dropdown-item" id="menu-item-34">About Us</a><a
+                                <a href="blankpage.html" class="dropdown-item" id="menu-item-11">Blogs</a>
+                                <!-- <a href="blankpage.html" class="dropdown-item" id="menu-item-30">Latest Updates</a> -->
+                                <a href="blankpage.html" class="dropdown-item" id="menu-item-34">About Us</a><a
                                     href="contact.html" class="dropdown-item" id="menu-item-38">Contact Us</a>
                             </div>
                         </li>
@@ -127,7 +132,8 @@
                             </div>
                         </li>
                         <li class="nav-item">
-                            <div class="nav-link"><i class="fa fa-search"></i></div>
+                            <div class="nav-link" id="search-icon"><i class="fa fa-search"
+                                    onclick="displaySearch()"></i></div>
                         </li>
                         <div class="search-right ml-lg-3" id='search-bar'>
                             <form action="#search" method="GET" class="search-box position-relative">
@@ -163,7 +169,7 @@
     <!--//header-->
     <!-- //ADDED BY PRADEEPA -->
 
-    <div class="container mt-5 pt-5"  style="text-align: center; margin-bottom: 10%;">
+    <div class="container mt-5 pt-5" style="text-align: center; margin-bottom: 10%;">
         <h4>Coming Soon..</h4>
     </div>
 
@@ -194,12 +200,14 @@
                         <div class="col-lg-2 col-sm-6 sub-two-right pl-lg-5 mt-lg-0 mt-sm-5 mt-4">
                             <h6>Quick links</h6>
                             <ul>
-                                <li><a href="blankpage.html"><span class="fa fa-angle-double-right mr-2"></span>About</a>
+                                <li><a href="blankpage.html"><span
+                                            class="fa fa-angle-double-right mr-2"></span>About</a>
                                 </li>
-                                <li><a href="microcourse.html"><span class="fa fa-angle-double-right mr-2"></span>Micro
+                                <li><a href="blankpage.html"><span class="fa fa-angle-double-right mr-2"></span>Micro
                                         Courses</a>
                                 </li>
-                                <li><a href="blankpage.html"><span class="fa fa-angle-double-right mr-2"></span>Find a Tutor</a></li>
+                                <li><a href="blankpage.html"><span class="fa fa-angle-double-right mr-2"></span>Find a
+                                        Tutor</a></li>
                                 <li><a href="index.html"><span class="fa fa-angle-double-right mr-2"></span>Free
                                         Demo</a></li>
                             </ul>
@@ -221,7 +229,7 @@
                             <h6>Contact </h6>
                             <div class="column2">
                                 <div class="href1"><span class="fa fa-envelope-o" aria-hidden="true"></span><a
-                                        href="mailto:careers.3gb@gmail.com">careers.3gb@gmail.com</a>
+                                        href="mailto:help.3gb@gmail.com">help.3gb@gmail.com</a>
                                 </div>
                                 <div class="href2"><span class="fa fa-phone" aria-hidden="true"></span><a
                                         href="tel:+9350227009">+91 9350227009</a>
@@ -249,7 +257,8 @@
                                     <li><a href="https://twitter.com/Shivangigarg160"><span class="fa fa-twitter"
                                                 aria-hidden="true"></span></a>
                                     </li>
-                                    <li><a href="https://www.instagram.com/3gbeducation/"><span class="fa fa-instagram" aria-hidden="true"></span></a>
+                                    <li><a href="https://www.instagram.com/3gbeducation/"><span class="fa fa-instagram"
+                                                aria-hidden="true"></span></a>
                                     </li>
                                     <li><a href="https://www.facebook.com/3gbeducation"><span class="fa fa-facebook"
                                                 aria-hidden="true"></span></a>
@@ -300,6 +309,10 @@
         function topFunction() {
             document.body.scrollTop = 0;
             document.documentElement.scrollTop = 0;
+        }
+        function displaySearch() {
+            document.getElementById('search-icon').style.display = "none";
+            document.getElementById('search-bar').style.display = "block";
         }
     </script>
     <!-- //move top -->

@@ -84,7 +84,7 @@
 				<div class="top-headers">
 					<ul>
 						<li>
-							<a href="#help" class="d-sm-block d-none">Have any question ?</a>
+							<a href="contact.html" class="d-sm-block d-none">Have any question ?</a>
 						</li>
 						<li>
 							<i class="fa fa-phone"></i><a href="tel:+919350227009">+91 9350227009</a>
@@ -148,7 +148,7 @@
 									Intelligence</a>
 							</div>
 						</li>
-						<li id="menu-item-23"
+						<!-- <li id="menu-item-23"
 							class="menu-item menu-item-type-post_type menu-item-object-page current-menu-ancestor current-menu-parent current_page_parent current_page_ancestor menu-item-has-children menu-item-21 nav-item dropdown">
 							<a class="nav-link dropdown-toggle" data-toggle='dropdown' id="navbar-dropdown-menu-link-21"
 								aria-haspopup="true" aria-expanded="false">Study Material <i
@@ -169,9 +169,12 @@
 									Creatives</a>
 
 							</div>
-						</li>
+						</li> -->
 						<li class="nav-item">
-							<a class="nav-link" href="microcourse.html">Micro Courses</a>
+                            <a class="nav-link" href="blankpage.html">Study Material</a>
+                        </li>
+						<li class="nav-item">
+							<a class="nav-link" href="blankpage.html">Micro Courses</a>
 						</li>
 						<li id="menu-item-21"
 							class="menu-item menu-item-type-post_type menu-item-object-page current-menu-ancestor current-menu-parent current_page_parent current_page_ancestor menu-item-has-children menu-item-21 nav-item dropdown">
@@ -179,8 +182,8 @@
 								aria-haspopup="true" aria-expanded="false">More <i class="fa fa-angle-down"></i></a>
 							<div class="sub-menu dropdown-menu" aria-labelledby="navbar-dropdown-menu-link-21">
 								<a href="blankpage.html" class="dropdown-item nav-link " id="menu-item-11">Blogs</a>
-								<a href="blankpage.html" class="dropdown-item nav-link" id="menu-item-30">Latest
-									Updates</a>
+								<!-- <a href="blankpage.html" class="dropdown-item nav-link" id="menu-item-30">Latest
+									Updates</a> -->
 								<a href="blankpage.html" class="dropdown-item nav-link" id="menu-item-34">About Us</a>
 								<a href="contact.html" class="dropdown-item nav-link" id="menu-item-38">Contact Us</a>
 							</div>
@@ -191,18 +194,18 @@
 							</div>
 						</li>
 						<li class="nav-item">
-							<div class="nav-link"><i class="fa fa-search"></i></div>
-						</li>
-						<div class="search-right ml-lg-3" id='search-bar'>
-							<form action="#search" method="GET" class="search-box position-relative">
-								<div class="input-search">
-									<input type="search" placeholder="Enter Keyword" name="search" required="required"
-										autofocus="" class="search-popup">
-								</div>
-								<button type="submit" class="btn search-btn"><i class="fa fa-search"
-										aria-hidden="true"></i></button>
-							</form>
-						</div>
+                            <div class="nav-link" id="search-icon"><i class="fa fa-search" onclick="displaySearch()"></i></div>
+                        </li>
+                        <div class="search-right ml-lg-3" id='search-bar'>
+                            <form action="#search" method="GET" class="search-box position-relative">
+                                <div class="input-search">
+                                    <input type="search" placeholder="Enter Keyword" name="search" required="required"
+                                        autofocus="" class="search-popup">
+                                </div>
+                                <button type="submit" class="btn search-btn"><i class="fa fa-search"
+                                        aria-hidden="true"></i></button>
+                            </form>
+                        </div>
 					</ul>
 				</div>
 
@@ -293,7 +296,7 @@
 							<h6>Contact </h6>
 							<div class="column2">
 								<div class="href1"><span class="fa fa-envelope-o" aria-hidden="true"></span><a
-										href="mailto:careers.3gb@gmail.com">careers.3gb@gmail.com</a>
+										href="mailto:help.3gb@gmail.com">help.3gb@gmail.com</a>
 								</div>
 								<div class="href2"><span class="fa fa-phone" aria-hidden="true"></span><a
 										href="tel:+9350227009">+91 9350227009</a>
@@ -370,6 +373,10 @@
 			document.body.scrollTop = 0;
 			document.documentElement.scrollTop = 0;
 		}
+		function displaySearch(){
+            document.getElementById('search-icon').style.display = "none";
+            document.getElementById('search-bar').style.display = "block";
+        }
 	</script>
 	<!-- //move top -->
 
