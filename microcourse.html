@@ -29,7 +29,7 @@ Author URL: http://w3layouts.com
                 <div class="top-headers">
                     <ul>
                         <li>
-                            <a href="#help" class="d-sm-block d-none">Have any question ?</a>
+                            <a href="contact.html" class="d-sm-block d-none">Have any question ?</a>
                         </li>
                         <li>
                             <i class="fa fa-phone"></i><a href="tel:+919350227009">+91 9350227009</a>
@@ -87,10 +87,11 @@ Author URL: http://w3layouts.com
                                 <a href="blankpage.html" class="dropdown-item" id="menu-item-35">Class 9-10</a>
                                 <a href="blankpage.html" class="dropdown-item" id="menu-item-39">Class 11-12</a>
                                 <a href="blankpage.html" class="dropdown-item" id="menu-item-40">Programming</a>
-                                <a href="blankpage.html" class="dropdown-item" id="menu-item-41">Artificial Intelligence</a>
+                                <a href="blankpage.html" class="dropdown-item" id="menu-item-41">Artificial
+                                    Intelligence</a>
                             </div>
                         </li>
-                        <li id="menu-item-23"
+                        <!-- <li id="menu-item-23"
                             class="menu-item menu-item-type-post_type menu-item-object-page current-menu-ancestor current-menu-parent current_page_parent current_page_ancestor menu-item-has-children menu-item-21 nav-item dropdown">
                             <a class="nav-link dropdown-toggle" data-toggle='dropdown' id="navbar-dropdown-menu-link-21"
                                 aria-haspopup="true" aria-expanded="false">Study Material <i
@@ -106,18 +107,21 @@ Author URL: http://w3layouts.com
                                 <a href="blankpage.html" class="dropdown-item" id="menu-item-46">Kid Creatives</a>
                                 
                             </div>
+                        </li> -->
+                        <li class="nav-item">
+                            <a class="nav-link" href="blankpage.html">Study Material</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="microcourse.html">Micro Courses</a>
+                            <a class="nav-link" href="blankpage.html">Micro Courses</a>
                         </li>
                         <li id="menu-item-21"
                             class="menu-item menu-item-type-post_type menu-item-object-page current-menu-ancestor current-menu-parent current_page_parent current_page_ancestor menu-item-has-children menu-item-21 nav-item dropdown">
                             <a class="nav-link dropdown-toggle" data-toggle='dropdown' id="navbar-dropdown-menu-link-21"
                                 aria-haspopup="true" aria-expanded="false">More <i class="fa fa-angle-down"></i></a>
                             <div class="sub-menu dropdown-menu" aria-labelledby="navbar-dropdown-menu-link-21">
-                                <a href="blankpage.html" class="dropdown-item" id="menu-item-11">Blogs</a><a
-                                    href="blankpage.html" class="dropdown-item" id="menu-item-30">Latest Updates</a><a
-                                    href="blankpage.html" class="dropdown-item" id="menu-item-34">About Us</a><a
+                                <a href="blankpage.html" class="dropdown-item" id="menu-item-11">Blogs</a>
+                                <!-- <a href="blankpage.html" class="dropdown-item" id="menu-item-30">Latest Updates</a> -->
+                                <a href="blankpage.html" class="dropdown-item" id="menu-item-34">About Us</a><a
                                     href="contact.html" class="dropdown-item" id="menu-item-38">Contact Us</a>
                             </div>
                         </li>
@@ -127,9 +131,10 @@ Author URL: http://w3layouts.com
                             </div>
                         </li>
                         <li class="nav-item">
-                            <div class="nav-link"><i class="fa fa-search"></i></div>
+                            <div class="nav-link" id="search-icon"><i class="fa fa-search"
+                                    onclick="displaySearch()"></i></div>
                         </li>
-                        <!-- <div class="search-right ml-lg-3" id='search-bar'>
+                        <div class="search-right ml-lg-3" id='search-bar'>
                             <form action="#search" method="GET" class="search-box position-relative">
                                 <div class="input-search">
                                     <input type="search" placeholder="Enter Keyword" name="search" required="required"
@@ -138,10 +143,10 @@ Author URL: http://w3layouts.com
                                 <button type="submit" class="btn search-btn"><i class="fa fa-search"
                                         aria-hidden="true"></i></button>
                             </form>
-                        </div> -->
+                        </div>
                     </ul>
                 </div>
-    
+
                 <!-- toggle switch for light and dark theme -->
                 <div class="cont-ser-position">
                     <nav class="navigation">
@@ -161,445 +166,41 @@ Author URL: http://w3layouts.com
         </div>
     </header>
     <!--//header-->
-
-
-    <!-- inner banner
+    <!--inner banner-->
     <div class="inner-banner">
-        <div class="w3l-breadcrumb">
-            <div class="container">
-                <h4 class="inner-text-title font-weight-bold text-white mb-sm-3 mb-2"></h4>
-                <ul class="breadcrumbs-custom-path">
-                    <li><a href="index.html"></a></li>
-                    
-                    </li>
-                </ul>
-                <div class="form1">
-                    <header>Submit Your Requirements</header>
-                    <div class="progresbar">
-                        <div class="step">
-                           <p>
-                              Name
-                           </p>
-                           <div class="bullet">
-                              <span>1</span>
-                           </div>
-                           <div class="check fas fa-check"></div>
-                        </div>
-                        <div class="step">
-                           <p>
-                              Contact
-                           </p>
-                           <div class="bullet">
-                              <span>2</span>
-                           </div>
-                           <div class="check fas fa-check"></div>
-                        </div>
-                        <div class="step">
-                           <p>
-                              Class
-                           </p>
-                           <div class="bullet">
-                              <span>3</span>
-                           </div>
-                           <div class="check fas fa-check"></div>
-                        </div>
-                        <div class="step">
-                           <p>
-                              Submit
-                           </p>
-                           <div class="bullet">
-                              <span>4</span>
-                           </div>
-                           <div class="check fas fa-check"></div>
-                        </div>
-                     </div>
-                    
-                    <div class="formouter">
-                        <form action="#">
-                            <div class="page slide-page">
-                                <div class="title">Basic Info:</div>
-                                <div class="field">
-                                    <div class="label">First Name </div>
-                                    <input type="text" required>
-                                </div>
-                                <div class="field">
-                                    <div class="label">Last Name </div>
-                                    <input type="text" required>
-                                </div>
-                                <div class="field nextbtn">
-                                    <button>Next</button>
-                                </div>
-                            </div>
 
-
-                            <div class="page">
-                                <div class="title">Contact Info:</div>
-                                <div class="field">
-                                    <div class="label">Email Address</div>
-                                    <input type="email">
-                                </div>
-                                <div class="field">
-                                    <div class="label">Phone number </div>
-                                    <input type="number">
-                                </div>
-                                <div class="field btns">
-                                    <button class="pr1 prev">Previous</button>
-                                    <button class="nxt1 next">Next</button>
-                                </div>
-                            </div>
-
-
-                            <div class="page">
-                                <div class="title">Class</div>
-                                <div class="field">
-                                    <div class="label">Subject</div>
-                                    <input type="text">
-                                </div>
-                                <div class="field">
-                                    <div class="label">Topic </div>
-                                    <input type="text">
-                                </div>
-                                <div class="field">
-                                    <div class="label">Language 
-                                        <select data-placeholder="Choose a Language...">
-                                            <option value="EN">English</option>
-                                            <option value="AF">Afrikaans</option>
-                                            <option value="SQ">Albanian</option>
-                                            <option value="AR">Arabic</option>
-                                            <option value="HY">Armenian</option>
-                                            <option value="EU">Basque</option>
-                                            <option value="BN">Bengali</option>
-                                            <option value="BG">Bulgarian</option>
-                                            <option value="CA">Catalan</option>
-                                            <option value="KM">Cambodian</option>
-                                            <option value="ZH">Chinese (Mandarin)</option>
-                                            <option value="HR">Croatian</option>
-                                            <option value="CS">Czech</option>
-                                            <option value="DA">Danish</option>
-                                            <option value="NL">Dutch</option>
-                                            <option value="ET">Estonian</option>
-                                            <option value="FJ">Fiji</option>
-                                            <option value="FI">Finnish</option>
-                                            <option value="FR">French</option>
-                                            <option value="KA">Georgian</option>
-                                            <option value="DE">German</option>
-                                            <option value="EL">Greek</option>
-                                            <option value="GU">Gujarati</option>
-                                            <option value="HE">Hebrew</option>
-                                            <option value="HI">Hindi</option>
-                                            <option value="HU">Hungarian</option>
-                                            <option value="IS">Icelandic</option>
-                                            <option value="ID">Indonesian</option>
-                                            <option value="GA">Irish</option>
-                                            <option value="IT">Italian</option>
-                                            <option value="JA">Japanese</option>
-                                            <option value="JW">Javanese</option>
-                                            <option value="KO">Korean</option>
-                                            <option value="LA">Latin</option>
-                                            <option value="LV">Latvian</option>
-                                            <option value="LT">Lithuanian</option>
-                                            <option value="MK">Macedonian</option>
-                                            <option value="MS">Malay</option>
-                                            <option value="ML">Malayalam</option>
-                                            <option value="MT">Maltese</option>
-                                            <option value="MI">Maori</option>
-                                            <option value="MR">Marathi</option>
-                                            <option value="MN">Mongolian</option>
-                                            <option value="NE">Nepali</option>
-                                            <option value="NO">Norwegian</option>
-                                            <option value="FA">Persian</option>
-                                            <option value="PL">Polish</option>
-                                            <option value="PT">Portuguese</option>
-                                            <option value="PA">Punjabi</option>
-                                            <option value="QU">Quechua</option>
-                                            <option value="RO">Romanian</option>
-                                            <option value="RU">Russian</option>
-                                            <option value="SM">Samoan</option>
-                                            <option value="SR">Serbian</option>
-                                            <option value="SK">Slovak</option>
-                                            <option value="SL">Slovenian</option>
-                                            <option value="ES">Spanish</option>
-                                            <option value="SW">Swahili</option>
-                                            <option value="SV">Swedish </option>
-                                            <option value="TA">Tamil</option>
-                                            <option value="TT">Tatar</option>
-                                            <option value="TE">Telugu</option>
-                                            <option value="TH">Thai</option>
-                                            <option value="BO">Tibetan</option>
-                                            <option value="TO">Tonga</option>
-                                            <option value="TR">Turkish</option>
-                                            <option value="UK">Ukrainian</option>
-                                            <option value="UR">Urdu</option>
-                                            <option value="UZ">Uzbek</option>
-                                            <option value="VI">Vietnamese</option>
-                                            <option value="CY">Welsh</option>
-                                            <option value="XH">Xhosa</option>
-                                          </select>
-                                    </div>
-                                    
-                                </div>
-                                <div class="field btns">
-                                    <button class="pr2 prev">Previous</button>
-                                    <button class="nxt2 next">Next</button>
-                                </div>
-                            </div>
-
-
-                            <div class="page">
-                                <div class="title">Details</div>
-                                <div class="field">
-                                    <div class="label">Budget</div>
-                                    <input type="text">
-                                </div>
-                                <div class="field">
-                                    <div class="label">Message </div>
-                                    <textarea name="" id="" cols="20" rows="5"></textarea>
-                                </div>
-                                <div class="field btns">
-                                    <button class="pr3 prev">Previous</button>
-                                    <button class="submit">Submit</button>
-                                </div>
-                            </div>
-                        </form>
-                    </div>
-
-                </div>
-
-            </div>
-        </div>
-    </div>
-    </div> -->
-    <!-- //inner banner -->
-    <div class="inner-banner">
-        <!-- <div class="formmain">
-
-            <div class="form1">
-                <h5>Submit Your Requirements</h5>
-                <div class="progresbar">
-                    <div class="step">
-                        <p>
-                            Name
-                        </p>
-                        <div class="bullet">
-                            <span>1</span>
-                        </div>
-                        <div class="check fas fa-check"></div>
-                    </div>
-                    <div class="step">
-                        <p>
-                            Contact
-                        </p>
-                        <div class="bullet">
-                            <span>2</span>
-                        </div>
-                        <div class="check fas fa-check"></div>
-                    </div>
-                    <div class="step">
-                        <p>
-                            Class
-                        </p>
-                        <div class="bullet">
-                            <span>3</span>
-                        </div>
-                        <div class="check fas fa-check"></div>
-                    </div>
-                    <div class="step">
-                        <p>
-                            Submit
-                        </p>
-                        <div class="bullet">
-                            <span>4</span>
-                        </div>
-                        <div class="check fas fa-check"></div>
-                    </div>
-                </div>
-
-                <div class="formouter">
-                    <form action="#">
-                        <div class="page slide-page">
-                            <div class="title">Basic Info:</div>
-                            <div class="field">
-                                <div class="label">First Name </div>
-                                <input type="text" required>
-                            </div>
-                            <div class="field">
-                                <div class="label">Last Name </div>
-                                <input type="text" required>
-                            </div>
-                            <div class="field nextbtn">
-                                <button>Next</button>
-                            </div>
-                        </div>
-
-
-                        <div class="page">
-                            <div class="title">Contact Info:</div>
-                            <div class="field">
-                                <div class="label">Email Address</div>
-                                <input type="email">
-                            </div>
-                            <div class="field">
-                                <div class="label">Phone number </div>
-                                <input type="number">
-                            </div>
-                            <div class="field btns">
-                                <button class="pr1 prev">Previous</button>
-                                <button class="nxt1 next">Next</button>
-                            </div>
-                        </div>
-
-
-                        <div class="page">
-                            <div class="title">Class</div>
-                            <div class="field">
-                                <div class="label">Subject</div>
-                                <input type="text">
-                            </div>
-                            <div class="field">
-                                <div class="label">Topic </div>
-                                <input type="text">
-                            </div>
-                            <div class="field">
-                                <div class="label">Language
-                                    <select data-placeholder="Choose a Language...">
-                                        <option value="EN">English</option>
-                                        <option value="AF">Afrikaans</option>
-                                        <option value="SQ">Albanian</option>
-                                        <option value="AR">Arabic</option>
-                                        <option value="HY">Armenian</option>
-                                        <option value="EU">Basque</option>
-                                        <option value="BN">Bengali</option>
-                                        <option value="BG">Bulgarian</option>
-                                        <option value="CA">Catalan</option>
-                                        <option value="KM">Cambodian</option>
-                                        <option value="ZH">Chinese (Mandarin)</option>
-                                        <option value="HR">Croatian</option>
-                                        <option value="CS">Czech</option>
-                                        <option value="DA">Danish</option>
-                                        <option value="NL">Dutch</option>
-                                        <option value="ET">Estonian</option>
-                                        <option value="FJ">Fiji</option>
-                                        <option value="FI">Finnish</option>
-                                        <option value="FR">French</option>
-                                        <option value="KA">Georgian</option>
-                                        <option value="DE">German</option>
-                                        <option value="EL">Greek</option>
-                                        <option value="GU">Gujarati</option>
-                                        <option value="HE">Hebrew</option>
-                                        <option value="HI">Hindi</option>
-                                        <option value="HU">Hungarian</option>
-                                        <option value="IS">Icelandic</option>
-                                        <option value="ID">Indonesian</option>
-                                        <option value="GA">Irish</option>
-                                        <option value="IT">Italian</option>
-                                        <option value="JA">Japanese</option>
-                                        <option value="JW">Javanese</option>
-                                        <option value="KO">Korean</option>
-                                        <option value="LA">Latin</option>
-                                        <option value="LV">Latvian</option>
-                                        <option value="LT">Lithuanian</option>
-                                        <option value="MK">Macedonian</option>
-                                        <option value="MS">Malay</option>
-                                        <option value="ML">Malayalam</option>
-                                        <option value="MT">Maltese</option>
-                                        <option value="MI">Maori</option>
-                                        <option value="MR">Marathi</option>
-                                        <option value="MN">Mongolian</option>
-                                        <option value="NE">Nepali</option>
-                                        <option value="NO">Norwegian</option>
-                                        <option value="FA">Persian</option>
-                                        <option value="PL">Polish</option>
-                                        <option value="PT">Portuguese</option>
-                                        <option value="PA">Punjabi</option>
-                                        <option value="QU">Quechua</option>
-                                        <option value="RO">Romanian</option>
-                                        <option value="RU">Russian</option>
-                                        <option value="SM">Samoan</option>
-                                        <option value="SR">Serbian</option>
-                                        <option value="SK">Slovak</option>
-                                        <option value="SL">Slovenian</option>
-                                        <option value="ES">Spanish</option>
-                                        <option value="SW">Swahili</option>
-                                        <option value="SV">Swedish </option>
-                                        <option value="TA">Tamil</option>
-                                        <option value="TT">Tatar</option>
-                                        <option value="TE">Telugu</option>
-                                        <option value="TH">Thai</option>
-                                        <option value="BO">Tibetan</option>
-                                        <option value="TO">Tonga</option>
-                                        <option value="TR">Turkish</option>
-                                        <option value="UK">Ukrainian</option>
-                                        <option value="UR">Urdu</option>
-                                        <option value="UZ">Uzbek</option>
-                                        <option value="VI">Vietnamese</option>
-                                        <option value="CY">Welsh</option>
-                                        <option value="XH">Xhosa</option>
-                                    </select>
-                                </div>
-
-                            </div>
-                            <div class="field btns">
-                                <button class="pr2 prev">Previous</button>
-                                <button class="nxt2 next">Next</button>
-                            </div>
-                        </div>
-
-
-                        <div class="page">
-                            <div class="title">Details</div>
-                            <div class="field">
-                                <div class="label">Budget</div>
-                                <input type="text">
-                            </div>
-                            <div class="field">
-                                <div class="label">Message </div>
-                                <textarea name="" id="" cols="20" rows="5"></textarea>
-                            </div>
-                            <div class="field btns">
-                                <button class="pr3 prev">Previous</button>
-                                <button class="submit">Submit</button>
-                            </div>
-                        </div>
-                    </form>
-                </div>
-
-            </div>
-
-        </div> -->
         <div class="container-fluid d-flex justify-content-end">
-            <div class="col-lg-4 free-class-form" style="height: fit-content; margin-top: 10%;">
+            <div class="col-lg-4 free-class-form mt-lg-4 mt-sm-5" style="height: fit-content;">
                 <div class="contact-form-sec pt-5">
                     <p class="free-class-form-header" style="color: black;">Book a <span>Demo Class</span></p>
-                    <div class="contact-block" >
+                    <div class="contact-block">
                         <div class="col-sm-12 mt-4 pl-lg-4 form-div">
 
-                            <form id="DemoClassForm"  method="POST" action="https://formsubmit.co/demo.3gb@gmail.com">
+                            <form id="DemoClassForm" method="POST" action="https://formsubmit.co/demo.3gb@gmail.com">
                                 <!-- One "tab" for each step in the form: -->
                                 <div class="tab">
-                                    <input placeholder="Name..." oninput="this.className = ''"
-                                        name="name" required>
-                                    <input type="email" placeholder="E-mail..."
-                                        oninput="this.className = ''" name="email" required>
+                                    <input placeholder="Name..." oninput="this.className = ''" name="name" required>
+                                    <input type="email" placeholder="E-mail..." oninput="this.className = ''"
+                                        name="email" required>
                                 </div>
                                 <div class="tab">
-                                    <input placeholder="Mobile Number..." oninput="this.className = ''"
-                                        name="phone" required>
-                                    <input placeholder="Language Preference"
-                                        oninput="this.className = ''" name="lang" required>
+                                    <input placeholder="Mobile Number..." oninput="this.className = ''" name="phone"
+                                        required>
+                                    <input placeholder="Language Preference" oninput="this.className = ''" name="lang"
+                                        required>
                                 </div>
                                 <div class="tab">
-                                    <input placeholder="Syllabus"
-                                        oninput="this.className = ''" name="syllabus" required>
-                                    <input placeholder="Class"
-                                        oninput="this.className = ''" name="class" required>
+                                    <input placeholder="Syllabus" oninput="this.className = ''" name="syllabus"
+                                        required>
+                                    <input placeholder="Class" oninput="this.className = ''" name="class" required>
                                 </div>
 
                                 <div style="overflow:auto;">
                                     <div style="float:right;">
-                                        <button class="btn btn-style btn-style-secondary" type="button"
-                                            id="prevBtn" onclick="nextPrev(-1)">Previous</button>
-                                        <button class="btn btn-style btn-style-secondary" type="button"
-                                            id="nextBtn" onclick="nextPrev(1)">Next</button>
+                                        <button class="btn btn-style btn-style-secondary" type="button" id="prevBtn"
+                                            onclick="nextPrev(-1)">Previous</button>
+                                        <button class="btn btn-style btn-style-secondary" type="button" id="nextBtn"
+                                            onclick="nextPrev(1)">Next</button>
                                     </div>
                                 </div>
                                 <!-- Circles which indicates the steps of the form: -->
@@ -920,12 +521,14 @@ Author URL: http://w3layouts.com
                         <div class="col-lg-2 col-sm-6 sub-two-right pl-lg-5 mt-lg-0 mt-sm-5 mt-4">
                             <h6>Quick links</h6>
                             <ul>
-                                <li><a href="blankpage.html"><span class="fa fa-angle-double-right mr-2"></span>About</a>
+                                <li><a href="blankpage.html"><span
+                                            class="fa fa-angle-double-right mr-2"></span>About</a>
                                 </li>
                                 <li><a href="blankpage.html"><span class="fa fa-angle-double-right mr-2"></span>Micro
                                         Courses</a>
                                 </li>
-                                <li><a href="blankpage.html"><span class="fa fa-angle-double-right mr-2"></span>Find a Tutor</a></li>
+                                <li><a href="blankpage.html"><span class="fa fa-angle-double-right mr-2"></span>Find a
+                                        Tutor</a></li>
                                 <li><a href="index.html"><span class="fa fa-angle-double-right mr-2"></span>Free
                                         Demo</a></li>
                             </ul>
@@ -937,7 +540,8 @@ Author URL: http://w3layouts.com
                                         Chat</a></li>
                                 <li><a href="blankpage.html"><span class="fa fa-angle-double-right mr-2"></span>Faq</a>
                                 </li>
-                                <li><a href="blankpage.html"><span class="fa fa-angle-double-right mr-2"></span>Support</a>
+                                <li><a href="blankpage.html"><span
+                                            class="fa fa-angle-double-right mr-2"></span>Support</a>
                                 </li>
                                 <li><a href="blankpage.html"><span class="fa fa-angle-double-right mr-2"></span>Terms
                                         of Services</a></li>
@@ -947,7 +551,7 @@ Author URL: http://w3layouts.com
                             <h6>Contact </h6>
                             <div class="column2">
                                 <div class="href1"><span class="fa fa-envelope-o" aria-hidden="true"></span><a
-                                        href="mailto:careers.3gb@gmail.com">careers.3gb@gmail.com</a>
+                                        href="mailto:help.3gb@gmail.com">help.3gb@gmail.com</a>
                                 </div>
                                 <div class="href2"><span class="fa fa-phone" aria-hidden="true"></span><a
                                         href="tel:+9350227009">+91 9350227009</a>
@@ -975,7 +579,8 @@ Author URL: http://w3layouts.com
                                     <li><a href="https://twitter.com/Shivangigarg160"><span class="fa fa-twitter"
                                                 aria-hidden="true"></span></a>
                                     </li>
-                                    <li><a href="https://www.instagram.com/3gbeducation/"><span class="fa fa-instagram" aria-hidden="true"></span></a>
+                                    <li><a href="https://www.instagram.com/3gbeducation/"><span class="fa fa-instagram"
+                                                aria-hidden="true"></span></a>
                                     </li>
                                     <li><a href="https://www.facebook.com/3gbeducation"><span class="fa fa-facebook"
                                                 aria-hidden="true"></span></a>
@@ -1025,6 +630,10 @@ Author URL: http://w3layouts.com
         function topFunction() {
             document.body.scrollTop = 0;
             document.documentElement.scrollTop = 0;
+        }
+        function displaySearch() {
+            document.getElementById('search-icon').style.display = "none";
+            document.getElementById('search-bar').style.display = "block";
         }
     </script>
     <!-- //move top -->
