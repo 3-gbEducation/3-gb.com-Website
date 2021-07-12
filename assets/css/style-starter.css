@@ -15517,6 +15517,8 @@ button.search-btn:hover {
   .navbar,
   header.nav-fixed nav.navbar.navbar-expand-lg.stroke {
     padding: 0.5rem 0rem;
+    /* display: inline-flex; */
+    /* position: relative; */
   }
 
   .w3l-top-header {
