@@ -15379,7 +15379,7 @@ button.search-btn:hover {
   }
 
   .navbar .navbar-brand img {
-    max-width: 54px;
+    /* max-width: 54px; */
   }
 
   .navbar-toggler {
@@ -15567,7 +15567,7 @@ button.search-btn:hover {
   }
 
   .navbar .navbar-brand img {
-    max-width: 38px;
+    /* max-width: 38px; */
   }
 
   .navbar .navbar-brand span,
@@ -17178,7 +17178,7 @@ h3.title-style {
 
 /* inner-banner */
 .inner-banner {
-  background: url(../images/bg4.jpg) no-repeat center;
+  background: url(../images/contactus.png) no-repeat center;
   background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -17209,6 +17209,7 @@ h3.title-style {
 .breadcrumbs-custom-path {
   text-align: center;
   display: inline-block;
+  
 }
 
 .breadcrumbs-custom-path li {
