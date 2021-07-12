@@ -15379,7 +15379,7 @@ button.search-btn:hover {
   }
 
   .navbar .navbar-brand img {
-    max-width: 54px;
+    /* max-width: 54px; */
   }
 
   .navbar-toggler {
@@ -15567,7 +15567,7 @@ button.search-btn:hover {
   }
 
   .navbar .navbar-brand img {
-    max-width: 38px;
+    /* max-width: 38px; */
   }
 
   .navbar .navbar-brand span,
@@ -17209,6 +17209,7 @@ h3.title-style {
 .breadcrumbs-custom-path {
   text-align: center;
   display: inline-block;
+  
 }
 
 .breadcrumbs-custom-path li {
