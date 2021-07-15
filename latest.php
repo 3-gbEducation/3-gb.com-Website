@@ -9,18 +9,42 @@
     <!-- google-fonts -->
     <link rel="icon" href="assets/images/circle.ico" height="16px" type="x-icon" />
 
-    <link href="//fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap"
-        rel="stylesheet">
+    <link href="//fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
     <!-- //google-fonts -->
     <!-- Template CSS Style link -->
     <link rel="stylesheet" href="assets/css/style-starter.css">
     <link rel="stylesheet" href="assets/css/style-liberty.css">
     <script src="scripts.js"></script>
 </head>
+
 <body>
     <?php include('header.php') ?>
-
-    <?php include('footer.php')?>
+    <!-- section -->
+    <table class="table table-striped" style="margin-bottom: 5%;">
+        <tbody>
+            <tr>
+                <th scope="row"><p>1</p></th>
+                <td> <p>Microcourses Section is launching on 16th September 2021.</p> </td>
+            </tr>
+            <tr>
+                <th scope="row"><p>2</p></th>
+                <td><p>38 New Teachers joined us last week.</p></td>
+            </tr>
+            <tr>
+                <th scope="row"><p>3</p></th>
+                <td><p>72 New Students believed in us last week.</p></td>
+            </tr>
+            <tr>
+                <th scope="row"><p>4</p></th>
+                <td><p>20 New Courses added in the last month</p></td>
+            </tr>
+        </tbody>
+    </table>
+    <!-- //section -->
+    <?php include('footer.php') ?>
+    <button onclick="topFunction()" id="movetop" title="Go to top">
+        <span class="fa fa-level-up" aria-hidden="true"></span>
+    </button>
     <script>
         // When the user scrolls down 20px from the top of the document, show the button
         window.onscroll = function() {
@@ -183,7 +207,7 @@
     <!-- //disable body scroll which navbar is in active -->
     <!-- added by pradeepa -->
 
-    <script>
+    <!-- <script>
         var currentTab = 0; // Current tab is set to be the first tab (0)
         showTab(currentTab); // Display the current tab
 
@@ -260,7 +284,7 @@
             //... and adds the "active" class on the current step:
             x[n].className += " active";
         }
-    </script>
+    </script> -->
     <!-- //pradeepa -->
     <!--bootstrap-->
     <script src="assets/js/bootstrap.min.js"></script>

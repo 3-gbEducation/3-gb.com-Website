@@ -5,7 +5,7 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>3-GB - Blogs</title>
+    <title>3-GB - Reviews</title>
     <link rel="icon" href="assets/images/circle.ico" height="16px" type="x-icon" />
     <!-- google-fonts -->
     <link href="//fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
@@ -17,6 +17,7 @@
 </head>
 
 <body>
+    <!-- vaibhavi vasishta agastya vamika ramesh sharma ravi shankar -->
     <?php include('header.php') ?>
 
     <!-- Section 1 -->
@@ -29,17 +30,16 @@
                 <div class="row content-sec mt-md-5">
                     <div class="col-lg-4 col-md-5 testi-sections mt-md-5 mt-4">
                         <div class="testimonials_grid">
-                            <p class="sub-test"><q>
-                                    Nam libero tempore, cum soluta
-                                    nobis est eligendi optio cumque nihil impedit.</q>
+                            <p class="sub-test">
+                                <q>The tutors are very approachable and available to answer any question at any time. 3-GB has quickly become my go-to e-learning platform.</q>
                             </p>
                             <div class="d-grid sub-author-con">
                                 <div class="testi-img-res">
-                                    <img src="assets/images/testi2.jpg" alt="" class="img-fluid" />
+                                    <!-- <img src="assets/images/testi2.jpg" alt="" class="img-fluid" /> -->
                                 </div>
                                 <div class="testi_grid text-left">
-                                    <h5>Petey Cruis</h5>
-                                    <p>Caption Here</p>
+                                    <h5>Agastya Rahul</h5>
+                                    <p>Class 12</p>
                                 </div>
                             </div>
                         </div>
@@ -47,38 +47,31 @@
                     <div class="col-lg-4 col-md-5  testi-sections mt-md-5 mt-4">
                         <!-- -->
                         <div class="testimonials_grid">
-                            <p class="sub-test"><q>
-                                    Nam
-                                    libero
-                                    tempore, cum soluta
-                                    nobis est eligendi optio cumque nihil impedit.</q>
+                            <p class="sub-test">
+                            <q>This is an outstanding platform which is easily affordable. The service was superb and the amenities outmatch the competition.</q>
                             </p>
                             <div class="d-grid sub-author-con">
                                 <div class="testi-img-res">
-                                    <img src="assets/images/testi1.jpg" alt="" class="img-fluid" />
+                                    <!-- <img src="assets/images/testi1.jpg" alt="" class="img-fluid" /> -->
                                 </div>
                                 <div class="testi_grid text-left">
-                                    <h5>Molive Joe</h5>
-                                    <p>Caption Here</p>
+                                    <h5>Vamika Pathak</h5>
+                                    <p>Class 10</p>
                                 </div>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-5 mt-md-5 mt-4 testi-sections">
                         <div class="testimonials_grid">
-                            <p class="sub-test"><q>
-                                    Nam
-                                    libero
-                                    tempore, cum soluta
-                                    nobis est eligendi optio cumque nihil impedit.</q>
+                            <p class="sub-test"><q>With 3-GB, I was able to start learning online and eventually build up enough knowledge and skills to transistion into a well-paying career.</q>
                             </p>
                             <div class="d-grid sub-author-con">
                                 <div class="testi-img-res">
-                                    <img src="assets/images/testi3.jpg" alt="" class="img-fluid" />
+                                    <!-- <img src="assets/images/testi3.jpg" alt="" class="img-fluid" /> -->
                                 </div>
                                 <div class="testi_grid text-left">
-                                    <h5>Paige Turner</h5>
-                                    <p>Caption Here</p>
+                                    <h5>Vasishta Manohar</h5>
+                                    <p>Programming</p>
                                 </div>
                             </div>
                         </div>
@@ -100,17 +93,16 @@
                 <div class="row content-sec mt-md-5">
                     <div class="col-lg-4 col-md-5 testi-sections mt-md-5 mt-4">
                         <div class="testimonials_grid">
-                            <p class="sub-test"><q>
-                                    Nam libero tempore, cum soluta
-                                    nobis est eligendi optio cumque nihil impedit.</q>
+                            <p class="sub-test">
+                            <q>5 stars! The staff and support are second to none. They are polished, proficient, accessible and patient. Their team is organised, efficient and pay great attention to clients. I have </q>
                             </p>
                             <div class="d-grid sub-author-con">
                                 <div class="testi-img-res">
                                     <!-- <img src="assets/images/testi2.jpg" alt="" class="img-fluid" /> -->
                                 </div>
                                 <div class="testi_grid text-left">
-                                    <h5>Petey Cruis</h5>
-                                    <p>Caption Here</p>
+                                    <h5>Ravi Shankar</h5>
+                                    <p>Mathematics Tutor</p>
                                 </div>
                             </div>
                         </div>
@@ -118,38 +110,30 @@
                     <div class="col-lg-4 col-md-5  testi-sections mt-md-5 mt-4">
                         <!-- -->
                         <div class="testimonials_grid">
-                            <p class="sub-test"><q>
-                                    Nam
-                                    libero
-                                    tempore, cum soluta
-                                    nobis est eligendi optio cumque nihil impedit.</q>
+                            <p class="sub-test"><q>Pandemic has made it really difficult for teaching. I didn't know where to start with online teaching or how to reach students. 3-GB made this part easy and effective. Thank you!</q>
                             </p>
                             <div class="d-grid sub-author-con">
                                 <div class="testi-img-res">
                                     <!-- <img src="assets/images/testi1.jpg" alt="" class="img-fluid" /> -->
                                 </div>
                                 <div class="testi_grid text-left">
-                                    <h5>Molive Joe</h5>
-                                    <p>Caption Here</p>
+                                    <h5>Vaibhavi Mehta</h5>
+                                    <p>Chemistry Tutor</p>
                                 </div>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-5 mt-md-5 mt-4 testi-sections">
                         <div class="testimonials_grid">
-                            <p class="sub-test"><q>
-                                    Nam
-                                    libero
-                                    tempore, cum soluta
-                                    nobis est eligendi optio cumque nihil impedit.</q>
+                            <p class="sub-test"><q>Computer is not really my strong suit, but there's excellent support behind the scenes and people walk you through it. Any questions, they'll go over it and explain how to do that</q>
                             </p>
                             <div class="d-grid sub-author-con">
                                 <div class="testi-img-res">
                                     <!-- <img src="assets/images/testi3.jpg" alt="" class="img-fluid" /> -->
                                 </div>
                                 <div class="testi_grid text-left">
-                                    <h5>Paige Turner</h5>
-                                    <p>Caption Here</p>
+                                    <h5>Ramesh Yadav</h5>
+                                    <p>Hindi Tutor</p>
                                 </div>
                             </div>
                         </div>
@@ -160,6 +144,9 @@
     </div>
     <!-- //section 2 -->
     <?php include('footer.php') ?>
+    <button onclick="topFunction()" id="movetop" title="Go to top">
+        <span class="fa fa-level-up" aria-hidden="true"></span>
+    </button>
     <script>
         // When the user scrolls down 20px from the top of the document, show the button
         window.onscroll = function() {
@@ -406,3 +393,11 @@
     <!-- //bootstrap-->
     <!-- //Js scripts -->
 </body>
+
+
+
+
+
+
+
+
