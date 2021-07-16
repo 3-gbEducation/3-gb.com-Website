@@ -60,6 +60,35 @@ Author URL: http://w3layouts.com
                                                         <input class="col-lg-8 col-sm-8" placeholder="Subject" oninput="this.className = ''" name="subject" required></span>
                                                     <input class="col-lg-12 col-sm-12" placeholder="Language" oninput="this.className = ''" name='language' required>
                                                 </div>
+                                                <div class="tab">
+                                                    <div class="input-group mb-3">
+                                                        <select class="custom-select" id="inputGroupSelect01" multiple>
+                                                            <option selected disabled>Days Available</option>
+                                                            <option value="Monday">Monday</option>
+                                                            <option value="Tuesday">Tuesday</option>
+                                                            <option value="Wednesday">Wednesday</option>
+                                                            <option value="Thursday">Thursday</option>
+                                                            <option value="Friday">Friday</option>
+                                                            <option value="Saturday">Saturday</option>
+                                                            <option value="Sunday">Sunday</option>
+                                                        </select>
+                                                    </div>
+                                                    <div class="input-group mb-3">
+                                                        <select class="custom-select" id="inputGroupSelect02" multiple>
+                                                            <option selected disabled>Preferred Time Slot</option>
+                                                            <option value="6 am - 9 am">6 am - 9 am</option>
+                                                            <option value="9 am - 12 pm">9 am - 12 pm</option>
+                                                            <option value="12 pm - 3 pm">12 pm - 3 pm</option>
+                                                            <option value="3 pm - 6 pm">3 pm - 6 pm</option>
+                                                            <option value="6 pm - 9 pm">6 pm - 9 pm</option>
+                                                            <option value="9 pm - 12 am">9 pm - 12 am</option>
+                                                        </select>
+                                                    </div>
+                                                </div>
+                                                <div class="tab">
+                                                    <input class="col-lg-12 col-sm-12" placeholder="Budget (per hour)" oninput="this.className = ''" name="budget" required>
+                                                    <input class="col-lg-12 col-sm-12" placeholder="Any Specific Requirements" oninput="this.className = ''" name="requirement" required>
+                                                </div>
                                                 
                                                 <div style="overflow:auto;">
                                                     <div>
