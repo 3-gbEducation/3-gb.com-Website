@@ -109,7 +109,7 @@ Author URL: http://w3layouts.com
                 <div class="col-lg-3 col-md-5 px-lg-2 mt-lg-0 mt-3">
                     <div class="area-box color-3">
                         <i class="fa fa-comments" aria-hidden="true"></i>
-                        <h4><a href="blankpage.php" class="title-head">Latest Updates</a></h4>
+                        <h4><a href="latest.php" class="title-head">Latest Updates</a></h4>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-5 px-lg-2 mt-lg-0 mt-3">
@@ -188,27 +188,27 @@ Author URL: http://w3layouts.com
                 <div class="col-lg-4 col-md-5 mt-md-5 mt-5">
                     <div class="blog-card-single">
                         <div class="grids5-info position-relative">
-                            <img src="assets/images/c7.png" alt="" class="img-fluid" />
+                            <img src="assets/images/1.jpg" alt="" class="img-fluid" />
                             <!-- <div class="meta-list">
                                 <a href="blankpage.html">art</a>
                                 <a href="blankpage.html">design</a>
                             </div> -->
                             <div class="course-price-item">
-                                <h6>₹999</h6>
+                                <!-- <h6>₹999</h6> -->
                             </div>
                         </div>
                         <div class="content-main-top">
                             <div class="content-top mb-4 mt-3">
-                                <ul class="list-unstyled d-flex align-items-center justify-content-between">
+                                <!-- <ul class="list-unstyled d-flex align-items-center justify-content-between">
                                     <li> <i class="fa fa-signal" aria-hidden="true"></i> Intermediate</li>
                                     <li> <i class="fa fa-clock-o" aria-hidden="true"></i> 4 week</li>
-                                </ul>
+                                </ul> -->
                             </div>
                             <h4><a href="blankpage.html">Piano for beginners</a></h4>
                             <p>Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                             <div class="top-content-border d-flex align-items-center justify-content-between mt-5 pt-4">
                                 <ul class="rating-list">
-                                    <li><a href="blankpage.htmlrate"><i class="fa fa-star" aria-hidden="true"></i>
+                                    <!-- <li><a href="blankpage.htmlrate"><i class="fa fa-star" aria-hidden="true"></i>
                                         </a></li>
                                     <li><a href="blankpage.htmlrate"><i class="fa fa-star" aria-hidden="true"></i>
                                         </a></li>
@@ -217,7 +217,7 @@ Author URL: http://w3layouts.com
                                     <li><a href="blankpage.htmlrate"><i class="fa fa-star" aria-hidden="true"></i>
                                         </a></li>
                                     <li><a href="blankpage.htmlrate"><i class="fa fa-star" aria-hidden="true"></i>
-                                        </a></li>
+                                        </a></li> -->
                                 </ul>
                                 <a class="btn btn-style btn-style-primary" href="blankpage.html">Know Details<i class="fa fa-arrow-right ml-2" aria-hidden="true"></i></a>
                             </div>
@@ -228,28 +228,28 @@ Author URL: http://w3layouts.com
                     <!---->
                     <div class="blog-card-single">
                         <div class="grids5-info position-relative">
-                            <img src="assets/images/c8.png" alt="" class="img-fluid" />
+                            <img src="assets/images/2.jpg" alt="" class="img-fluid" />
                             <!-- <div class="meta-list">
                                 <a href="blankpage.html">Digital</a>
                                 <a href="blankpage.html">Learn</a>
                                 <a href="blankpage.html">10% off</a>
                             </div> -->
                             <div class="course-price-item">
-                                <h6>₹999</h6>
+                                <!-- <h6>₹999</h6> -->
                             </div>
                         </div>
                         <div class="content-main-top">
                             <div class="content-top mb-4 mt-3">
-                                <ul class="list-unstyled d-flex align-items-center justify-content-between">
+                                <!-- <ul class="list-unstyled d-flex align-items-center justify-content-between">
                                     <li> <i class="fa fa-signal" aria-hidden="true"></i> High </li>
                                     <li> <i class="fa fa-clock-o" aria-hidden="true"></i> 10 week</li>
-                                </ul>
+                                </ul> -->
                             </div>
                             <h4><a href="blankpage.html">Python (Back-end)</a></h4>
                             <p>Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                             <div class="top-content-border d-flex align-items-center justify-content-between mt-5 pt-4">
                                 <ul class="rating-list">
-                                    <li><a href="blankpage.htmlrate"><i class="fa fa-star" aria-hidden="true"></i>
+                                    <!-- <li><a href="blankpage.htmlrate"><i class="fa fa-star" aria-hidden="true"></i>
                                         </a></li>
                                     <li><a href="blankpage.htmlrate"><i class="fa fa-star" aria-hidden="true"></i>
                                         </a></li>
@@ -258,7 +258,7 @@ Author URL: http://w3layouts.com
                                     <li><a href="blankpage.htmlrate"><i class="fa fa-star" aria-hidden="true"></i>
                                         </a></li>
                                     <li><a href="blankpage.htmlrate"><i class="fa fa-star" aria-hidden="true"></i>
-                                        </a></li>
+                                        </a></li> -->
                                 </ul>
                                 <a class="btn btn-style btn-style-primary" href="blankpage.html">Know Details<i class="fa fa-arrow-right ml-2" aria-hidden="true"></i></a>
                             </div>
@@ -268,27 +268,27 @@ Author URL: http://w3layouts.com
                 <div class="col-lg-4 col-md-5 mt-md-5 mt-5">
                     <div class="blog-card-single">
                         <div class="grids5-info position-relative">
-                            <img src="assets/images/c9.png" alt="" class="img-fluid" />
+                            <img src="assets/images/3.jpg" alt="" class="img-fluid" />
                             <!-- <div class="meta-list">
                                 <a href="blankpage.html">Html</a>
                                 <a href="blankpage.html">CSS</a>
                             </div> -->
                             <div class="course-price-item">
-                                <h6>₹999</h6>
+                                <!-- <h6>₹999</h6> -->
                             </div>
                         </div>
                         <div class="content-main-top">
                             <div class="content-top mb-4 mt-3">
-                                <ul class="list-unstyled d-flex align-items-center justify-content-between">
+                                <!-- <ul class="list-unstyled d-flex align-items-center justify-content-between">
                                     <li> <i class="fa fa-signal" aria-hidden="true"></i> Beginner </li>
                                     <li> <i class="fa fa-clock-o" aria-hidden="true"></i> 5 week</li>
-                                </ul>
+                                </ul> -->
                             </div>
                             <h4><a href="blankpage.html">Intro to Web design</a></h4>
                             <p>Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                             <div class="top-content-border d-flex align-items-center justify-content-between mt-5 pt-4">
                                 <ul class="rating-list">
-                                    <li><a href="blankpage.htmlrate"><i class="fa fa-star" aria-hidden="true"></i>
+                                    <!-- <li><a href="blankpage.htmlrate"><i class="fa fa-star" aria-hidden="true"></i>
                                         </a></li>
                                     <li><a href="blankpage.htmlrate"><i class="fa fa-star" aria-hidden="true"></i>
                                         </a></li>
@@ -297,7 +297,7 @@ Author URL: http://w3layouts.com
                                     <li><a href="blankpage.htmlrate"><i class="fa fa-star" aria-hidden="true"></i>
                                         </a></li>
                                     <li><a href="blankpage.htmlrate"><i class="fa fa-star-o" aria-hidden="true"></i>
-                                        </a></li>
+                                        </a></li> -->
                                 </ul>
                                 <a class="btn btn-style btn-style-primary" href="blankpage.html">Know Details<i class="fa fa-arrow-right ml-2" aria-hidden="true"></i></a>
                             </div>
@@ -307,27 +307,27 @@ Author URL: http://w3layouts.com
                 <div class="col-lg-4 col-md-5 mt-md-5 mt-5">
                     <div class="blog-card-single">
                         <div class="grids5-info position-relative">
-                            <img src="assets/images/c4.jpg" alt="" class="img-fluid" />
+                            <img src="assets/images/4.webp" alt="" class="img-fluid" />
                             <!-- <div class="meta-list">
                                 <a href="blankpage.html">Website</a>
                                 <a href="blankpage.html">Wordpress</a>
                             </div> -->
                             <div class="course-price-item">
-                                <h6>₹999</h6>
+                                <!-- <h6>₹999</h6> -->
                             </div>
                         </div>
                         <div class="content-main-top">
                             <div class="content-top mb-4 mt-3">
-                                <ul class="list-unstyled d-flex align-items-center justify-content-between">
+                                <!-- <ul class="list-unstyled d-flex align-items-center justify-content-between">
                                     <li> <i class="fa fa-signal" aria-hidden="true"></i> Beginner</li>
                                     <li> <i class="fa fa-clock-o" aria-hidden="true"></i> 10 week</li>
-                                </ul>
+                                </ul> -->
                             </div>
                             <h4><a href="blankpage.html">PhP for beginners</a></h4>
                             <p>Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                             <div class="top-content-border d-flex align-items-center justify-content-between mt-5 pt-4">
                                 <ul class="rating-list">
-                                    <li><a href="blankpage.htmlrate"><i class="fa fa-star" aria-hidden="true"></i>
+                                    <!-- <li><a href="blankpage.htmlrate"><i class="fa fa-star" aria-hidden="true"></i>
                                         </a></li>
                                     <li><a href="blankpage.htmlrate"><i class="fa fa-star" aria-hidden="true"></i>
                                         </a></li>
@@ -336,7 +336,7 @@ Author URL: http://w3layouts.com
                                     <li><a href="blankpage.htmlrate"><i class="fa fa-star" aria-hidden="true"></i>
                                         </a></li>
                                     <li><a href="blankpage.htmlrate"><i class="fa fa-star" aria-hidden="true"></i>
-                                        </a></li>
+                                        </a></li> -->
                                 </ul>
                                 <a class="btn btn-style btn-style-primary" href="blankpage.html">Know Details<i class="fa fa-arrow-right ml-2" aria-hidden="true"></i></a>
                             </div>
@@ -346,27 +346,27 @@ Author URL: http://w3layouts.com
                 <div class="col-lg-4 col-md-5 mt-md-5 mt-5">
                     <div class="blog-card-single">
                         <div class="grids5-info position-relative">
-                            <img src="assets/images/c5.jpg" alt="" class="img-fluid" />
+                            <img src="assets/images/5.jpg" alt="" class="img-fluid" />
                             <!-- <div class="meta-list">
                                 <a href="blankpage.html">Arts</a>
                                 <a href="blankpage.html">Crafts</a>
                             </div> -->
                             <div class="course-price-item">
-                                <h6>₹999</h6>
+                                <!-- <h6>₹999</h6> -->
                             </div>
                         </div>
                         <div class="content-main-top">
                             <div class="content-top mb-4 mt-3">
-                                <ul class="list-unstyled d-flex align-items-center justify-content-between">
+                                <!-- <ul class="list-unstyled d-flex align-items-center justify-content-between">
                                     <li> <i class="fa fa-signal" aria-hidden="true"></i> High </li>
                                     <li> <i class="fa fa-clock-o" aria-hidden="true"></i> 10 week</li>
-                                </ul>
+                                </ul> -->
                             </div>
                             <h4><a href="blankpage.html">Origami Mastery</a></h4>
                             <p>Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                             <div class="top-content-border d-flex align-items-center justify-content-between mt-5 pt-4">
                                 <ul class="rating-list">
-                                    <li><a href="blankpage.htmlrate"><i class="fa fa-star" aria-hidden="true"></i>
+                                    <!-- <li><a href="blankpage.htmlrate"><i class="fa fa-star" aria-hidden="true"></i>
                                         </a></li>
                                     <li><a href="blankpage.htmlrate"><i class="fa fa-star" aria-hidden="true"></i>
                                         </a></li>
@@ -375,7 +375,7 @@ Author URL: http://w3layouts.com
                                     <li><a href="blankpage.htmlrate"><i class="fa fa-star" aria-hidden="true"></i>
                                         </a></li>
                                     <li><a href="blankpage.htmlrate"><i class="fa fa-star-o" aria-hidden="true"></i>
-                                        </a></li>
+                                        </a></li> -->
                                 </ul>
                                 <a class="btn btn-style btn-style-primary" href="blankpage.html">Know Details<i class="fa fa-arrow-right ml-2" aria-hidden="true"></i></a>
                             </div>
@@ -385,27 +385,27 @@ Author URL: http://w3layouts.com
                 <div class="col-lg-4 col-md-5 mt-md-5 mt-5">
                     <div class="blog-card-single">
                         <div class="grids5-info position-relative">
-                            <img src="assets/images/c6.jpg" alt="" class="img-fluid" />
+                            <img src="assets/images/6.png" alt="" class="img-fluid" />
                             <!-- <div class="meta-list">
                                 <a href="blankpage.html">Design</a>
                                 <a href="blankpage.html">UI/UX</a>
                             </div> -->
                             <div class="course-price-item">
-                                <h6>₹999</h6>
+                                <!-- <h6>₹999</h6> -->
                             </div>
                         </div>
                         <div class="content-main-top">
                             <div class="content-top mb-4 mt-3">
-                                <ul class="list-unstyled d-flex align-items-center justify-content-between">
+                                <!-- <ul class="list-unstyled d-flex align-items-center justify-content-between">
                                     <li> <i class="fa fa-signal" aria-hidden="true"></i> Beginner </li>
                                     <li> <i class="fa fa-clock-o" aria-hidden="true"></i> 10 week</li>
-                                </ul>
+                                </ul> -->
                             </div>
                             <h4><a href="blankpage.html">UI/ UX with Figma</a></h4>
                             <p>Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                             <div class="top-content-border d-flex align-items-center justify-content-between mt-5 pt-4">
                                 <ul class="rating-list">
-                                    <li><a href="blankpage.htmlrate"><i class="fa fa-star" aria-hidden="true"></i>
+                                    <!-- <li><a href="blankpage.htmlrate"><i class="fa fa-star" aria-hidden="true"></i>
                                         </a></li>
                                     <li><a href="blankpage.htmlrate"><i class="fa fa-star" aria-hidden="true"></i>
                                         </a></li>
@@ -414,7 +414,7 @@ Author URL: http://w3layouts.com
                                     <li><a href="blankpage.htmlrate"><i class="fa fa-star" aria-hidden="true"></i>
                                         </a></li>
                                     <li><a href="blankpage.htmlrate"><i class="fa fa-star" aria-hidden="true"></i>
-                                        </a></li>
+                                        </a></li> -->
                                 </ul>
                                 <a class="btn btn-style btn-style-primary" href="blankpage.html">Know Details<i class="fa fa-arrow-right ml-2" aria-hidden="true"></i></a>
                             </div>
@@ -650,17 +650,16 @@ Author URL: http://w3layouts.com
                 <div class="row content-sec mt-md-5">
                     <div class="col-lg-4 col-md-5 testi-sections mt-md-5 mt-4">
                         <div class="testimonials_grid">
-                            <p class="sub-test"><q>
-                                    Nam libero tempore, cum soluta
-                                    nobis est eligendi optio cumque nihil impedit.</q>
+                            <p class="sub-test">
+                                <q>The tutors are very approachable and available to answer any question at any time. 3-GB has quickly become my go-to e-learning platform.</q>
                             </p>
                             <div class="d-grid sub-author-con">
                                 <div class="testi-img-res">
-                                    <img src="assets/images/testi2.jpg" alt="" class="img-fluid" />
+                                    <!-- <img src="assets/images/testi2.jpg" alt="" class="img-fluid" /> -->
                                 </div>
                                 <div class="testi_grid text-left">
-                                    <h5>Petey Cruis</h5>
-                                    <p>Caption Here</p>
+                                    <h5>Ryan Edison</h5>
+                                    <p>Class 12</p>
                                 </div>
                             </div>
                         </div>
@@ -668,34 +667,27 @@ Author URL: http://w3layouts.com
                     <div class="col-lg-4 col-md-5  testi-sections mt-md-5 mt-4">
                         <!-- -->
                         <div class="testimonials_grid">
-                            <p class="sub-test"><q>
-                                    Nam
-                                    libero
-                                    tempore, cum soluta
-                                    nobis est eligendi optio cumque nihil impedit.</q>
+                            <p class="sub-test">
+                            <q>This is an outstanding platform which is easily affordable. The service was superb and the amenities outmatch the competition.</q>
                             </p>
                             <div class="d-grid sub-author-con">
                                 <div class="testi-img-res">
-                                    <img src="assets/images/testi1.jpg" alt="" class="img-fluid" />
+                                    <!-- <img src="assets/images/testi1.jpg" alt="" class="img-fluid" /> -->
                                 </div>
                                 <div class="testi_grid text-left">
-                                    <h5>Molive Joe</h5>
-                                    <p>Caption Here</p>
+                                    <h5>Sandra Hunter</h5>
+                                    <p>Class 10</p>
                                 </div>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-5 mt-md-5 mt-4 testi-sections">
                         <div class="testimonials_grid">
-                            <p class="sub-test"><q>
-                                    Nam
-                                    libero
-                                    tempore, cum soluta
-                                    nobis est eligendi optio cumque nihil impedit.</q>
+                            <p class="sub-test"><q>With 3-GB, I was able to start learning online and eventually build up enough knowledge and skills to transistion into a well-paying career.</q>
                             </p>
                             <div class="d-grid sub-author-con">
                                 <div class="testi-img-res">
-                                    <img src="assets/images/testi3.jpg" alt="" class="img-fluid" />
+                                    <!-- <img src="assets/images/testi3.jpg" alt="" class="img-fluid" /> -->
                                 </div>
                                 <div class="testi_grid text-left">
                                     <h5>Paige Turner</h5>
