@@ -15,15 +15,17 @@ Author URL: http://w3layouts.com
     <link href="//fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
     <!-- //google-fonts -->
     <!-- Template CSS Style link -->
-    <link rel="stylesheet" href="assets/css/style-starter.css">
+    <link rel="stylesheet" href="./assets/css/style-liberty.css">
+    <link rel='stylesheet' href="./assets/css/style-starter.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
     <style>
-        body{
+        body {
             overflow-x: hidden;
         }
+
         .whyus {
             min-height: 100vh;
         }
@@ -65,23 +67,26 @@ Author URL: http://w3layouts.com
             border-radius: .5rem;
         }
 
-        /* .whyus .row .boxcontainr .box1 h3 {
-            font-size: 1.7rem;
-            color: #0C4972;
-            font-family: 'Roboto Slab', serif;
-        } */
+        .whyus .row .boxcontainr .box1 h4 {
+            font-size: 24px;
+            font-weight: 600;
+            margin-top: 25px;
+            margin-bottom: 15px;
+            display: inline-block;
+            color: var(--heading-color);
+        }
 
-        .whyus .row .boxcontainr .box1 h3 img {
+        .whyus .row .boxcontainr .box1 img {
             width: auto;
             height: 10vh;
         }
 
-        .whyus .vid video {
-            width: 25rem;
-            padding: 10px;
+        .whyus .vid {
+            width: 100%;
+            height: 100%;
         }
 
-        .inner-banner#about{
+        .inner-banner#about {
             background: url(assets/images/a1.png) no-repeat center;
             background-size: cover;
             -webkit-background-size: cover;
@@ -175,7 +180,7 @@ Author URL: http://w3layouts.com
     </section>
     <!-- //stats -->
 
-    <!-- about-bootom grids -->
+    <!-- about-bottom grids -->
     <section class="w3l-bottom-about py-5">
         <div class="container py-md-5 py-4">
             <div class="grids-area-hny main-cont-wthree-fea row">
@@ -210,28 +215,33 @@ Author URL: http://w3layouts.com
 
     <!--  section -->
     <section class="whyus">
-        <div class="title-heading-w3 text-center mx-auto mb-5 pb-sm-4">
+        <div class="title-heading-w3 text-center mx-auto mb-5 mt-5 pb-sm-4">
             <h3 class="title-main">How <span>3-GB works?</span></h3>
         </div>
         <div class="row">
-            <div class="vid">
-                <video src="vid2.mp4" autoplay loop muted></video>
+            <div class="col-lg-6 col-sm-12 justify-content-center">
+                <div><video src="vid2.mp4" autoplay loop muted class="vid pl-xl-5 mt-3"></video></div>
             </div>
 
-            <div class="boxcontainr">
-                <div class="box1 area-box" id="boxa">
-                    <h3 class="title-head"> <img id="im1" src="https://cdn0.iconfinder.com/data/icons/online-education-butterscotch-vol-2/512/Live_Webinar-512.png" alt="">Live Learning</h3>
-                    <p>Students practice at their own pace, first filling in gaps in their understanding and then accelerating their learning.</p>
-                </div>
-                <div class="box1" id="boxb">
-                    <h3 class="title-head"> <img src="https://image.flaticon.com/icons/png/512/1462/1462468.png" alt=""> Flexible scheduling</h3>
-                    <p>With Expert industry mentors dive deep in the methodology.We've got everything covered, no prerequisites for any session. attend at your own pace.</p>
-                </div>
-                <div class="box1" id="boxc">
-                    <h3 class="title-head"><img src="https://img.icons8.com/bubbles/2x/bullish.png" alt=""> Personal Mentorship</h3>
-                    <p>The primary objective of 3-GB is to enable constructive and positive interaction, guidance and mentoring students. 3-GB provides One-on-one Learning system that gives our students the advantage of getting their personal mentor..</p>
-                </div>
+            <div class="col-lg-6 col-sm-12 justify-content-center">
+                <div class="boxcontainr">
+                    <div class="box1 area-box" id="boxa">
+                        <div>
+                            <img id="im1" src="https://cdn0.iconfinder.com/data/icons/online-education-butterscotch-vol-2/512/Live_Webinar-512.png" alt="">
+                            <h4>Live Learning</h4>
+                        </div>
+                        <p>Students practice at their own pace, first filling in gaps in their understanding and then accelerating their learning.</p>
+                    </div>
+                    <div class="box1" id="boxb">
+                        <h4 class="title-head"> <img src="https://image.flaticon.com/icons/png/512/1462/1462468.png" alt=""> Flexible scheduling</h4>
+                        <p>With Expert industry mentors dive deep in the methodology.We've got everything covered, no prerequisites for any session. attend at your own pace.</p>
+                    </div>
+                    <div class="box1" id="boxc">
+                        <h4 class="title-head"><img src="https://img.icons8.com/bubbles/2x/bullish.png" alt=""> Personal Mentorship</h4>
+                        <p>The primary objective of 3-GB is to enable constructive and positive interaction, guidance and mentoring students. 3-GB provides One-on-one Learning system that gives our students the advantage of getting their personal mentor..</p>
+                    </div>
 
+                </div>
             </div>
         </div>
     </section>

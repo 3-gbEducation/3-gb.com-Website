@@ -1,18 +1,17 @@
-<!doctype html>
-<html lang="en">
-
+<!DOCTYPE html>
+<html>
 <head>
+    <!-- <link rel="icon" href="assets/images/square.ico" height="32px" style="border-radius: 50%;" type="x-icon" /> -->
+    <link rel="icon" href="assets/images/circle.ico" height="16px" type="x-icon" />
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>Welcome to 3-GB</title>
-    <link rel="icon" href="assets/images/circle.ico" height="16px" type="x-icon" />
     <!-- google-fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap"
-        rel="stylesheet">
+    <link href="//fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
     <!-- //google-fonts -->
     <!-- Template CSS Style link -->
-    <link rel="stylesheet" href="assets/css/style-starter.css">
+    <link rel="stylesheet" href="./assets/css/style-starter.css">
     <!-- fa -->
     <!-- <link
     rel="stylesheet"
@@ -21,30 +20,16 @@
     crossorigin="anonymous"
   /> -->
 </head>
-
 <body>
-    <!-- ADDED BY PRADEEPA -->
-    <?php include('header.php'); ?>
-    <!-- //ADDED BY PRADEEPA -->
+    <?php include('header.php')?>
 
-    <div class="container mt-5 pt-5" style="text-align: center; padding-bottom: 15%;">
-        <h4>Coming Soon..</h4>
-    </div>
-
-    <!-- ADDED BY PRADEEPA -->
-    <!-- footer -->
-    <?php include('footer.php') ?>
-    <!-- //footer -->
-    <!-- //ADDED BY PRADEEPA -->
-
-    <!-- Js scripts -->
-    <!-- move top -->
+    <?php include('footer.php')?>
     <button onclick="topFunction()" id="movetop" title="Go to top">
         <span class="fa fa-level-up" aria-hidden="true"></span>
     </button>
     <script>
         // When the user scrolls down 20px from the top of the document, show the button
-        window.onscroll = function () {
+        window.onscroll = function() {
             scrollFunction()
         };
 
@@ -61,10 +46,6 @@
             document.body.scrollTop = 0;
             document.documentElement.scrollTop = 0;
         }
-        function displaySearch() {
-            document.getElementById('search-icon').style.display = "none";
-            document.getElementById('search-bar').style.display = "block";
-        }
     </script>
     <!-- //move top -->
 
@@ -72,49 +53,44 @@
     <script src="assets/js/jquery-3.3.1.min.js"></script>
     <!-- //common jquery plugin -->
 
-    <!-- banner slider -->
-    <script src="assets/js/owl.carousel.js"></script>
+    <!-- magnific popup -->
+    <script src="assets/js/jquery.magnific-popup.min.js"></script>
     <script>
-        $(document).ready(function () {
-            $('.owl-one').owlCarousel({
-                loop: true,
-                margin: 0,
-                nav: false,
-                responsiveClass: true,
-                autoplay: true,
-                autoplayTimeout: 5000,
-                autoplaySpeed: 1000,
-                autoplayHoverPause: true,
-                responsive: {
-                    0: {
-                        items: 1,
-                        nav: false
-                    },
-                    480: {
-                        items: 1,
-                        nav: false
-                    },
-                    667: {
-                        items: 1,
-                        nav: false
-                    },
-                    1000: {
-                        items: 1,
-                        nav: false
-                    }
-                }
-            })
+        $(document).ready(function() {
+            $('.popup-with-zoom-anim').magnificPopup({
+                type: 'inline',
 
-            $("more-links")
-                .mouseenter(function () {
-                    $('.dropdown-content').css({ 'display': 'block' })
-                })
-                .mouseleave(function () {
-                    $('.dropdown-content').css({ 'display': 'none' })
-                });
-        })
+                fixedContentPos: false,
+                fixedBgPos: true,
+
+                overflowY: 'auto',
+
+                closeBtnInside: true,
+                preloader: false,
+
+                midClick: true,
+                removalDelay: 300,
+                mainClass: 'my-mfp-zoom-in'
+            });
+
+            $('.popup-with-move-anim').magnificPopup({
+                type: 'inline',
+
+                fixedContentPos: false,
+                fixedBgPos: true,
+
+                overflowY: 'auto',
+
+                closeBtnInside: true,
+                preloader: false,
+
+                midClick: true,
+                removalDelay: 300,
+                mainClass: 'my-mfp-slide-bottom'
+            });
+        });
     </script>
-    <!-- //banner slider -->
+    <!-- //magnific popup -->
 
     <!-- counter for stats -->
     <script src="assets/js/counter.js"></script>
@@ -135,13 +111,13 @@
             var amntOfChars = text.length;
             var newString = "";
             thhis.text("|");
-            setTimeout(function () {
+            setTimeout(function() {
                 thhis.css("opacity", 1);
                 thhis.prev().removeAttr("style");
                 thhis.text("");
                 for (var i = 0; i < amntOfChars; i++) {
-                    (function (i, char) {
-                        setTimeout(function () {
+                    (function(i, char) {
+                        setTimeout(function() {
                             newString += char;
                             thhis.text(newString);
                         }, i * typingSpeed);
@@ -150,7 +126,7 @@
             }, 1500);
         }
 
-        $(document).ready(function () {
+        $(document).ready(function() {
             // Now to start autoTyping just call the autoType function with the 
             // class of outer div
             // The second paramter is the speed between each letter is typed.   
@@ -161,7 +137,7 @@
 
     <!-- MENU-JS -->
     <script>
-        $(window).on("scroll", function () {
+        $(window).on("scroll", function() {
             var scroll = $(window).scrollTop();
 
             if (scroll >= 80) {
@@ -172,14 +148,14 @@
         });
 
         //Main navigation Active Class Add Remove
-        $(".navbar-toggler").on("click", function () {
+        $(".navbar-toggler").on("click", function() {
             $("header").toggleClass("active");
         });
-        $(document).on("ready", function () {
+        $(document).on("ready", function() {
             if ($(window).width() > 991) {
                 $("header").removeClass("active");
             }
-            $(window).on("resize", function () {
+            $(window).on("resize", function() {
                 if ($(window).width() > 991) {
                     $("header").removeClass("active");
                 }
@@ -190,23 +166,17 @@
 
     <!-- disable body scroll which navbar is in active -->
     <script>
-        $(function () {
-            $('.navbar-toggler').click(function () {
+        $(function() {
+            $('.navbar-toggler').click(function() {
                 $('body').toggleClass('noscroll');
             })
         });
     </script>
     <!-- //disable body scroll which navbar is in active -->
-    <!-- added by pradeepa -->
-    <script>
-        function handleform(event) {
-            // event.preventDefault();
-            console.log(event);
-        }
-    </script>
-    <!-- //pradeepa -->
+
     <!--bootstrap-->
     <script src="assets/js/bootstrap.min.js"></script>
     <!-- //bootstrap-->
     <!-- //Js scripts -->
 </body>
+</html>

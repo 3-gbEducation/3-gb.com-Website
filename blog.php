@@ -15,7 +15,7 @@ Author URL: http://w3layouts.com
     <link href="//fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
     <!-- //google-fonts -->
     <!-- Template CSS Style link -->
-    <link rel="stylesheet" href="./assets/css/style-starter.css">
+    <!-- <link rel="stylesheet" href="./assets/css/style-starter.css"> -->
     <link rel="stylesheet" href="./assets/css/style-liberty.css">
 
 </head>
@@ -259,9 +259,9 @@ RIGHT SIDEBAR TOGGLE SECTION
                 <div class="container py-md-5 py-4">
                     <div class="row grid-text-9">
                         <div class="col-lg-8">
-                            <div href="" class="blog-article-post">
+                            <div href="blog2.php" class="blog-article-post">
                                 <div class="blog-post d-flex flex-wrap align-content-between">
-                                    <a href="https://shivangi-160997.medium.com/artificial-intelligence-ai-990b4dda2f2">
+                                    <a href="blog1.php">
                                         <img src="https://miro.medium.com/max/1050/1*0yBxBAlFo2niLaDwMqiu2Q.jpeg" class="img-fluid" alt="blog-post-image" />
                                     </a>
                                     <div class="post-content">
@@ -269,16 +269,16 @@ RIGHT SIDEBAR TOGGLE SECTION
                                             <li class="author"><a href="https://shivangi-160997.medium.com/"><i class="fa fa-user mr-1" aria-hidden="true"></i>By Shivangi Garg</a></li>
                                             <li><i class="fa fa-clock-o mr-1" aria-hidden="true"></i>May 27, 2021</li>
                                         </ul>
-                                        <h4 class="text-head-text-9"><a href="blog-single.php">Artificial Intelligence
+                                        <h4 class="text-head-text-9"><a href="blog1.php">Artificial Intelligence
                                             </a> </h4>
-                                        <p class="mt-3">Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua,
-                                            Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                        <p class="mt-3">Artificial intelligence (AI) refers to the simulation of human intelligence in machines
+                                            that are programmed to think like humans and mimic their actions.</p>
                                     </div>
                                 </div>
                             </div>
-                            <div href="blog-single.php" class="blog-article-post">
+                            <div href="blog2.php" class="blog-article-post">
                                 <div class="blog-post d-flex flex-wrap align-content-between">
-                                    <a href="blog-single.php">
+                                    <a href="blog2.php">
                                         <img src="https://miro.medium.com/max/1050/1*vOc_hckyamKWpCe-TzmioQ.jpeg" class="img-fluid" alt="blog-post-image" />
                                     </a>
                                     <div class="post-content">
@@ -286,23 +286,23 @@ RIGHT SIDEBAR TOGGLE SECTION
                                             <li class="author"><a href="https://shivangi-160997.medium.com/"><i class="fa fa-user mr-1" aria-hidden="true"></i>By Shivangi Garg </a></li>
                                             <li><i class="fa fa-clock-o mr-1" aria-hidden="true"></i>May 26, 2021</li>
                                         </ul>
-                                        <h4 class="text-head-text-9"><a href="blog-single.php">2 Minutes with AI and The Future of Mankind!</a></h4>
-                                        <p class="mt-3">Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua,
-                                            Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                        <h4 class="text-head-text-9"><a href="blog2.php">2 Minutes with AI and The Future of Mankind!</a></h4>
+                                        <p class="mt-3">Every age has its scientific discoveries and inventions. But today’s scientific advancement can impact globally in very short time.
+                                             Such is the progress made in the field of artificial intelligence or AI.</p>
                                     </div>
                                 </div>
                             </div>
-                            <div href="blog-single.php" class="blog-article-post">
+                            <div href="blog3.php" class="blog-article-post">
                                 <div class="blog-post d-flex flex-wrap align-content-between">
-                                    <a href="blog-single.php">
-                                        <img src="assets/images/bg2.jpg" class="img-fluid" alt="blog-post-image" />
+                                    <a href="blog3.php">
+                                        <img src="https://i.ibb.co/zR813xk/thomas-park-6-Me-Pt-A9-EVDA-unsplash-1.jpg" class="img-fluid" alt="blog-post-image" height="320px" />
                                     </a>
                                     <div class="post-content">
                                         <ul class="blog-author-date mb-sm-4 mb-3 d-flex justify-content-between align-items-end">
-                                            <li class="author"><a href="https://rainer-hahnekamp.medium.com/"><i class="fa fa-user mr-1" aria-hidden="true"></i>By Rainer Hahnekamp</a></li>
+                                            <li class="author"><a href="https://shivangi-160997.medium.com/"><i class="fa fa-user mr-1" aria-hidden="true"></i>By Shivangi Garg</a></li>
                                             <li><i class="fa fa-clock-o mr-1" aria-hidden="true"></i>Dec 15, 2020</li>
                                         </ul>
-                                        <h4 class="text-head-text-9"><a href="blog-single.php">The main pillars of learning programming</a></h4>
+                                        <h4 class="text-head-text-9"><a href="blog3.php">Challenges faced by Students in Online Learning</a></h4>
                                         <p class="mt-3">Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua,
                                             Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                                     </div>
@@ -342,23 +342,23 @@ RIGHT SIDEBAR TOGGLE SECTION
                                 <h6 class="heading-small-text-9">Categories</h6>
                                 <ul>
                                     <li>
-                                        <a href="blog-single.php" class="">
-                                            Arts & Gallery (1) </a>
+                                        <a href="blog1.php" class="">
+                                            Artificial Intelligence</a>
                                     </li>
                                     <li>
-                                        <a href="blog-single.php" class="">
-                                            Web Designs (2) </a>
+                                        <a href="blog3.php" class="">
+                                            E-Learning</a>
                                     </li>
                                     <li>
-                                        <a href="blog-single.php" class="">
-                                            English (1)</a>
+                                        <a href="blog3.php" class="">
+                                            O3 Education</a>
                                     </li>
                                     <li>
-                                        <a href="https://w3layouts.com/" class=""> W3Layouts Websites (1)</a>
+                                        <a href="blog2.php" class=""> Technology</a>
                                     </li>
                                     <li>
-                                        <a href="blog-single.php" class="">
-                                            Marketing (2)</a>
+                                        <a href="blog3.php" class="">
+                                            Tutoring</a>
                                     </li>
                                 </ul>
                             </div>
@@ -368,7 +368,7 @@ RIGHT SIDEBAR TOGGLE SECTION
                                 <div class="d-flex align-items-center">
                                     <img src="assets/images/blog1.jpg" alt="" class="img-fluid mr-3" />
                                     <div class="content-blog">
-                                        <a href="blog-single.php" class="p-post d-block">
+                                        <a href="blog1.php" class="p-post d-block">
                                             <h6 class="text-left-inner-9">Sed ut unde omnis iste natus
                                             </h6>
                                         </a>
@@ -379,7 +379,7 @@ RIGHT SIDEBAR TOGGLE SECTION
                                 <div class="d-flex align-items-center mt-4">
                                     <img src="assets/images/blog2.jpg" alt="" class="img-fluid mr-3" />
                                     <div class="content-blog">
-                                        <a href="blog-single.php" class="p-post d-block">
+                                        <a href="blog2.php" class="p-post d-block">
                                             <h6 class="text-left-inner-9">Wotam rem eaque ipsa quae ab
                                             </h6>
                                         </a>
@@ -390,7 +390,7 @@ RIGHT SIDEBAR TOGGLE SECTION
                                 <div class="d-flex align-items-center mt-4">
                                     <img src="assets/images/blog3.jpg" alt="" class="img-fluid mr-3" />
                                     <div class="content-blog">
-                                        <a href="blog-single.php" class="p-post d-block">
+                                        <a href="blog3.php" class="p-post d-block">
                                             <h6 class="text-left-inner-9">Quia sit aut odit aut fugit
                                             </h6>
                                         </a>

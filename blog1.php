@@ -243,7 +243,7 @@ Author URL: http://w3layouts.com
                                         manifests itself in everyday life via virtual assistants, search prediction
                                         technology, and even ride-hailing services.</p>
                                     <h5><b>Summary</b></h5>
-                                    <ul style="list-style-type: disc;">
+                                    <ol>
                                         <li>
                                             <p>Artificial Intelligence (AI) aims to develop machines that can
                                                 accomplish what a human can in terms of reasoning.</p>
@@ -256,7 +256,7 @@ Author URL: http://w3layouts.com
                                             <p>Artificial intelligence now affects productivity, employment,
                                                 and competitive behavior in significant ways.</p>
                                         </li>
-                                    </ul>
+                                    </ol>
                                     <div class="container mb-4 justify-content-center">
                                         <!-- <div class="column">
                                     <div class="box13">
@@ -339,7 +339,7 @@ Author URL: http://w3layouts.com
                                     advancement and destruction. There’s always two sides to a coin, and that is the case with AI as well. Let us
                                     take a look at some advantages of Artificial Intelligence-</p>
                                 <h4><b>Advantages of Artificial Intelligence (AI)</b></h4>
-                                <ul>
+                                <ol>
                                     <li>
                                         <p>Reduction in human error</p>
                                     </li>
@@ -367,7 +367,7 @@ Author URL: http://w3layouts.com
                                     <li>
                                         <p>Efficient Communcation</p>
                                     </li>
-                                </ul>
+                                </ol>
                                 <div class="container mb-4 justify-content-center">
                                     <!-- <div class="column">
                                     <div class="box13">

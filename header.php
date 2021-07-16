@@ -53,7 +53,7 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
                     <ul class="navbar-nav ml-lg-auto">
-                        <li id="menu-item-22"
+                        <!-- <li id="menu-item-22"
                             class="menu-item menu-item-type-post_type menu-item-object-page current-menu-ancestor current-menu-parent current_page_parent current_page_ancestor menu-item-has-children menu-item-21 nav-item dropdown">
                             <a class="nav-link dropdown-toggle" data-toggle='dropdown' id="navbar-dropdown-menu-link-21"
                                 aria-haspopup="true" aria-expanded="false">Find a Tutor <i
@@ -67,6 +67,9 @@
                                 <a href="blankpage.php" class="dropdown-item" id="menu-item-41">Artificial
                                     Intelligence</a>
                             </div>
+                        </li> -->
+                        <li class="nav-item">
+                            <a class="nav-link" href="blankpage.php">Find a Tutor</a>
                         </li>
                         <!-- <li id="menu-item-23"
                             class="menu-item menu-item-type-post_type menu-item-object-page current-menu-ancestor current-menu-parent current_page_parent current_page_ancestor menu-item-has-children menu-item-21 nav-item dropdown">

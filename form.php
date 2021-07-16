@@ -1,47 +1,61 @@
-<!doctype html>
-<html lang="en">
+<!DOCTYPE html>
+<html>
 
 <head>
+    <!-- <link rel="icon" href="assets/images/square.ico" height="32px" style="border-radius: 50%;" type="x-icon" /> -->
+    <link rel="icon" href="assets/images/circle.ico" height="16px" type="x-icon" />
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>3-GB - Updates</title>
+    <title>Welcome to 3-GB</title>
     <!-- google-fonts -->
-    <link rel="icon" href="assets/images/circle.ico" height="16px" type="x-icon" />
-
     <link href="//fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
     <!-- //google-fonts -->
     <!-- Template CSS Style link -->
     <link rel="stylesheet" href="assets/css/style-starter.css">
-    <link rel="stylesheet" href="assets/css/style-liberty.css">
-    <script src="scripts.js"></script>
+    <!-- fa -->
+    <!-- <link
+    rel="stylesheet"
+    href="https://use.fontawesome.com/releases/v5.13.0/css/all.css"
+    integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V"
+    crossorigin="anonymous"
+  /> -->
 </head>
 
 <body>
-    <?php include('header.php') ?>
-    <!-- section -->
-    <table class="table table-striped">
-        <tbody>
-            <tr>
-                <th scope="row"><p>1</p></th>
-                <td> <p>Microcourses Section is launching on 16th September 2021.</p> </td>
-            </tr>
-            <tr>
-                <th scope="row"><p>2</p></th>
-                <td><p>38 New Teachers joined us last week.</p></td>
-            </tr>
-            <tr>
-                <th scope="row"><p>3</p></th>
-                <td><p>72 New Students believed in us last week.</p></td>
-            </tr>
-            <tr>
-                <th scope="row"><p>4</p></th>
-                <td><p>20 New Courses added in the last month</p></td>
-            </tr>
-        </tbody>
-    </table>
-    <!-- //section -->
+    <?php include('header.php'); ?>
+    <div class="form-banner">
+        <form action="search.php" method="POST">
+            <input type="text" name="name" placeholder="Name" required />
+            <input type="email" name="email" placeholder="Email Address" required />
+            <div class="container">
+                <label>Available days:</label><br />
+                <div class="form-check">
+                    <input class="form-check-input btn-group-toggle btn" type="checkbox" value="" id="flexCheckDefault">
+                    <label class="form-check-label" for="flexCheckDefault">
+                        Default checkbox
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+                    <label class="form-check-label" for="flexCheckChecked">
+                        Checked checkbox
+                    </label>
+                </div>
+            </div>
+
+            <input type="submit" />
+        </form>
+
+    </div>
+    <!-- ADDED BY PRADEEPA -->
+    <!-- footer -->
     <?php include('footer.php') ?>
+    <!-- //footer -->
+    <!-- //ADDED BY PRADEEPA -->
+
+    <!-- Js scripts -->
+    <!-- move top -->
     <button onclick="topFunction()" id="movetop" title="Go to top">
         <span class="fa fa-level-up" aria-hidden="true"></span>
     </button>
@@ -122,8 +136,6 @@
                 });
         })
     </script>
-    <!-- //banner slider -->
-
     <!-- counter for stats -->
     <script src="assets/js/counter.js"></script>
     <!-- //counter for stats -->
@@ -205,89 +217,10 @@
         });
     </script>
     <!-- //disable body scroll which navbar is in active -->
+    <script src="assets/js/bootstrap.min.js"></script>
+
     <!-- added by pradeepa -->
 
-    <!-- <script>
-        var currentTab = 0; // Current tab is set to be the first tab (0)
-        showTab(currentTab); // Display the current tab
-
-        function showTab(n) {
-            // This function will display the specified tab of the form...
-            var x = document.getElementsByClassName("tab");
-            x[n].style.display = "block";
-            //... and fix the Previous/Next buttons:
-            if (n == 0) {
-                document.getElementById("prevBtn").style.display = "none";
-            } else {
-                document.getElementById("prevBtn").style.display = "inline";
-            }
-            if (n == (x.length - 1)) {
-                document.getElementById("nextBtn").innerHTML = "Submit";
-            } else {
-                document.getElementById("nextBtn").innerHTML = "Next";
-            }
-            //... and run a function that will display the correct step indicator:
-            fixStepIndicator(n)
-        }
-
-        function nextPrev(n) {
-            // This function will figure out which tab to display
-            var x = document.getElementsByClassName("tab");
-            // Exit the function if any field in the current tab is invalid:
-            if (n == 1 && !validateForm()) return false;
-            // Hide the current tab:
-            x[currentTab].style.display = "none";
-            // Increase or decrease the current tab by 1:
-            currentTab = currentTab + n;
-            // if you have reached the end of the form...
-            if (currentTab >= x.length) {
-                // ... the form gets submitted:
-                document.getElementById("DemoClassForm").submit();
-                return false;
-            }
-            // Otherwise, display the correct tab:
-            showTab(currentTab);
-        }
-
-        function validateForm() {
-            // This function deals with validation of the form fields
-            var x;
-            var y, i, valid = true;
-            x = document.getElementsByClassName("tab");
-            y = x[currentTab].getElementsByTagName("input");
-            // console.log(y);
-            // A loop that checks every input field in the current tab:
-            for (i = 0; i < y.length; i++) {
-                // console.log(y[i].value);
-                // If a field is empty...
-                if (y[i].value == "") {
-                    // add an "invalid" class to the field:
-                    y[i].className += " invalid";
-                    console.log(y[i].className);
-                    // and set the current valid status to false
-                    valid = false;
-                }
-            }
-            // If the valid status is true, mark the step as finished and valid:
-            if (valid) {
-                document.getElementsByClassName("step")[currentTab].className += " finish";
-            }
-            return valid; // return the valid status
-        }
-
-        function fixStepIndicator(n) {
-            // This function removes the "active" class of all steps...
-            var i, x = document.getElementsByClassName("step");
-            for (i = 0; i < x.length; i++) {
-                x[i].className = x[i].className.replace(" active", "");
-            }
-            //... and adds the "active" class on the current step:
-            x[n].className += " active";
-        }
-    </script> -->
-    <!-- //pradeepa -->
-    <!--bootstrap-->
-    <script src="assets/js/bootstrap.min.js"></script>
-    <!-- //bootstrap-->
-    <!-- //Js scripts -->
 </body>
+
+</html>

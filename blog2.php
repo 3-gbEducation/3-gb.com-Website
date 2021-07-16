@@ -225,58 +225,42 @@ Author URL: http://w3layouts.com
                         <div class="col-lg-8">
                             <div class="single-bottom-blog">
                                 <div class="top-bg bg-img">
-                                    <img src="https://miro.medium.com/max/1400/1*0yBxBAlFo2niLaDwMqiu2Q.jpeg" alt="" class="img-fluid img-responsive" />
+                                    <img src="https://miro.medium.com/max/1050/1*vOc_hckyamKWpCe-TzmioQ.jpeg" alt="" class="img-fluid img-responsive" />
                                 </div>
                                 <div class="bottom-grid mt-4 pt-md-2">
                                     <ul class="blog-author-date mb-sm-4 mb-3 d-flex justify-content-between align-items-end">
                                         <li class="author"><a href="https://shivangi-160997.medium.com/"><i class="fa fa-user mr-1" aria-hidden="true"></i>By Shivangi Garg</a></li>
-                                        <li><i class="fa fa-clock-o mr-1" aria-hidden="true"></i>May 27, 2021</li>
+                                        <li><i class="fa fa-clock-o mr-1" aria-hidden="true"></i>May 26, 2021</li>
                                     </ul>
-                                    <h3>Artificial Intelligence(AI) </h3>
-                                    <p>Artificial intelligence (AI) refers to the simulation of human intelligence in machines
-                                        that are programmed to think like humans and mimic their actions.</p>
-                                    <h5><b>What is Artificial Intelligence(AI)?</b></h5>
-                                    <p>Artificial intelligence (AI) is intelligence demonstrated by machines,
-                                        unlike the natural intelligence displayed by humans and animals, which
-                                        involves consciousness and emotionality. The goal of AI is to create systems
-                                        that can perform tasks that would otherwise require human intelligence. AI
-                                        manifests itself in everyday life via virtual assistants, search prediction
-                                        technology, and even ride-hailing services.</p>
-                                    <h5><b>Summary</b></h5>
-                                    <ul style="list-style-type: disc;">
-                                        <li>
-                                            <p>Artificial Intelligence (AI) aims to develop machines that can
-                                                accomplish what a human can in terms of reasoning.</p>
-                                        </li>
-                                        <li>
-                                            <p>The four types of artificial intelligence are reactive machines,
-                                                limited memory, theory of mind, and self-awareness.</p>
-                                        </li>
-                                        <li>
-                                            <p>Artificial intelligence now affects productivity, employment,
-                                                and competitive behavior in significant ways.</p>
-                                        </li>
-                                    </ul>
-                                    <div class="container mb-4 justify-content-center">
-                                        <!-- <div class="column">
+                                    <h3>2 Minutes with AI and The Future of Mankind!</h3>
+                                    <p>Every age has its scientific discoveries and inventions. But today’s scientific advancement can impact globally
+                                        in very short time. Such is the progress made in the field of artificial intelligence or AI.</p>
+                                    <p>If we talk about AI in simple terms, machines and computers learning, thinking
+                                        and doing what human intelligence does. Instead of doing certain tasks repeatedly, with AI, machines
+                                        operates from the data that we feed them with to recognize human voices, use human language, drive cars or
+                                        even the ability to suggest the next course of treatment or an article or book you might like to read.</p>
+                                    <p>
+                                        Artificial Intelligence is something which impacts our everyday life. If you have ever used a Google search engine
+                                        they will give you optimised, so near what you asked for results based on AI. On another extreme AI is used in robotics
+                                        or even in weaponry which can function without human aid.
+                                    </p>
+                                    <!-- <div class="container mb-4 justify-content-center">
+                                        <div class="column">
                                     <div class="box13">
                                         <a href="#gallery-36"><img src="assets/images/c3.jpg" alt=""
                                                 class="img-fluid" /></a>
                                     </div>
-                                </div> -->
+                                </div>
                                         <div class="column">
                                             <div class="box13">
                                                 <a href="#gallery-36"><img src="https://miro.medium.com/max/773/1*h027knCEHFGKZzDnfSzaEQ.png" alt="" class="img-fluid" /></a>
                                             </div>
                                         </div>
-                                    </div>
-                                    <p>The ideal characteristic of artificial intelligence is its ability
-                                        to rationalize and take actions that have the best chance of achieving
-                                        a specific goal. A subset of artificial intelligence is machine learning,
-                                        which refers to the concept that computer programs can automatically
-                                        learn from and adapt to new data without being assisted by humans. Deep
-                                        learning techniques enable this automatic learning through the absorption
-                                        of huge amounts of unstructured data such as text, images, or video.</p>
+                                    </div> -->
+                                    <p><b>Why is there a surge in the field of AI? </b> Several thrusts can be pointed out,p.
+                                        But science and technology is trying to create a super intelligence that can outperform human
+                                        beings not just in specific tasks but in complex cognitive activity which includes decision making,
+                                        problem-solving, memory, speech recognition, Attention and judgement.</p>
                                 </div>
                                 <!-- bottom -->
                                 <!-- <div class="d-grid grid-columns mb-4">
@@ -292,105 +276,26 @@ Author URL: http://w3layouts.com
                                         </div>
                                     </div>
                                 </div> -->
-                                <h4><b>Types of Artificial Intelligence</b></h4>
-                                <br />
-                                <h5><b>1. Reactive Machines</b></h5>
-                                <p class="para-single">Reactive machines perceive present external information and plan
-                                    actions accordingly. The machines perform specialized duties and only understand
-                                    the task at hand. The machines’ behavior is consistent, given a repeated situation.
-                                    In the 1990s, IBM developed a reactive machine named Deep Blue to play competitive chess,
-                                    predicting chess moves by identifying each piece’s board placement.</p>
-                                <h4><b>2. Limited Memory</b></h4>
-                                <p class="para-single">Limited memory machines can harness recent observations to make
-                                    informed decisions. The machines consider observational data in reference to their
-                                    pre-programmed conceptual framework. The observational data is retained for a limited
-                                    period and then forgotten.</p>
-                                <h4><b>3. Theory of Mind</b></h4>
-                                <p class="para-single">Theory of mind machines can form thoughts and make decisions in reference
-                                    to emotional context; thus, they are able to participate in social interaction. The machines
-                                    are still in the development stage, however, many exhibit aspects of human-like capability.
-                                    For example, consider voice assistant applications that can comprehend basic speech prompts
-                                    and commands but cannot hold a conversation</p>
-                                <h4><b>4. Self-Awareness</b></h4>
-                                <p class="para-single">Self-awareness machines demonstrate intelligent behavior through ideation,
-                                    the formation of desires, and understanding their internal states. In 1950, Alan Turing developed
-                                    the Turing Test to identify machines that could behave indistinguishably from a human being.</p>
-                                <h4><b>Understanding Artificial Intelligence (AI)</b></h4>
-                                <p class="para-single">When most people hear the term artificial intelligence, the first thing they
-                                    usually think of is robots. That’s because big-budget films and novels weave stories about
-                                    human-like machines that wreak havoc on Earth. But nothing could be further from the truth.</p>
-                                <p>Artificial intelligence is based on the principle that human intelligence can be defined in a
-                                    way that a machine can easily mimic it and execute tasks, from the most simple to those that
-                                    are even more complex. The goals of artificial intelligence include mimicking human cognitive activity.
-                                    Researchers and developers in the field are making surprisingly rapid strides in mimicking activities
-                                    such as learning, reasoning, and perception, to the extent that these can be concretely defined. Some
-                                    believe that innovators may soon be able to develop systems that exceed the capacity of humans to learn
-                                    or reason out any subject. But others remain skeptical because all cognitive activity is laced with value
-                                    judgments that are subject to human experience.</p>
-                                <p>As technology advances, previous benchmarks that defined artificial intelligence become outdated. For example,
-                                    machines that calculate basic functions or recognize text through optical character recognition are no longer
-                                    considered to embody artificial intelligence, since this function is now taken for granted as an
-                                    inherent computer function.</p>
-                                <p>AI is continuously evolving to benefit many different industries. Machines are wired using a cross-disciplinary
-                                    approach based on mathematics, computer science, linguistics, psychology, and more.</p>
-                                <h3><b>What are the Advantages of Artificial Intelligence?</b></h3>
-                                <p>There’s no doubt in the fact that technology has made our life better. From music recommendations, map directions,
-                                    mobile banking to fraud prevention, AI and other technologies have taken over. There’s a fine line between
-                                    advancement and destruction. There’s always two sides to a coin, and that is the case with AI as well. Let us
-                                    take a look at some advantages of Artificial Intelligence-</p>
-                                <h4><b>Advantages of Artificial Intelligence (AI)</b></h4>
-                                <ul>
-                                    <li>
-                                        <p>Reduction in human error</p>
-                                    </li>
-                                    <li>
-                                        <p>Available 24 x 7</p>
-                                    </li>
-                                    <li>
-                                        <p>Helps in repetetive work</p>
-                                    </li>
-                                    <li>
-                                        <p>Digital Assistance</p>
-                                    </li>
-                                    <li>
-                                        <p>Faster Decisions</p>
-                                    </li>
-                                    <li>
-                                        <p>Rational Decision Maker</p>
-                                    </li>
-                                    <li>
-                                        <p>Medical Applications</p>
-                                    </li>
-                                    <li>
-                                        <p>Improves Security</p>
-                                    </li>
-                                    <li>
-                                        <p>Efficient Communcation</p>
-                                    </li>
-                                </ul>
-                                <div class="container mb-4 justify-content-center">
-                                    <!-- <div class="column">
-                                    <div class="box13">
-                                        <a href="#gallery-36"><img src="assets/images/c3.jpg" alt=""
-                                                class="img-fluid" /></a>
-                                    </div>
-                                </div> -->
-                                    <div class="column">
-                                        <div class="box13">
-                                            <a href="#gallery-36"><img src="https://miro.medium.com/max/1050/1*YyAERuWwl3hZDHMo9uVlSw.jpeg" alt="" class="img-fluid" /></a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <h4><b>
-                                Career Trends in Artificial Intelligence
-                                </b></h4>
-                                <p>
-                                Jobs in AI have been steadily increasing over the past 
-                                few years and will continue growing at an accelerating rate. 57% of Indian companies are looking forward to hiring the right 
-                                talent to match up the Market Sentiment. On average, there has been a 60–70% hike in salaries of aspirants who have successfully transitioned
-                                 into AI roles. Mumbai stays tall in the competition followed by Bangalore and Chennai. As per research, the demand for AI Jobs have increased but
-                                  efficient workforce has not been keeping pace with it. As per WEF, 175 million jobs would be created in Artificial Intelligence by the year 2022.
-                                </p>
+
+                                <p class="para-single">
+                                    This can lead mankind to a life of ease like never
+                                    known before when lot of what they had to perform is done to perfection with the help of AI aided
+                                    robots or machines. Butt then there is a danger here.<b> What is AI through some chance or misjudged
+                                        human calculation acquires smarter intelligence that can control human beings or wreck disaster unheard of?</b></p>
+                                <p>Yes, there are benefits of AI that we are yet to see that far outweighs these assumed dangers. Maybe no one can stop
+                                    the march of science or those with scientific pursuit and perseverance who are passionately working in Research and
+                                    Development of AI. Soon someday what many thoughts as science fiction, which people read about in novels or watched in
+                                    movies as future becomes real and operational now.</p>
+                                <p><b>If AI creates automated jobs in plenty, will that replace much of human skill and labor?</b>
+                                    That might be an interesting question of concern to many.<b> Or will AI create more careers or at least
+                                        offer a few career paths which intelligent kids might be tempted to pursue?</b></p>
+                                <p>In Conclusion, There was a time called the beginning when God created man in his image and likeness. But man running
+                                    independent of God is capable of acts and deeds that mar the purpose for which man was created. We see the impact of
+                                    that in the environment as well as in senseless destruction through wars and man’s greed.</p>
+                                <p>Likewise AI created by man to have a complex ability to think and act like human beings can act
+                                    in destructive mood if something goes wrong. Hacking and programming errors or even robot is
+                                    starting to communicate with each other in a language man will not be able to understand can
+                                    well be the nightmare of tomorrow.</p>
                                 <div class="buttons-singles">
                                     <a href="#facebook"><span class="fa fa-facebook" aria-hidden="true"></span></a>
                                     <a href="#twitter"><span class="fa fa-twitter" aria-hidden="true"></span></a>
