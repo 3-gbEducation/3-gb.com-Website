@@ -17532,5 +17532,64 @@ h3.title-big {
 /*# sourceMappingURL=style-freedom.css.map */
 
 /* added by kanika - about us page*/
+<<<<<<< HEAD
 
+=======
+.whyus{
+  min-height: 100vh;
+  
+
+}
+.whyus .row{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  
+}
+.whyus .row .image{
+  text-align: center;
+  flex: 1 1 30rem;
+  float: left;
+  width: 40%;
+}
+.whyus .row .image img{
+  height: 65vh;
+  padding: 3rem 0;
+  float: left;
+  width: 40%;
+}
+.whyus .row .boxcontainr{
+ display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex: 1 1 70rem;
+  
+}
+.whyus .row .boxcontainr .box1{
+  margin: 2rem;
+  padding: 2rem;
+  width: 27rem;
+  
+  
+  border-radius: .5rem;
+}
+.whyus .row .boxcontainr .box1 h3{
+  font-size: 1.7rem;
+  color: #0C4972;
+  font-family: 'Roboto Slab', serif;
+  
+}
+.whyus .row .boxcontainr .box1 h3 img{
+  
+  width: auto;
+  height: 10vh;
+}
+.whyus .vid video{
+  width: 25rem;
+  padding: 10px;
+ 
+}
+>>>>>>> main
 /* kanika - about us page */

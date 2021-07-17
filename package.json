@@ -4,8 +4,12 @@
   "description": "this is to linking login form to database",
   "main": "app.js",
   "scripts": {
+<<<<<<< HEAD
     "test": "echo \"Error: no test specified\" && exit 1",
     "start" : "nodemon app.js"
+=======
+    "test": "echo \"Error: no test specified\" && exit 1"
+>>>>>>> main
   },
   "author": "aditya",
   "license": "ISC",
@@ -15,7 +19,10 @@
     "express": "^4.17.1",
     "express-session": "^1.17.2",
     "mongoose": "^5.13.2",
+<<<<<<< HEAD
     "nodemon": "^2.0.12",
+=======
+>>>>>>> main
     "passport": "^0.4.1",
     "passport-local": "^1.0.0",
     "passport-local-mongoose": "^6.1.0"
