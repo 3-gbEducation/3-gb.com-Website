@@ -70,7 +70,7 @@ app.post("/signUp", function (req, res) {
             password, function (err, user) {
         if (err) {
             console.log(err);
-            return res.sendFile(__dirname +"/signUp.html");
+            return res.render(__dirname +"/signUp");
         }
 
         passport.authenticate("local")(
