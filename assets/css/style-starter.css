@@ -17383,8 +17383,8 @@ h3.title-big {
 }
 
 .w3l-bottom-about .area-box span {
-  color: #0abf53;
-  background: rgb(10 191 83 / 10%);
+  color: rgb(12,73,114);
+  background: rgb(233,237,246);
   font-size: 30px;
   width: 70px;
   height: 70px;
@@ -17393,13 +17393,13 @@ h3.title-big {
 }
 
 .w3l-bottom-about .area-box span.icon-style-2 {
-  color: #ffc947;
-  background: rgb(255 201 73 / 22%);
+  color: rgb(12,73,114);
+  background: rgb(233,237,246);
 }
 
 .w3l-bottom-about .area-box span.icon-style-3 {
-  color: #ff4f81;
-  background: rgb(255 79 129 / 15%);
+  color: rgb(12,73,114);
+  background: rgb(233,237,246);
 }
 
 @media (max-width: 480px) {
