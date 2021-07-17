@@ -8,6 +8,7 @@ var express = require("express"),
     User = require("./model/user");
     Demo = require("./model/demo");
     Contact = require("./model/contact");
+    Subscribe = require("./model/subscribers");
 
 mongoose.set('useNewUrlParser', true);
 mongoose.set('useFindAndModify', false);
@@ -167,6 +168,28 @@ app.post("/contact",function(req,res){
   });
 });
 
+//mail list subscription ------- pradeepa
+// app.post("/subscribe",function(req,res){
+//   var mail = req.body.email;
+//   var date = new Date();
+//   const subscribers = new Subscribe({
+//     email : mail,
+//     date : date,
+//   });
+//   subscribers.save(function(err){
+//     if(err){
+//       res.json({
+//         "error" : 'true',
+//         "message" : err,
+//       })
+//     }
+//     else{
+//       console.log("subscribed successfully");
+//     } 
+//   })
+// })
+
+// //mail list subscription
 
 var port = process.env.PORT || 3000;
 app.listen(port, function () {
