@@ -6,6 +6,8 @@ var express = require("express"),
     passportLocalMongoose =
         require("passport-local-mongoose"),
     User = require("./model/user");
+    Demo = require("./model/demo");
+    Contact = require("./model/contact");
 
 mongoose.set('useNewUrlParser', true);
 mongoose.set('useFindAndModify', false);
@@ -15,7 +17,10 @@ mongoose.connect("mongodb+srv://newDb:db@12345@cluster0.jnrea.mongodb.net/myFirs
 
 var app = express();
 app.set("view engine", "ejs");
+
 app.use(bodyParser.urlencoded({ extended: true }));
+
+app.use(express.static(__dirname));
 
 app.use(require("express-session")({
     secret: "Rusty is a dog",
@@ -35,9 +40,10 @@ passport.deserializeUser(User.deserializeUser());
 //=====================
 
 // Showing home page
-app.get('/assets/css/style-starter.css', function(req, res) {
-  res.sendFile(__dirname + "/assets/css/style-starter.css");
-});
+// app.get('/assets/css/style-starter.css', function(req, res) {
+//   res.sendFile(__dirname + "/assets/css/style-starter.css");
+// });
+
 app.get("/", function (req, res) {
     res.sendFile(__dirname +"/index.html");
 });
@@ -92,6 +98,71 @@ function isLoggedIn(req, res, next) {
     if (req.isAuthenticated()) return next();
     res.redirect("/login");
 }
+
+// DemoClassForm
+
+app.post("/search",function(req,res){
+  var name=req.body.name;
+  var email=req.body.email;
+  var mobile=req.body.mobile;
+  var board=req.body.board;
+  var subject=req.body.subject;
+  var day=req.body.day;
+  var time=req.body.time;
+  var language=req.body.language;
+  var budget=req.body.budget;
+  var requirement=req.body.requirement;
+  // var errors=req.validationErrors();
+  // if(!errors){
+    const demo=new Demo({
+      name:name,
+      email:email,
+      mobile:mobile,
+      board:board,
+      subject:subject,
+      day:day,
+      time:time,
+      language:language,
+      budget:budget,
+      requirement:requirement
+    });
+    demo.save(function(err){
+      if(err){
+        console.log(err);
+      }else{
+        console.log("Success");
+        res.redirect("/");
+      }
+    });
+  // }
+});
+
+// Contact Form
+app.get("/contact",function(req,res){
+  res.sendFile(__dirname +"/contact.html")
+});
+
+app.post("/contact",function(req,res){
+  var name=req.body.name;
+  var email=req.body.email;
+  var subject=req.body.subject;
+  var message=req.body.message;
+  const contact=new Contact({
+      name:name,
+      email:email,
+      subject:subject,
+      message:message,
+    });
+    contact.save(function(err){
+      if(err){
+        console.log(err);
+      }else{
+        console.log("Success");
+        res.redirect("/");
+      }
+  });
+});
+
 
 var port = process.env.PORT || 3000;
 app.listen(port, function () {
