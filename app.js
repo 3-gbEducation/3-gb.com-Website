@@ -58,29 +58,62 @@ app.get("/secret", isLoggedIn, function (req, res) {
   res.render("secret");
 });
 
-
+var logIn = require('./model/login');
 //Handling user login
 app.post("/login", function (req, res) {
   const user = req.body;
   console.log(user);
-  logIn.logIn(user, (err, callback) => {
+  logIn.logIn(user, (err, data) => {
     if (err) {
       res.json({
         err,
         data
       })
     }
-    else {
+    else if(data.success){
       // alert('successful login!');
-      res.redirect('/login');
+      res.redirect('/home');
+    }
+    else if(!data.success){
+      res.json({
+        error : true,
+        reason : data.message
+      })
     }
   })
+})
+
+app.get("/signUp",function(req,res){
+  res.render(__dirname+('/signUp'))
+})
+
+app.get("/home",function(req,res){
+  res.render(__dirname+'/welcome')
+})
+
+app.post("/signUp",function(req,res){
+  const user = req.body;
+  logIn.signUp(user,(callback,data)=>{
+    if(data.err){
+      res.json({
+        err, 
+        data
+      })
+    }
+    else{
+      res.redirect('/home');
+    }
+  })
+})
+
+app.get("/login",function(req,res){
+  res.render(__dirname+('/login'))
 })
 
 //Handling user logout
 app.get("/logout", function (req, res) {
   req.logout();
-  res.redirect("/");
+  res.redirect("/login");
 });
 
 function isLoggedIn(req, res, next) {
@@ -88,69 +121,11 @@ function isLoggedIn(req, res, next) {
   res.redirect("/login");
 }
 
-// DemoClassForm
-
-// app.post("/search",function(req,res){
-//   var name=req.body.name;
-//   var email=req.body.email;
-//   var mobile=req.body.mobile;
-//   var board=req.body.board;
-//   var subject=req.body.subject;
-//   var day=req.body.day;
-//   var time=req.body.time;
-//   var language=req.body.language;
-//   var budget=req.body.budget;
-//   var requirement=req.body.requirement;
-//   // var errors=req.validationErrors();
-//   // if(!errors){
-//     const demo=new Demo({
-//       name:name,
-//       email:email,
-//       mobile:mobile,
-//       board:board,
-//       subject:subject,
-//       day:day,
-//       time:time,
-//       language:language,
-//       budget:budget,
-//       requirement:requirement
-//     });
-//     demo.save(function(err){
-//       if(err){
-//         console.log(err);
-//       }else{
-//         console.log("Success");
-//         res.redirect("/");
-//       }
-//     });
-//   // }
-// });
 
 // Contact Form
 app.get("/contact", function (req, res) {
   res.render(__dirname + "/contact")
 });
-
-// app.post("/contact",function(req,res){
-//   var name=req.body.name;
-//   var email=req.body.email;
-//   var subject=req.body.subject;
-//   var message=req.body.message;
-//   const contact=new Contact({
-//       name:name,
-//       email:email,
-//       subject:subject,
-//       message:message,
-//     });
-//     contact.save(function(err){
-//       if(err){
-//         console.log(err);
-//       }else{
-//         console.log("Success");
-//         res.redirect("/");
-//       }
-//   });
-// });
 
 var port = process.env.PORT || 3000;
 app.listen(port, function () {

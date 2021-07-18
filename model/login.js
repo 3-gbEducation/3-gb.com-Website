@@ -8,66 +8,65 @@ const dbName = 'web-data'
 
 async function main(user, callback) {
     await client.connect()
-    console.log("connect succesful for sign in form\n");
+    console.log("connect succesful for sign up form\n");
     const db = client.db(dbName)
-    const collection = db.collection('user-data')
+    const collection = db.collection('userData')
     const insertOperation = await collection.insertOne({
-        "email": user.email,
+        "username": user.email,
         "password": passwordHash.generate(user.password)
-    }, (err, query) => {
-        if (err) {
-            console.log("error in sign up\n");
-        }
-        else {
-            console.log("all signed in!", query);
-        }
-    }
-        ,
-        callback(null, ({
-            err: false
-        })
-        )
-    )
+    }, callback(null, ({
+        err: false
+    })))
     console.log('hey you, someone signed up', insertOperation)
 }
 
 const signUp = (user, callback) => {
     main(user, callback)
-        .then(console.log("user.email"))
+        .then(console.log(user.email))
         .catch(console.error)
         .finally(() => client.close())
 }
 
 module.exports.signUp = signUp;
 
-async function main(user, callback) {
+async function main2(user, callback) {
     await client.connect()
     console.log("connect succesful for sign in form\n");
     const db = client.db(dbName)
-    const collection = db.collection('user-data')
+    const collection = db.collection('userData')
     const findOperation = await collection.findOne({
-        "email": user.email,
-    }, (err, queryresult) => {
-        if (passwordHash.verify(user.password, queryresult.password)){
-            console.log("yo! authenticated login");
+        "username": user.email,
+    });
+    // console.log(findOperation);
+    if (findOperation) {
+        if (passwordHash.verify(user.password, findOperation.password)) {
+            console.log("password verified for log in");
             callback(null, {
                 success: true,
                 email: user.email,
-                name: queryresult.name,
+                name: findOperation.name,
             })
         }
-},
-callback(null, ({
-    err: false
-})
-)
-    )
-console.log('hey you, someone signed in', findOperation)
+        else {
+            console.error("password verification failed for login");
+            callback(null, {
+                success: false,
+                message: "Password is invalid"
+            })
+        }
+    }
+    else {
+        console.error("invalid user email");
+        callback(null, {
+            success: false,
+            message: "User email is valid"
+        })
+    }
 }
 
 const logIn = (user, callback) => {
-    main(user, callback)
-        .then(console.log("user.email"))
+    main2(user, callback)
+        .then(console.log(user.email))
         .catch(console.error)
         .finally(() => client.close())
 }
