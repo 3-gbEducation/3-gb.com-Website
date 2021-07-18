@@ -8,17 +8,23 @@ const dbName = 'web-data'
 async function main(user,callback){
     await client.connect()
     console.log("connect succesful for contact form\n");
-    const collection = db.collection('contact-form-data')
+    const db = client.db(dbName)
+    const collection = db.collection('subscriber-mail-list')
     const insertOperation = await collection.insertOne({
         email : user.email,
         date : new Date()
+    },
+    callback(null,({
+        err : false
     })
+    )
+    )
     console.log('hey you, this is a new subscriber alert!', insertOperation)
 }
 
 const sendMessage = (user,callback) =>{
-    main()
-    .then(console.log)
+    main(user,callback)
+    .then(console.log("user.email"))
     .catch(console.error)
     .finally(() => client.close())
 }

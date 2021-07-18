@@ -219,10 +219,12 @@ app.get("/find-tutor",function(req, res){
   res.render(__dirname+"/tutor")
 })
 
-var subscriber = require('./model/subscribers')
+var flash = require('connect-flash')
+app.use(flash())
+var subscriber = require('./model/contactFormData')
 app.post('/subscribe',(req,res)=>{
   const user = req.body;
-  subscriber.addSubscriber(user,(err,data)=>{
+  subscriber.sendMessage(user,(err,data)=>{
     if(err){
       res.json({
         err,
@@ -230,6 +232,7 @@ app.post('/subscribe',(req,res)=>{
       })
     }
     else{
+      req.flash('message', 'Success!!');
       res.redirect('/');
     }
   })
@@ -250,6 +253,7 @@ app.post('/bookclass',(req,res)=>{
     }
   })
 })
+
 
 var sendMessage = require('./model/contactForm')
 app.post('/send',(req,res)=>{
