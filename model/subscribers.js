@@ -7,7 +7,7 @@ const dbName = 'web-data'
 
 async function main(user,callback){
     await client.connect()
-    console.log("connect succesful for contact form\n");
+    console.log("connect succesful for subscription form\n");
     const db = client.db(dbName)
     const collection = db.collection('subscriber-mail-list')
     const insertOperation = await collection.insertOne({
