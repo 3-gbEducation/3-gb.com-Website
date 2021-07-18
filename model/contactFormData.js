@@ -9,17 +9,20 @@ async function main(user,callback){
     await client.connect()
     console.log("connect succesful for contact form\n");
     const db = client.db(dbName)
-    const collection = db.collection('subscriber-mail-list')
+    const collection = db.collection('contact-form-data')
     const insertOperation = await collection.insertOne({
-        email : user.email,
-        date : new Date()
+        "name" : user.name,
+        "email": user.email,
+        "subject" : user.subject,
+        "message" : user.message,
+        "date": new Date(),
     },
     callback(null,({
         err : false
     })
     )
     )
-    console.log('hey you, this is a new subscriber alert!', insertOperation)
+    console.log('hey you, you have a new message', insertOperation)
 }
 
 const sendMessage = (user,callback) =>{

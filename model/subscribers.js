@@ -24,7 +24,7 @@ async function main(user,callback){
 
 const addSubscriber = (user,callback) =>{
     main(user,callback)
-    .then(console.log("user.email"))
+    .then(console.log(user.email))
     .catch(console.error)
     .finally(() => client.close())
 }
