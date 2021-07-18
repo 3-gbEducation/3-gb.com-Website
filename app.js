@@ -147,49 +147,26 @@ app.get("/contact",function(req,res){
   res.render(__dirname +"/contact")
 });
 
-app.post("/contact",function(req,res){
-  var name=req.body.name;
-  var email=req.body.email;
-  var subject=req.body.subject;
-  var message=req.body.message;
-  const contact=new Contact({
-      name:name,
-      email:email,
-      subject:subject,
-      message:message,
-    });
-    contact.save(function(err){
-      if(err){
-        console.log(err);
-      }else{
-        console.log("Success");
-        res.redirect("/");
-      }
-  });
-});
-
-//mail list subscription ------- pradeepa
-// app.post("/subscribe",function(req,res){
-//   var mail = req.body.email;
-//   var date = new Date();
-//   const subscribers = new Subscribe({
-//     email : mail,
-//     date : date,
+// app.post("/contact",function(req,res){
+//   var name=req.body.name;
+//   var email=req.body.email;
+//   var subject=req.body.subject;
+//   var message=req.body.message;
+//   const contact=new Contact({
+//       name:name,
+//       email:email,
+//       subject:subject,
+//       message:message,
+//     });
+//     contact.save(function(err){
+//       if(err){
+//         console.log(err);
+//       }else{
+//         console.log("Success");
+//         res.redirect("/");
+//       }
 //   });
-//   subscribers.save(function(err){
-//     if(err){
-//       res.json({
-//         "error" : 'true',
-//         "message" : err,
-//       })
-//     }
-//     else{
-//       console.log("subscribed successfully");
-//     } 
-//   })
-// })
-
-// //mail list subscription
+// });
 
 var port = process.env.PORT || 3000;
 app.listen(port, function () {
@@ -236,4 +213,56 @@ app.get("/sampleblog-2",function(req, res){
 
 app.get("/sampleblog-3",function(req, res){
   res.render(__dirname+"/blog3")
+})
+
+app.get("/find-tutor",function(req, res){
+  res.render(__dirname+"/tutor")
+})
+
+var subscriber = require('./model/subscribers')
+app.post('/subscribe',(req,res)=>{
+  const user = req.body;
+  subscriber.addSubscriber(user,(err,data)=>{
+    if(err){
+      res.json({
+        err,
+        data
+      })
+    }
+    else{
+      res.redirect('/');
+    }
+  })
+})
+
+var FreeClass = require('./model/demoClass')
+app.post('/bookclass',(req,res)=>{
+  const user = req.body;
+  FreeClass.addBooking(user,(err,data)=>{
+    if(err){
+      res.json({
+        err,
+        data
+      })
+    }
+    else{
+      res.redirect('/');
+    }
+  })
+})
+
+var sendMessage = require('./model/contactForm')
+app.post('/send',(req,res)=>{
+  const user = req.body;
+  sendMessage.sendMessage(user,(err,data)=>{
+    if(err){
+      res.json({
+        err,
+        data
+      })
+    }
+    else{
+      res.redirect('/contact');
+    }
+  })
 })
