@@ -7,10 +7,11 @@ const sendMessage = (user, callback) => {
     try {
         client.connect((err, client) => {
             if (err) {
+                console.log("error connecting to db, from contact form\n");
                 callback(null, {
                     error: true,
                     message: err
-                })
+                });
             }
             const db = client.db(dbName);
             try {
@@ -55,7 +56,7 @@ const sendMessage = (user, callback) => {
         callback(err, null);
     }
     // perform actions on the collection object
-    client.close();
+    // client.close();
 }
 
 module.exports.sendMessage = sendMessage;
