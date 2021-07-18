@@ -221,10 +221,10 @@ app.get("/find-tutor",function(req, res){
 
 var flash = require('connect-flash')
 app.use(flash())
-var subscriber = require('./model/contactFormData')
+var subscriber = require('./model/subscribers')
 app.post('/subscribe',(req,res)=>{
   const user = req.body;
-  subscriber.sendMessage(user,(err,data)=>{
+  subscriber.addSubscriber(user,(err,data)=>{
     if(err){
       res.json({
         err,

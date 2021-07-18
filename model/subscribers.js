@@ -1,57 +1,32 @@
 const { MongoClient } = require('mongodb');
 const uri = "mongodb+srv://pseelam:welcome123@cluster0.q6nif.mongodb.net/web-data?retryWrites=true&w=majority";
-const client = new MongoClient(uri, { useNewUrlParser: true, useUnifiedTopology: true });
-const dbName = 'web-data';
 
-const addSubscriber = (user, callback) => {
-    try {
-        client.connect((err, client) => {
-            if (err) {
-                callback(null, {
-                    error: true,
-                    message: err
-                })
-            }
-            const db = client.db(dbName);
-            try {
-                db.collection('subscriber-mail-list').insertOne({
-                    "email": user.email,
-                    "date": new Date()
-                }, function (err, inserted) {
-                    if (err) {
-                        console.log("Error from adding subscriber", err);
-                        callback(null, {
-                            success: false,
-                            err
-                        })
-                    }
-                    else {
-                        console.log("congratulations, added a new subscriber", inserted);
-                        // console.log(user.);
-                        callback(null, {
-                            success: true,
-                            message: "new user subscribed",
-                            // email: inserted.ops.email,
-                        })
-                    }
-                })
-            }
-            catch (err) {
-                console.error("Heads up!cannot subscribe", err);
-                callback(null, {
-                    success: false,
-                    message: err
-                })
-            }
+const client = new MongoClient(uri)
 
-        });
-    }
-    catch (err) {
-        console.error("some error from subscribe function", err);
-        callback(err, null);
-    }
-    // perform actions on the collection object
-    client.close();
+const dbName = 'web-data'
+
+async function main(user,callback){
+    await client.connect()
+    console.log("connect succesful for contact form\n");
+    const db = client.db(dbName)
+    const collection = db.collection('subscriber-mail-list')
+    const insertOperation = await collection.insertOne({
+        email : user.email,
+        date : new Date()
+    },
+    callback(null,({
+        err : false
+    })
+    )
+    )
+    console.log('hey you, this is a new subscriber alert!', insertOperation)
+}
+
+const addSubscriber = (user,callback) =>{
+    main(user,callback)
+    .then(console.log("user.email"))
+    .catch(console.error)
+    .finally(() => client.close())
 }
 
 module.exports.addSubscriber = addSubscriber;
