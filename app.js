@@ -58,16 +58,12 @@ app.get("/secret", isLoggedIn, function (req, res) {
   res.render("secret");
 });
 
-var logIn = require('./model/login')
-// Showing register form
-app.get("/signUp", function (req, res) {
-  res.render(__dirname + "/signUp");
-});
 
-// Handling user signup
-app.post("/signUp", function (req, res) {
+//Handling user login
+app.post("/login", function (req, res) {
   const user = req.body;
-  logIn.signUp(user, (err, callback) => {
+  console.log(user);
+  logIn.logIn(user, (err, callback) => {
     if (err) {
       res.json({
         err,
@@ -75,34 +71,10 @@ app.post("/signUp", function (req, res) {
       })
     }
     else {
-      // alert('successful signup!');
-      res.redirect('/signUp');
+      // alert('successful login!');
+      res.redirect('/login');
     }
   })
-
-});
-
-//Showing login form
-app.get("/login", function (req, res) {
-  res.render(__dirname + "/login");
-});
-
-//Handling user login
-app.post("/login", function (req, res) {
-  const user = req.body;
-  console.log(user)
-  // logIn.logIn(user, (err, callback) => {
-  //   if (err) {
-  //     res.json({
-  //       err,
-  //       data
-  //     })
-  //   }
-  //   else {
-  //     // alert('successful login!');
-  //     res.redirect('/login');
-  //   }
-  // })
 })
 
 //Handling user logout
