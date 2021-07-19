@@ -59,7 +59,7 @@ async function main2(user, callback) {
         console.error("invalid user email");
         callback(null, {
             success: false,
-            message: "User email is valid"
+            message: "User email is invalid"
         })
     }
 }
