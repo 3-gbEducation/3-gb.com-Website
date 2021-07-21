@@ -27,7 +27,7 @@ async function main(user,callback){
 
 const sendMessage = (user,callback) =>{
     main(user,callback)
-    .then(console.log("user.email"))
+    .then(console.log("new message from ", user.email))
     .catch(console.error)
     .finally(() => client.close())
 }

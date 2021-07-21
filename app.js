@@ -62,7 +62,7 @@ var logIn = require('./model/login');
 //Handling user login
 app.post("/login", function (req, res) {
   const user = req.body;
-  console.log(user);
+  // console.log(user);
   logIn.logIn(user, (err, data) => {
     if (err) {
       res.json({
@@ -177,6 +177,11 @@ app.get("/sampleblog-3", function (req, res) {
 app.get("/find-tutor", function (req, res) {
   res.render(__dirname + "/tutor")
 })
+
+app.get("/team", function (req, res) {
+  res.render(__dirname + "/team")
+})
+
 
 var flash = require('connect-flash')
 app.use(flash())
