@@ -1,10 +1,10 @@
 .wrappr {
-  background: #fdfeff;
+  background: var(--bg-light);
   -webkit-transition: background 0.3s ease;
   transition: background 0.3s ease;
   border-radius: 10px;
   padding: 20px;
-  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 3px 10px var(--box-shadow-color);
   height : 650px;
 }
 .wrappr .profile {
@@ -30,14 +30,14 @@
   box-shadow: 0 13px 26px rgba(0, 0, 0, 0.2), 0 3px 6px rgba(0, 0, 0, 0.2);
 }
 .wrappr .profile .name {
-  color: #2d354a;
+  /* color: #2d354a; */
   text-align: center;
   /* font-size: 2.5rem; */
 }
 .wrappr .profile .sub {
-  color: #3a3a3a;
+  /* color: #3a3a3a; */
   font-size: 1rem;
-  font-weight: 300;
+  font-weight: 400;
   text-align: center;
   padding-top: 0.5em;
   padding-bottom: 0.7em;
@@ -46,7 +46,7 @@
   margin: 0.5rem 0 1rem 0;
 }
 .wrappr .profile .description {
-  color: #2c2c2c;
+  /* color: #2c2c2c; */
   /* font-size: 1.2rem; */
 }
 .wrappr .profile .btn {
@@ -68,8 +68,8 @@
   transition: 0.3s ease-out;
 }
 
-.wrappr.profile.btn:hover{
-  background: #0C4972;
+.wrappr .profile .btn:hover{
+  background: var(--primary-color);
   color: #fff;
   transition: 0.3s ease-out;
 }
@@ -117,14 +117,7 @@
   float: right;
   height: 10%;
   width: 100%;
-  /* background: -webkit-gradient(
-    linear,
-    left top,
-    right bottom,
-    from(#6452e9),
-    to(#639ff9)
-  ); */
-  background-color: #0C4972;
+  background-color: var(--primary-color);
   padding: 2rem 2rem;
 }
 .modal-header h1 {
@@ -170,11 +163,12 @@
 }
 
 .content .right::-webkit-scrollbar {
-  width: 5px;
-  background: #39307d;
+  width: 10px;
+  background: var(--primary-color);
+  margin: 0;
 }
 .content .right::-webkit-scrollbar-thumb {
-  background: #b9b9b9;
+  background: var(--secondary-color);
 }
 
 @media (max-width: 1000px) {
