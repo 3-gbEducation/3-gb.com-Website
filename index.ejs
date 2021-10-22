@@ -726,16 +726,21 @@ Author URL: http://w3layouts.com
 <script type="text/javascript">
     function sendEmail() {
       Email.send({
-        Host: "smtp.gmail.com",
-        Username: "microcourse.3gb@gmail.com",
-        Password: "3gbeducation",
+        SecureToken : " 61ac2b12-7e90-4a79-921c-9a651338a894",
         To: 'microcourse.3gb@gmail.com',
         From: "microcourse.3gb@gmail.com",
         Subject: "New Enquiry form Submitted",
         Body: "Someone just enquired on your website. Check ASAP",
       })
-        .then(function (message) {
-          alert("mail sent successfully")
+        .then(
+				message =>{
+					//console.log (message);
+					if(message=='OK'){
+					alert('Your mail has been send. Thank you for connecting.');
+					}
+					else{
+						console.error (message);
+						alert('There is error at sending message. ')
         });
     }
   </script>
