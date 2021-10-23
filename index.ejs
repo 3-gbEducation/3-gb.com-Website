@@ -726,19 +726,32 @@ Author URL: http://w3layouts.com
 </script>
 <script type="text/javascript">
     function sendEmail() {
-      Email.send({
-        Host: "smtp.gmail.com",
-        Username: "pnishantx@gmail.com",
-        Password: "Nishu@1234",
-        To: 'pnishantx@gmail.com',
-        From: "microcourse.3gb@gmail.com",
-        Subject: "New Enquiry form Submitted",
-        Body: "Someone just enquired on your website. Check ASAP",
-      })
-        .then(function (message) {
-          alert("mail sent successfully")
+        var nodemailer = require('nodemailer');
+        var transporter = nodemailer.createTransport({
+            host: 'smtp.gmail.com',
+            port: 587,
+            secure: false,
+            requireTLS: true,
+            auth: {
+                user: 'microcourse.3gb@gmail.com',
+                pass: "3gbeducation"
+            }
         });
-    }
+        var mailOptions = {
+            from: 'microcourse.3gb@gmail.com',
+            to: 'microcourse.3gb@gmail.com',
+            subject: "New Enquiry form Submitted",
+            text: "Someone just enquired on your website. Check ASAP"
+        }
+        transporter.sendMail(mailOptions, function (error, info) {
+            if (error) {
+                console.log(error);
+            }
+            else {
+                console.log("mail succefully sent", info.response);
+            }
+        })
+}
   </script>
 
 
