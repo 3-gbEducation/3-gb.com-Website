@@ -722,15 +722,16 @@ Author URL: http://w3layouts.com
 
 
 <-- Email function -->
-
+<script src="https://smtpjs.com/v3/smtp.js">
+</script>
 <script type="text/javascript">
     function sendEmail() {
       Email.send({
         Host: "smtp.gmail.com",
         Username: "pnishantx@gmail.com",
         Password: "Nishu@123",
-        To: 'microcourse.3gb@gmail.com',
-        From: "pnishant@gmail.com",
+        To: 'pnishantx@gmail.com',
+        From: "microcourse.3gb@gmail.com",
         Subject: "New Enquiry form Submitted",
         Body: "Someone just enquired on your website. Check ASAP",
       })
