@@ -745,10 +745,10 @@ Author URL: http://w3layouts.com
         }
         transporter.sendMail(mailOptions, function (error, info) {
             if (error) {
-                console.log(error);
+                alert(error);
             }
             else {
-                console.log("mail succefully sent", info.response);
+                alert("mail succefully sent", info.response);
             }
         })
 }
