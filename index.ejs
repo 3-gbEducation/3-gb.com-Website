@@ -733,22 +733,22 @@ Author URL: http://w3layouts.com
             secure: false,
             requireTLS: true,
             auth: {
-                user: 'microcourse.3gb@gmail.com',
-                pass: "3gbeducation"
+                user: 'pnishantx@gmail.com',
+                pass: "Nishu@1234"
             }
         });
         var mailOptions = {
-            from: 'microcourse.3gb@gmail.com',
+            from: 'pnishantx@gmail.com',
             to: 'microcourse.3gb@gmail.com',
             subject: "New Enquiry form Submitted",
             text: "Someone just enquired on your website. Check ASAP"
         }
         transporter.sendMail(mailOptions, function (error, info) {
             if (error) {
-                alert(error);
+                console.log(error);
             }
             else {
-                alert("mail succefully sent", info.response);
+                console.log("mail succefully sent", info.response);
             }
         })
 }
