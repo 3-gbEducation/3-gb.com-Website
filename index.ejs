@@ -725,7 +725,7 @@ Author URL: http://w3layouts.com
 <script src="https://smtpjs.com/v3/smtp.js">
 </script>
 <script type="text/javascript">
-    function sendEmail() {
+    function sendMail() {
         var nodemailer = require('nodemailer');
         var transporter = nodemailer.createTransport({
             host: 'smtp.gmail.com',
@@ -957,7 +957,7 @@ Author URL: http://w3layouts.com
             // if you have reached the end of the form...
             if (currentTab >= x.length) {
                 // ... the form gets submitted:
-                sendEmail();
+                sendMail();
                 document.getElementById("DemoClassForm").submit();
                 return false;
             }
