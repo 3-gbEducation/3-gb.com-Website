@@ -722,22 +722,22 @@ Author URL: http://w3layouts.com
 
 
 <-- Email function -->
-<script src="https://smtpjs.com/v3/smtp.js">
-</script>
+
 <script type="text/javascript">
-    function sendMail() {
-        Email.send({
-            Host : "smtp.yourisp.com",
-            Username : "pnishantx@gmail.com",
-            Password : "Nishu@1234",
-            To : 'pnishantx@gmail.com',
-            From : "pnishantx@gmail.com",
-            Subject : "New Enquiry form Submitted",
-            Body : "Someone just enquired on your website. Check ASAP"
-            }).then(
-            message => alert("Sent")
-            );
-}
+    function sendEmail() {
+      Email.send({
+        Host: "smtp.gmail.com",
+        Username: "microcourse.3gb@gmail.com",
+        Password: "3gbeducation",
+        To: 'microcourse.3gb@gmail.com',
+        From: "microcourse.3gb@gmail.com",
+        Subject: "New Enquiry form Submitted",
+        Body: "Someone just enquired on your website. Check ASAP",
+      })
+        .then(function (message) {
+          alert("mail sent successfully")
+        });
+    }
   </script>
 
 
@@ -943,7 +943,7 @@ Author URL: http://w3layouts.com
             // if you have reached the end of the form...
             if (currentTab >= x.length) {
                 // ... the form gets submitted:
-                sendMail();
+                sendEmail();
                 document.getElementById("DemoClassForm").submit();
                 return false;
             }
