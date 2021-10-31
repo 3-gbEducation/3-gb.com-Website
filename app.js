@@ -181,6 +181,17 @@ app.get("/find-tutor", function (req, res) {
 app.get("/team", function (req, res) {
   res.render(__dirname + "/team")
 })
+app.get("/PrivacyPolicy", function (req, res) {
+  res.render(__dirname + "/PrivacyPolicy")
+})
+
+app.get("/service", function (req, res) {
+  res.render(__dirname + "/service")
+})
+
+app.get("/disclaimer", function(req, res){
+  res.render(__dirname+ "/disclaimer")
+})
 
 
 var flash = require('connect-flash')
