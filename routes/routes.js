@@ -19,8 +19,8 @@ app.get("/soon",function(req,res){
     res.render(__dirname +"/blog-single")
   });
   
-  app.get("/service",function(req,res){
-    res.render(__dirname +"/service")
+  app.get("/faq",function(req,res){
+    res.render(__dirname +"/faq")
   });
   
   app.get("/reviews",function(req,res){
@@ -49,17 +49,14 @@ app.get("/soon",function(req,res){
  app.get("/FAQ",function(req, res){
     res.render(__dirname+"/FAQ")
   })
-app.get("/PrivacyPolicy",function(req, res){
+ app.get("/PrivacyPolicy",function(req, res){
     res.render(__dirname+"/PrivacyPolicy")
   })
-
-  app.get("/service",function(req, res){
-    res.render(__dirname+"/service")
-});
-
-app.get("/disclamier", function(req, res){
-  res.render(__dirname, "/disclaimer")
-})
-
+  app.get("/service",function(req,res){
+    res.render(__dirname +"/service")
+  });
+  app.get("/disclaimer",function(req,res){
+    res.render(__dirname +"/disclaimer")
+  });
 
   module.exports = app;
