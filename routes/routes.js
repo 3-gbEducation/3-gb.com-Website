@@ -46,10 +46,10 @@ app.get("/soon",function(req,res){
   app.get("/find-tutor",function(req, res){
     res.render(__dirname+"/tutor")
   })
- app.get("/FAQ",function(req, res){
+  app.get("/FAQ",function(req, res){
     res.render(__dirname+"/FAQ")
   })
- app.get("/PrivacyPolicy",function(req, res){
+  app.get("/PrivacyPolicy",function(req, res){
     res.render(__dirname+"/PrivacyPolicy")
   })
   app.get("/service",function(req,res){
