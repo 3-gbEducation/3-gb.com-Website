@@ -151,7 +151,7 @@ app.get("/sampleblog", function (req, res) {
 });
 
 app.get("/faq", function (req, res) {
-  res.render(__dirname + "/faq")
+  res.render(__dirname + "/soon")
 });
 
 app.get("/reviews", function (req, res) {
