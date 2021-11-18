@@ -19,10 +19,6 @@ app.get("/soon",function(req,res){
     res.render(__dirname +"/blog-single")
   });
   
-  app.get("/faq",function(req,res){
-    res.render(__dirname +"/faq")
-  });
-  
   app.get("/reviews",function(req,res){
     res.render(__dirname +"/reviews")
   });
